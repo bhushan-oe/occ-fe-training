@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  <title>Style Guide <%= title %></title>
+  <link rel="shortcut icon" href="static/brick.png" />
+
+  <!-- Styleguide CSS -->
+  <link rel="stylesheet" href="static/css/doc.css">
+  <link rel="stylesheet" href="static/css/github.css">
+
+  <!-- CSS to be documented -->
+  <link rel="stylesheet" href="build/style.css">
+  <link rel="stylesheet" href="build/storefront.css">
+
+  <!-- JS to be document -->
+  <script src="static/js/jquery.js"></script>
+  <script src="static/js/chosen.jquery.min.js"></script>		
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="row title-bar">
+        <h1>Style Guide</h1>
+      </div>
+      <nav class="row">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <% @categories.each do |title, link| %>
+            <li><a href="/<%=link %>"><%= title %></a></li>
+          <% end %>
+        </ul>
+      </nav>
+    </header>
+    <section class="row">
+      <div>
+        <% if @blocks.length > 0 %>
+        <div class="col-md-2">
+          <div class="style-guide-anchors">
+            <div>
+              <ul>
+                <% @blocks.each do |block| %>
+                  <li><a href="#<%= block[:name] %>"><%= block[:title] %></a></li>
+                <% end %>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <% end %>
+        <div class="col-md-10">

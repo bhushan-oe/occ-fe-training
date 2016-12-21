@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  <title>Style Guide Utils</title>
+  <link rel="shortcut icon" href="static/brick.png" />
+
+  <!-- Styleguide CSS -->
+  <link rel="stylesheet" href="static/css/doc.css">
+  <link rel="stylesheet" href="static/css/github.css">
+
+  <!-- CSS to be documented -->
+  <link rel="stylesheet" href="build/style.css">
+  <link rel="stylesheet" href="build/storefront.css">
+
+  <!-- JS to be document -->
+  <script data-main="static/js/main" src="static/js/require.js"></script>
+  <script>
+    requirejs.config({
+        paths: {
+          jquery: 'jquery',
+          appLevel: '/app-level'
+        },
+        shim: {
+          'chosen.jquery.min': ['jquery'],
+          'knockout': ['jquery']
+        }
+    });
+  </script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="row title-bar">
+        <h1>Style Guide</h1>
+      </div>
+      <nav class="row">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          
+            <li><a href="/forms.html">Forms</a></li>
+          
+            <li><a href="/colors.html">Colors</a></li>
+          
+            <li><a href="/components.html">Components</a></li>
+          
+            <li><a href="/icons.html">Icons</a></li>
+          
+            <li><a href="/typography.html">Typography</a></li>
+          
+            <li><a href="/utils.html">Utils</a></li>
+          
+        </ul>
+      </nav>
+    </header>
+    <section class="row">
+      <div>
+        
+        <div class="col-md-2">
+          <div class="style-guide-anchors">
+            <div>
+              <ul>
+                
+                  <li><a href="#helpers">Helpers</a></li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-10">
+<h1 id="helpers" class="styleguide">Helpers</h1>
+
+<h2>Spacing Helpers</h2>
+<table class="styleguide"> <tr>
+<th>Class</th>
+<th>Description</th>
+</tr>
+ <tr>
+<td><code class="styleguide">reset-margin</code></td>
+<td>Resets all margins</td>
+</tr>
+<tr>
+<td><code class="styleguide">reset-padding-left</code></td>
+<td>Resets left&#39;s padding</td>
+</tr>
+<tr>
+<td><code class="styleguide">reset-padding-right</code></td>
+<td>Resets right&#39;s padding</td>
+</tr>
+ </table>
+<h2>Vertical Align</h2>
+<table class="styleguide"> <tr>
+<th>Class</th>
+<th>Description</th>
+</tr>
+ <tr>
+<td><code class="styleguide">vmiddle</code></td>
+<td>Vertical align middle</td>
+</tr>
+<tr>
+<td><code class="styleguide">vbottom</code></td>
+<td>Vertical align bottom</td>
+</tr>
+ </table>
+<h2>Layout</h2>
+<table class="styleguide"> <tr>
+<th>Class</th>
+<th>Description</th>
+</tr>
+ <tr>
+<td><code class="styleguide">full-width</code></td>
+<td>Applies 100% of width to this element</td>
+</tr>
+<tr>
+<td><code class="styleguide">row-full</code></td>
+<td>Set a full width considering the viewport</td>
+</tr>
+ </table>
+<h2>Text</h2>
+<table class="styleguide"> <tr>
+<th>Class</th>
+<th>Description</th>
+</tr>
+ <tr>
+<td><code class="styleguide">text-uppercase</code></td>
+<td>Transform the text to uppercase;</td>
+</tr>
+ </table>		      </div>
+		    </div>
+		  </section>
+		</div>
+		<script>
+			require(['jquery', 'chosen.jquery.min'], function ($) {
+				$(document).ready(function() {
+				  // set the active tab
+				  var currentHref = document.location.pathname.substr(1);
+				  if (currentHref) {
+				    $('.docNav').find('a[href^="' + currentHref + '"]').addClass('activeNavElem typeEmphasize');
+				  } else {
+				    $('.docNav').find('a').eq(0).addClass('activeNavElem typeEmphasize');
+				  }
+				});
+			});
+		</script>
+	</body>
+</html>

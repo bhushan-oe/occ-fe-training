@@ -1,0 +1,113 @@
+# Created by https://www.gitignore.io
+*.DS_Store
+
+### SublimeText ###
+# cache files for sublime text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# workspace files are user-specific
+*.sublime-workspace
+
+# project files should be checked into the repository, unless a significant
+# proportion of contributors will probably not be using SublimeText
+# *.sublime-project
+
+# sftp configuration file
+sftp-config.json
+
+
+### Intellij ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
+
+*.iml
+
+## Directory-based project format:
+.idea/
+# if you remove the above rule, at least ignore the following:
+
+# User-specific stuff:
+# .idea/workspace.xml
+# .idea/tasks.xml
+# .idea/dictionaries
+
+# Sensitive or high-churn files:
+# .idea/dataSources.ids
+# .idea/dataSources.xml
+# .idea/sqlDataSources.xml
+# .idea/dynamic.xml
+# .idea/uiDesigner.xml
+
+# Gradle:
+# .idea/gradle.xml
+# .idea/libraries
+
+# Mongo Explorer plugin:
+# .idea/mongoSettings.xml
+
+# Vagrant
+.vagrant
+target
+Vagrantfile
+
+# Node
+node
+node_modules
+npm-debug.log
+
+## File-based project format:
+*.ipr
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+.project
+
+### grunt ###
+# Grunt usually compiles files inside this directory
+dist/
+
+# Grunt usually preprocesses files such as coffeescript, compass... inside the .tmp directory
+.tmp/
+.envrc
+
+# Storefront environment (environment files shouldn't be versioned)
+storefront/config/*
+!storefront/config/env.example.gulp.json
+!storefront/config/env.example.json
+
+storefront/settings/config/*/ext.json
+storefront/widgets/objectedge/*/*.zip
+
+storefront/occ-tools
+
+storefront/.vagrant
+storefront/.occ-components
+
+# Middleware environment
+middleware/config/config.yml
+middleware/dependency-reduced-pom.xml
+middleware/scripts/provision.cfg
+
+middleware/.project
+middleware/.settings
+middleware/.classpath
+middleware/.gitignore
+middleware/bin/
+
+# Sonar
+.sonar

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "user",
+    "displayName": "User",
+    "properties": [
+      {
+        "id": "",
+        "internalOnly": false,
+        "default": "",
+        "label": "",
+        "required": true,
+        "type": ""
+      }
+    ]
+  }
+]

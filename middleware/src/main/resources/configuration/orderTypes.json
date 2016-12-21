@@ -1,0 +1,16 @@
+[
+  {
+    "id": "order",
+    "displayName": "Order",
+    "properties": [
+      {
+        "id": "",
+        "internalOnly": false,
+        "default": "",
+        "label": "",
+        "required": true,
+        "type": ""
+      }
+    ]
+  }
+]

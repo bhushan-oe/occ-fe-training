@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  <title>Style Guide Colors</title>
+  <link rel="shortcut icon" href="static/brick.png" />
+
+  <!-- Styleguide CSS -->
+  <link rel="stylesheet" href="static/css/doc.css">
+  <link rel="stylesheet" href="static/css/github.css">
+
+  <!-- CSS to be documented -->
+  <link rel="stylesheet" href="build/style.css">
+  <link rel="stylesheet" href="build/storefront.css">
+
+  <!-- JS to be document -->
+  <script data-main="static/js/main" src="static/js/require.js"></script>
+  <script>
+    requirejs.config({
+        paths: {
+          jquery: 'jquery',
+          appLevel: '/app-level'
+        },
+        shim: {
+          'chosen.jquery.min': ['jquery'],
+          'knockout': ['jquery']
+        }
+    });
+  </script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="row title-bar">
+        <h1>Style Guide</h1>
+      </div>
+      <nav class="row">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          
+            <li><a href="/forms.html">Forms</a></li>
+          
+            <li><a href="/colors.html">Colors</a></li>
+          
+            <li><a href="/components.html">Components</a></li>
+          
+            <li><a href="/icons.html">Icons</a></li>
+          
+            <li><a href="/typography.html">Typography</a></li>
+          
+            <li><a href="/utils.html">Utils</a></li>
+          
+        </ul>
+      </nav>
+    </header>
+    <section class="row">
+      <div>
+        
+        <div class="col-md-2">
+          <div class="style-guide-anchors">
+            <div>
+              <ul>
+                
+                  <li><a href="#1-palette">Palette</a></li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-10">
+<h1 id="1-palette" class="styleguide">Palette</h1>
+<p class="styleguide">Palette of colors, by <a class="styleguide" href="http://chir.ag/projects/name-that-color/" title="http://chir.ag/projects/name-that-color/">Name That Color</a>.</p><table class="styleguide"> <tr>
+<th>Color</th>
+<th>Variable</th>
+<th>Hex</th>
+</tr>
+ <tr>
+<td><div style="background:#532479;">&nbsp;</div></td>
+<td><code class="styleguide">@ColorLightPurple</code></td>
+<td><code class="styleguide">#532479</code></td>
+</tr>
+<tr>
+<td><div style="background:#361754;">&nbsp;</div></td>
+<td><code class="styleguide">@ColorDarkPurple</code></td>
+<td><code class="styleguide">#361754</code></td>
+</tr>
+<tr>
+<td><div style="background:#FF9416;">&nbsp;</div></td>
+<td><code class="styleguide">@ColorBrightOrange</code></td>
+<td><code class="styleguide">#FF9416</code></td>
+</tr>
+<tr>
+<td><div style="background:#E45600;">&nbsp;</div></td>
+<td><code class="styleguide">@ColorBurntOrange</code></td>
+<td><code class="styleguide">#E45600</code></td>
+</tr>
+<tr>
+<td><div style="background:#892954;">&nbsp;</div></td>
+<td><code class="styleguide">@ColorLightBurgundy</code></td>
+<td><code class="styleguide">#892954</code></td>
+</tr>
+<tr>
+<td><div style="background:#79244a;">&nbsp;</div></td>
+<td><code class="styleguide">@ColorDarkBurgundy</code></td>
+<td><code class="styleguide">#79244a</code></td>
+</tr>
+<tr>
+<td><div style="background:#000000;">&nbsp;</div></td>
+<td><code class="styleguide">@ColorBlack</code></td>
+<td><code class="styleguide">#000000</code></td>
+</tr>
+<tr>
+<td><div style="background:#333333;">&nbsp;</div></td>
+<td><code class="styleguide">@ColorDarkSlate</code></td>
+<td><code class="styleguide">#333333</code></td>
+</tr>
+<tr>
+<td><div style="background:#808184;">&nbsp;</div></td>
+<td><code class="styleguide">@ColorLightSlate</code></td>
+<td><code class="styleguide">#808184</code></td>
+</tr>
+<tr>
+<td><div style="background:#D2CFC9;">&nbsp;</div></td>
+<td><code class="styleguide">@ColorWarmGrey</code></td>
+<td><code class="styleguide">#D2CFC9</code></td>
+</tr>
+<tr>
+<td><div style="background:#E2E2E2;">&nbsp;</div></td>
+<td><code class="styleguide">@ColorCoolGrey</code></td>
+<td><code class="styleguide">#E2E2E2</code></td>
+</tr>
+<tr>
+<td><div style="background:#F2F2F2;">&nbsp;</div></td>
+<td><code class="styleguide">@ColorOffWhite</code></td>
+<td><code class="styleguide">#F2F2F2</code></td>
+</tr>
+<tr>
+<td><div style="background:#FFFFFF;">&nbsp;</div></td>
+<td><code class="styleguide">@ColorWhite</code></td>
+<td><code class="styleguide">#FFFFFF</code></td>
+</tr>
+<tr>
+<td><div style="background:rgba(255, 255, 255, 0.4);">&nbsp;</div></td>
+<td><code class="styleguide">@ColorWhiteTransparent</code></td>
+<td><code class="styleguide">rgba(255, 255, 255, 0.4)</code></td>
+</tr>
+ </table>		      </div>
+		    </div>
+		  </section>
+		</div>
+		<script>
+			require(['jquery', 'chosen.jquery.min'], function ($) {
+				$(document).ready(function() {
+				  // set the active tab
+				  var currentHref = document.location.pathname.substr(1);
+				  if (currentHref) {
+				    $('.docNav').find('a[href^="' + currentHref + '"]').addClass('activeNavElem typeEmphasize');
+				  } else {
+				    $('.docNav').find('a').eq(0).addClass('activeNavElem typeEmphasize');
+				  }
+				});
+			});
+		</script>
+	</body>
+</html>

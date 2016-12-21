@@ -1,0 +1,55 @@
+# Server settings.
+server:
+  rootPath: '/api/*'
+
+#running environment
+environment: dev
+
+# scheduler configuration
+scheduler:
+  enabled: true
+
+# Database settings.
+databases:
+  middleware:
+    driverClass: com.mysql.jdbc.Driver
+    user: root
+    password: middleware
+    url: jdbc:mysql://localhost:3306/middleware
+
+email-alert:
+  host: localhost
+  #port: 465
+  transport-strategy: PLAIN # PLAIN | SSL | TLS
+  #username: xxxx@objectedge.com
+  #password: xxxx
+  email-to: USER@objectedge.com
+  email-from: noreply@objectedge.com
+
+occ:
+  host: https://ccadmin-ENV.oracleoutsourcing.com
+  store_host: https://ccstore-ENV.oracleoutsourcing.com
+  assets_language: en
+  timeout: 30
+  admin:
+    username: "USER@objectedge.com"
+    password: ""
+  agent:
+    username: "USER@objectedge.com"
+    password: ""
+  adminUI:
+    username: "USER@objectedge.com"
+    password: ""
+  agentUI:
+    username: "USER@objectedge.com"
+    password: ""
+  application_id: ""
+  application_secret: ""
+  connection_type: APPLICATION | USER
+  webhook_secret: Asdf124#124
+
+order-broker:
+  host: https://omsqa.objectedge.com
+  timeout: 30
+  username: "USER@objectedge.com"
+  password: ""

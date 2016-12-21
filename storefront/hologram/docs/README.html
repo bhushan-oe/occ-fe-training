@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  <title>Style Guide </title>
+  <link rel="shortcut icon" href="static/brick.png" />
+
+  <!-- Styleguide CSS -->
+  <link rel="stylesheet" href="static/css/doc.css">
+  <link rel="stylesheet" href="static/css/github.css">
+
+  <!-- CSS to be documented -->
+  <link rel="stylesheet" href="build/style.css">
+  <link rel="stylesheet" href="build/storefront.css">
+
+  <!-- JS to be document -->
+  <script data-main="static/js/main" src="static/js/require.js"></script>
+  <script>
+    requirejs.config({
+        paths: {
+          jquery: 'jquery',
+          appLevel: '/app-level'
+        },
+        shim: {
+          'chosen.jquery.min': ['jquery'],
+          'knockout': ['jquery']
+        }
+    });
+  </script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="row title-bar">
+        <h1>Style Guide</h1>
+      </div>
+      <nav class="row">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          
+            <li><a href="/forms.html">Forms</a></li>
+          
+            <li><a href="/colors.html">Colors</a></li>
+          
+            <li><a href="/components.html">Components</a></li>
+          
+            <li><a href="/icons.html">Icons</a></li>
+          
+            <li><a href="/typography.html">Typography</a></li>
+          
+            <li><a href="/utils.html">Utils</a></li>
+          
+        </ul>
+      </nav>
+    </header>
+    <section class="row">
+      <div>
+        
+        <div class="col-md-10">
+<h1>oeNaviStone Widget - <a class="styleguide" href="VERSION" title="VERSION">VERSION</a></h1>
+
+<h3>Table of contents</h3>
+<ul class="styleguide"><li><a class="styleguide" href="#oeNaviStone-widget" title="#oeNaviStone-widget">oeNaviStone Widget</a>
+<ul class="styleguide"><li><a class="styleguide" href="#description" title="#description">Description</a></li>
+<li><a class="styleguide" href="#installation" title="#installation">Installation</a></li>
+<li><a class="styleguide" href="#installation-and-configuration" title="#installation-and-configuration">Installation and Configuration</a>
+<ul class="styleguide"><li><a class="styleguide" href="#configs" title="#configs">Configs</a></li>
+</ul></li>
+<li><a class="styleguide" href="#libraries" title="#libraries">Libraries</a></li>
+<li><a class="styleguide" href="#apis" title="#apis">Apis</a></li>
+<li><a class="styleguide" href="#occ-version" title="#occ-version">OCC Version</a></li>
+<li><a class="styleguide" href="#projects-using-this-widget" title="#projects-using-this-widget">Projects using this widget</a></li>
+<li><a class="styleguide" href="#screen-shots" title="#screen-shots">Screen Shots</a></li>
+<li><a class="styleguide" href="#development" title="#development">Development</a></li>
+<li><a class="styleguide" href="#todos" title="#todos">Todos</a></li>
+</ul></li>
+</ul>
+<h3>Description</h3>
+<p class="styleguide">This widget Load the NaviStone javascript integration.</p><p class="styleguide"><a class="styleguide" href="code.murdoog.com/onetag-1.3/<CLIENTID>.js" title="code.murdoog.com/onetag-1.3/<CLIENTID>.js">NaviStone</a></p>
+<h3>Installation and configuration</h3>
+<p class="styleguide">This widget is global, so it will be available to all pages as soon as you have it installed.</p>
+<h4>Configs</h4>
+<p class="styleguide">This widget use one global configuration:
+* [loadNaviStone] - A flag to enable/disable the load the integration</p><p class="styleguide">This widget has one configuration:
+* [clientID] - The Navstone Client ID</p>
+<h3>Libraries</h3>
+<p class="styleguide">oeNaviStone uses:</p><ul class="styleguide"><li>[KnockoutJS] - Javascript UI</li>
+<li>[jQuery] - DOM Manipulation, Ajax requests...</li>
+<li>[pubsub] - Standard Oracle topic names list</li>
+</ul>
+<h3>Apis</h3>
+<p class="styleguide">No apis have been necessary.</p>
+<h3>OCC Version</h3>
+<p class="styleguide">16.5.2</p>
+<h3>Projects using this widget</h3>
+<ul class="styleguide"><li><a class="styleguide" href="https://ccadmin-z70a.oracleoutsourcing.com" title="https://ccadmin-z70a.oracleoutsourcing.com">Spin Life</a> - QA Environment</li>
+</ul>
+<h3>Screen Shots</h3>
+<p class="styleguide">This is a global widget. It doesn&#39;t have ui.</p>
+<h3>Development</h3>
+<p class="styleguide">Instructions for people who will maintain your code or fix something</p><ul class="styleguide"><li>Follow the OE OCC Patterns</li>
+<li>Test your code before pushing to occ-components</li>
+</ul>
+<h3>Todos</h3>
+<ul class="styleguide"><li>Write Tests</li>
+</ul>		      </div>
+		    </div>
+		  </section>
+		</div>
+		<script>
+			require(['jquery', 'chosen.jquery.min'], function ($) {
+				$(document).ready(function() {
+				  // set the active tab
+				  var currentHref = document.location.pathname.substr(1);
+				  if (currentHref) {
+				    $('.docNav').find('a[href^="' + currentHref + '"]').addClass('activeNavElem typeEmphasize');
+				  } else {
+				    $('.docNav').find('a').eq(0).addClass('activeNavElem typeEmphasize');
+				  }
+				});
+			});
+		</script>
+	</body>
+</html>

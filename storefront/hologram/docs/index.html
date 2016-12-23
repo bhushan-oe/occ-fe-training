@@ -16,19 +16,8 @@
   <link rel="stylesheet" href="build/storefront.css">
 
   <!-- JS to be document -->
-  <script data-main="static/js/main" src="static/js/require.js"></script>
-  <script>
-    requirejs.config({
-        paths: {
-          jquery: 'jquery',
-          appLevel: '/app-level'
-        },
-        shim: {
-          'chosen.jquery.min': ['jquery'],
-          'knockout': ['jquery']
-        }
-    });
-  </script>
+  <script src="static/js/jquery.js"></script>
+  <script src="static/js/chosen.jquery.min.js"></script>		
 </head>
 <body>
   <div class="container">
@@ -65,16 +54,14 @@
 		  </section>
 		</div>
 		<script>
-			require(['jquery', 'chosen.jquery.min'], function ($) {
-				$(document).ready(function() {
-				  // set the active tab
-				  var currentHref = document.location.pathname.substr(1);
-				  if (currentHref) {
-				    $('.docNav').find('a[href^="' + currentHref + '"]').addClass('activeNavElem typeEmphasize');
-				  } else {
-				    $('.docNav').find('a').eq(0).addClass('activeNavElem typeEmphasize');
-				  }
-				});
+			$(document).ready(function() {
+			  // set the active tab
+			  var currentHref = document.location.pathname.substr(1);
+			  if (currentHref) {
+			    $('.docNav').find('a[href^="' + currentHref + '"]').addClass('activeNavElem typeEmphasize');
+			  } else {
+			    $('.docNav').find('a').eq(0).addClass('activeNavElem typeEmphasize');
+			  }
 			});
 		</script>
 	</body>

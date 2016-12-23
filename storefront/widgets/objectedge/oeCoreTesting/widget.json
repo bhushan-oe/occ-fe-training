@@ -1,0 +1,11 @@
+{
+  "name": "OE ES6 Widget",
+  "widgetType": "oeCoreTesting",
+  "i18nresources": "oeCoreTesting",
+  "javascript": "oeCoreTesting",
+  "availableToAllPages": true,
+  "version": 1,
+  "jsEditable": true,
+  "imports": [],
+  "config": {}
+}

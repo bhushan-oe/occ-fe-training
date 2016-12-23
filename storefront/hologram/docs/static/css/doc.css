@@ -55,14 +55,14 @@ div.codeBlock, div.exampleOutput {
 }
 
 div.codeBlock {
-	clear: left;
+  clear: left;
   background-color: #f9f9f9;
   border-top: 1px solid #ccc;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
 }
 
-table div.codeBlock {
+table:not(.table) div.codeBlock {
   background-color: transparent;
   border-top: none;
   border-radius: 0;
@@ -87,12 +87,12 @@ border-radius: 3px;
 font-size: 12px;
 }
 
-table, table tr, table td, table th {
+table:not(.table), table:not(.table) tr, table:not(.table) td, table:not(.table) th {
   padding: 7px;
   border: 1px solid #ccc;
 }
 
-table th {
+table:not(.table) th {
   font-weight: bold;
 }
 

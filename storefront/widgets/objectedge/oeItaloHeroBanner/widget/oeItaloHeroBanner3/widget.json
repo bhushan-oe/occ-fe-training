@@ -1,0 +1,11 @@
+{
+  "name": "OE Hero Banner Italo",
+  "widgetType": "oeItaloHeroBanner3",
+  "javascript": "oeItaloHeroBanner3",
+  "i18nresources": "oeItaloHeroBanner3",
+  "version": 1,
+  "jsEditable": true,
+  "imports": [],
+  "config": {},
+  "availableToAllPages": true
+}

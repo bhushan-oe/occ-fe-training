@@ -1,0 +1,32 @@
+<div class="oeHeroBanner row-full" data-bind="css: viewportClass()">
+
+  <div class="carousel slide indicators-top" data-ride="carousel" data-bind="carouselSwipe, attr: {'data-interval' : $data.time(), 'data-wrap' : $data.loopCarousel(), id: $data.id() }">
+    <div class="carousel-inner" data-bind="foreach: $data.imagesCarousel()">
+      <div class="item active" data-bind="attr: {'class' : 'item ' + $data.classActive}">
+        <a data-bind="ccLink: 'article', attr: {href: $data.imgLink}">
+          <img alt="Hero Img 1" data-bind="attr: {src: $data.imgSrc}" class="img-responsive center-block full-width" />
+          <!-- ko if: $data.displayText -->
+          <div class="carousel-caption">
+            <span class="carousel-banner-text" data-bind="text: $data.displayText()"></span>
+          </div>
+          <!-- /ko -->
+        </a>
+      </div>
+    </div>
+
+    <!-- ko if: $data.imagesCarousel() && $data.imagesCarousel().length > 1 -->
+        <a class="left carousel-control" data-slide="prev" data-bind="attr: { href: '#' + $data.id() }">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <div class="sr-only" data-bind="widgetLocaleText: 'previousBannerText'"></div>
+        </a>
+        <a class="right carousel-control" data-slide="next" data-bind="attr: { href: '#' + $data.id() }">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <div class="sr-only" data-bind="widgetLocaleText: 'nextBannerText'"></div>
+        </a>
+        <!-- indicator -->
+        <ol class="carousel-indicators" data-bind="foreach: $data.imagesCarousel()">
+          <li data-bind="attr : {'data-slide-to' : carouselIndex, 'class' : classActive, 'data-target': '#' + $parent.id() }" ></li>
+        </ol>
+    <!-- /ko -->
+  </div>
+</div>

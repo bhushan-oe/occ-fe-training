@@ -131,21 +131,21 @@ define(
 
           widget.checkResponsiveFeatures = function(index) {
             if (index > constants.VIEWPORT_LARGE_DESKTOP_LOWER_WIDTH) {
-              if (widget.viewportMode() != constants.LARGE_DESKTOP_VIEW) {
+              if (widget.viewportMode() !== constants.LARGE_DESKTOP_VIEW) {
                 widget.setViewportDefinitions(constants.DESKTOP_VIEW, 'desktopImageUrl');
               }
             } else {
               if (index > constants.VIEWPORT_TABLET_UPPER_WIDTH && index <= constants.VIEWPORT_LARGE_DESKTOP_LOWER_WIDTH) {
-                if (widget.viewportMode() != constants.DESKTOP_VIEW) {
+                if (widget.viewportMode() !== constants.DESKTOP_VIEW) {
                   widget.setViewportDefinitions(constants.DESKTOP_VIEW, 'desktopImageUrl');
                 }
               } else {
                 if (index >= constants.VIEWPORT_MOBILE_WIDTH) {
-                  if (widget.viewportMode() != constants.TABLET_VIEW) {
+                  if (widget.viewportMode() !== constants.TABLET_VIEW) {
                     widget.setViewportDefinitions(constants.TABLET_VIEW, 'desktopImageUrl');
                   }
                 } else {
-                  if (widget.viewportMode() != constants.PHONE_VIEW) {
+                  if (widget.viewportMode() !== constants.PHONE_VIEW) {
                     widget.setViewportDefinitions(constants.PHONE_VIEW, 'mobileImageUrl');
                   }
                 }

@@ -56,16 +56,18 @@ define(
         endDate=moment(endDate).format("YYYY-MM-DD");
         var now = moment();
 
-        if(startDate === "" || startDate === " " || startDate === "Invalid date"){
+        if(startDate.trim() === "" || startDate === "Invalid date"){
           startDate = moment();
         }
-        if(endDate === "" || endDate === " " || endDate === "Invalid date"){
+        if(endDate.trim() === "" || endDate === "Invalid date"){
           endDate = moment();
         }
         if((now.isAfter(startDate,'day') || now.isSame(startDate, 'day')) && (now.isBefore(endDate, 'day') || now.isSame(endDate, 'day'))){
           return true;
         }
-        else return false;
+        else {
+           return false;
+         }
       }
 
       function init(widget){
@@ -84,7 +86,7 @@ define(
 
         var displayIndex = 0;
         for(var k=1;k<=6;k++){ // 6 images variables
-          if(widgetModel["imageUrl" + k]() !== "" && widgetModel["imageUrl" + k]() != " " && checkDate(widget["startDate" + k](), widget["endDate" + k]())){
+          if(widgetModel["imageUrl" + k]().trim() !== "" && checkDate(widget["startDate" + k](), widget["endDate" + k]())){
             widgetModel.imagesCarousel.push(
               new carouselImage(widgetModel["imageUrl" + k](), widgetModel["mobileImageUrl" + k](), widgetModel["bannerLink" + k](), widgetModel["bannerText" + k](), displayIndex)
             );

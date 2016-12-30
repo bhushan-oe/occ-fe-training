@@ -14,7 +14,7 @@ else
 end
 
 MIDDLEWARE_MEMORY = "512"
-STOREFRONT_MEMORY = "512"
+STOREFRONT_MEMORY = "1024"
 
 ENV['LC_ALL'] = "en_US.UTF-8" # Overrides default locale
 

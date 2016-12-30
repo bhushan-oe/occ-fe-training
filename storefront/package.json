@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "_PROJECT_DESCRIPTION_",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "glob": "^7.1.1"
+  },
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-concat": "^2.6.0",

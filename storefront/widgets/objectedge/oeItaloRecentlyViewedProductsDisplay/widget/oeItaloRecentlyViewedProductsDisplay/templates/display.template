@@ -1,0 +1,36 @@
+<div class="oeItaloRecentlyViewedProductsDisplay">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox" data-bind="foreach: $data.imagesCarousel()">
+      <div class="item active" data-bind="attr: {'class' : 'item ' + $data.classActive}">
+        <div data-bind = "attr: {'class' :'col-lg-'+$data.largeRows 'col-md-'+$data.desktopRows 'col-sm-'+$data.tabletRows 'col-xs-'+$data.mobileRows center-block}">
+        <a data-bind=" attr: { title: $data.name() }">
+          <img data-bind="attr: { src: $data.imgSrc(), alt: $data.name() }" class="img-responsive center-block">
+          <h3 class="text-center product-name" data-bind="text: $data.name()"></h3>
+          <div class="product-price text-center">
+            <!-- ko if: $data.salePrice-->
+              <h3 data-bind="text: $data.salePrice()"></h3>
+              <del data-bind="text: $data.price()"></del>
+            <!-- /ko -->
+            <!-- ko ifnot: $data.salePrice-->
+              <h3 data-bind="text: $data.price()"></h3>
+            <!-- /ko -->
+          </div>
+        </a>
+        </div>
+      </div>
+    </div>
+    <!-- ko if: $data.imagesCarousel() && $data.imagesCarousel().length > $data.itemsPerRow() -->
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!-- /ko -->
+  </div>
+</div>

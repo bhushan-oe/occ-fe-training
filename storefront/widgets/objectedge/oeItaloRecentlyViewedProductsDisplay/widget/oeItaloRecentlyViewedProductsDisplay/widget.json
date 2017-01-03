@@ -1,0 +1,11 @@
+{
+  "name": "OE Italo Recently Viewed Products Display",
+  "widgetType": "oeItaloRecentlyViewedProductsDisplay",
+  "javascript": "oeItaloRecentlyViewedProductsDisplay",
+  "i18nresources": "oeItaloRecentlyViewedProductsDisplay",
+  "version": 1,
+  "jsEditable": true,
+  "imports": ["product"],
+  "config": {},
+  "availableToAllPages": true
+}

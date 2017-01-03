@@ -1,0 +1,12 @@
+{
+  "name": "OE Italo Recently Viewed Products Manager",
+  "widgetType": "oeItaloRecentlyViewedProductsManager",
+  "javascript": "oeItaloRecentlyViewedProductsManager",
+  "i18nresources": "oeItaloRecentlyViewedProductsManager",
+  "version": 1,
+  "jsEditable": true,
+  "imports": ["product"],
+  "config": {},
+  "global": true,
+  "globalEnabled": true
+}

@@ -1,0 +1,18 @@
+{
+  "resources": {
+    "maxItemsLabel" : "Maximum Items",
+    "maxItemsHelpText" : "Maximum recently items to be displayed",
+
+    "itemsPerRowLargeDesktopLabel" : "Items on Large Desktop",
+    "itemsPerRowLargeDesktopHelpText" : "The maximum number of items per row on Large Desktop",
+
+    "itemsPerRowDesktopLabel" : "Items on Desktop",
+    "itemsPerRowDesktopHelpText" : "The maximum number of items per row on Desktop",
+
+    "itemsPerRowTabletLabel" : "Items on Tablet",
+    "itemsPerRowTabletHelpText" : "The maximum number of items per row on Table",
+
+    "itemsPerRowMobileLabel" : "Items on Mobile",
+    "itemsPerRowMobileHelpText" : "The maximum number of items per row on mobile"
+  }
+}

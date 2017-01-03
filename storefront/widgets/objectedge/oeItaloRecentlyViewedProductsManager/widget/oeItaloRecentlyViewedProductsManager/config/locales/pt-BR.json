@@ -1,0 +1,6 @@
+{
+  "resources": {
+    "maxItemsLabel" : "Numero maximo de itens",
+    "maxItemsHelpText" : "Quantidade total de itens a serem exibidos"
+  }
+}

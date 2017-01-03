@@ -1,0 +1,14 @@
+{
+  "widgetDescriptorName": "OE Recently Viewed Products Manager",
+  "properties": [
+    {
+      "id": "maxItems",
+      "type": "stringType",
+      "name": "maxItems",
+      "labelResourceId": "maxItemsLabel",
+      "helpTextResourceId": "maxItemsHelpText",
+      "defaultValue": "8",
+      "required": true
+    }
+  ]
+}

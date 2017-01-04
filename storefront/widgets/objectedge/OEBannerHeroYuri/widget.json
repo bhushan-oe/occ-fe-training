@@ -1,0 +1,11 @@
+{
+  "name": "OE Banner Hero Yuri",
+  "widgetType": "OEBannerHeroYuri",
+  "availableToAllPages": true,
+  "javascript": "OEBannerHeroYuri",
+  "jsEditable": true,
+  "version": 1,
+  "i18nresources": "OEBannerHeroYuri",
+  "imports": [],
+  "config": {}
+}

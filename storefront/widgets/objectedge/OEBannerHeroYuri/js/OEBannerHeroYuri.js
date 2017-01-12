@@ -29,9 +29,11 @@ define(
       self.imageSrc = ko.observable('/file/general/' + src);
       self.imageLink = link;
       self.carouselIndex = carouselIndex;
-      self.classActive = (carouselIndex === 0) ? "active" : "";
+      self.classActive = (!carouselIndex) ? "active" : "";
       self.bannerText = bannerText;
-      if(mobileSrc) self.mobileImageUrl = ko.observable('/file/general/' + mobileSrc);
+      if(mobileSrc) {
+        self.mobileImageUrl = ko.observable('/file/general/' + mobileSrc);
+      }
     }
 
     /**
@@ -40,7 +42,7 @@ define(
       * @param  {object} objWidget The widget object
       * @return {object array}  object array with dots
       */
-    function LoadImages(maxImages, objWidget) {
+    function loadImages(maxImages, objWidget) {
       var images = [];
       for(var i = 1; i <= maxImages; i++) {
 
@@ -63,7 +65,7 @@ define(
       * @param  {object} objWidget The widget object
       * @return {object array}  object array with dots
       */
-    function LoadDots(maxDots, objWidget){
+    function loadDots(maxDots, objWidget){
        var dots = [];
        for(var i = 0; i < maxDots; i++) {
          var dot = {
@@ -85,10 +87,10 @@ define(
         widget.time = ko.observable(widget.timeSwitchImage() * 1000);
         //In the future inform with a variable in config.js
         var numberImagesCarousel = 6;
-        widget.images = new LoadImages(numberImagesCarousel, widget);
+        widget.images = loadImages(numberImagesCarousel, widget);
         var imageNumber = widget.images.length;
         widget.hidden = imageNumber === 1  ? "widget_hidden" : "";
-        widget.dots = new LoadDots(imageNumber, widget);
+        widget.dots = loadDots(imageNumber, widget);
       },
 
       /**

@@ -18,21 +18,22 @@ define(
       var widgetModel, model;
 
       function run(method, data) {
-              for (var i = 0; i < model.length; i++) {
-                if (model[i].constructor !== Generic) {
-                  if (model[i]['__OE__' + method] && typeof (model[i]['__OE__' + method]) == "function") {
-                    model[i]['__OE__' + method](data);
-                  }
-                }
-              }
+        for (var i = 0; i < model.length; i++) {
+          if (model[i].constructor !== Generic) {
+            if (model[i]['__OE__' + method] && typeof (model[i]['__OE__' + method]) == "function") {
+              model[i]['__OE__' + method](data);
             }
+          }
+        }
+      }
 
-      var maxItems = 8, keyCookieStorage = "oe-recently-viewed-products", pubTopic = "OE_RVP_NEW_PRODUCT";
+      var maxItems = 8, keyCookieStorage = "oe-recently-viewed-products-it", pubTopic = "OE_RVP_NEW_PRODUCT";
 
       function init(widget){
         widgetModel = widget;
-        if(localstorage.getItem(keyCookieStorage) !== null){
-          widgetModel.recentlyViewed = localstorage.getItem(keyCookieStorage);
+
+        if(localStorage.getItem(keyCookieStorage) !== null){
+          widgetModel.recentlyViewed = localStorage.getItem(keyCookieStorage);
         }
         else {
           if(getCookie(keyCookieStorage !== null)){
@@ -49,17 +50,17 @@ define(
         if(widgetModel.recentlyViewed.split(";").length-1 < maxItems){
           deleteIfRepeated(id);
           widgetModel.recentlyViewed = id + ";" + widgetModel.recentlyViewed;
-          localstorage.setItem(keyCookieStorage, widgetModel.recentlyViewed);
+          localStorage.setItem(keyCookieStorage, widgetModel.recentlyViewed);
         }
         else {
           if(deleteIfRepeated(id)){
             widgetModel.recentlyViewed = id + ";" + widgetModel.recentlyViewed;
-            localstorage.setItem(keyCookieStorage, widgetModel.recentlyViewed);
+            localStorage.setItem(keyCookieStorage, widgetModel.recentlyViewed);
           }
           else {
             deleteLast();
             widgetModel.recentlyViewed = id + ";" + widgetModel.recentlyViewed;
-            localstorage.setItem(keyCookieStorage, widgetModel.recentlyViewed);
+            localStorage.setItem(keyCookieStorage, widgetModel.recentlyViewed);
           }
         }
       }
@@ -107,7 +108,7 @@ define(
             return c.substring(name.length, c.length);
           }
         }
-        return "";
+        return null;
       }
 
       return{
@@ -132,14 +133,15 @@ define(
 
         beforeAppear : function(page){
 
-          $.Topic(pubTopic + ".memory").subscribe(setLocalStorage(data));
+          $.Topic(pubTopic + ".memory").subscribe(function(data){ setLocalStorage(data) });
 
           if(page.pageId === "product"){
             try{
-              setLocalStorage(widget.product().id());
+              setLocalStorage(widgetModel.product().id());
             }
-            catch(e if e instanceof QUOTA_EXCEEDED_ERR ){
-              setCookie(widget.product().id());
+            catch(e){
+              if(e === 'QUOTA_EXCEEDED_ERR' )
+                setCookie(widget.product().id);
             }
           }
           run('beforeAppear', page);

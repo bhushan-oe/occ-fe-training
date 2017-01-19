@@ -27,14 +27,14 @@ define(
               }
             }
 
-      var maxItems = 8, keyCookieStorage = "oe-recently-viewed-products";
+      var maxItems = 8, keyCookieStorage = "oe-recently-viewed-products-it";
 
       function carouselImage(src, carouselIndex, price, sale, name){
         this.imgSrc = ko.observable(src);
         this.carouselIndex = carouselIndex;
         this.classActive =  (carouselIndex === 0) ? "active" : "";
-        this.price = ko.observable(price);
-        this.salePrice = ko.observable(sale);
+        this.price = ko.observable(price.toFixed(2));
+        if(sale){ this.salePrice = ko.observable(sale.toFixed(2)); }
         this.name = ko.observable(name);
       }
 
@@ -51,18 +51,16 @@ define(
       function createQuery(ids){
         var parameters = {};
         parameters[constants.PRODUCT_IDS] = ids;
-        parameters[constants.FIELDS_QUERY_PARAM] = "items.displayName,items.listPrice,items.salePrice,items.primaryMediumImageURL";
+        parameters[constants.FIELDS_QUERY_PARAM] = "displayName,listPrice,salePrice,primaryMediumImageURL";
         return parameters;
       }
 
       function createCarouselData(widget,page){
-        widgetModel = widget;
 
-        maxItems = widgetModel.maxItems();
-        widgetModel.imagesCarousel = ko.observableArray();
+        maxItems = widgetModel.maxItems;
 
-        if(localstorage.getItem(keyCookieStorage) !== null){
-          widgetModel.recentlyViewed = localstorage.getItem(keyCookieStorage);
+        if(localStorage.getItem(keyCookieStorage) !== null){
+          widgetModel.recentlyViewed = localStorage.getItem(keyCookieStorage);
         }
         else {
           if(getCookie(keyCookieStorage !== null)){
@@ -87,16 +85,15 @@ define(
 
         var strIds = widgetModel.recentlyViewed,
             arrIds = strIds.split(";").join(),
-            query = createQuery(arrIds);
+            query = createQuery(arrIds), active;
 
         restClient.request(constants.ENDPOINT_PRODUCTS_LIST_PRODUCTS,
           query,
           function(response){
-            var len = response.items.length, arrItems = response.items;
-            if(len > maxItems){ len = maxItems; }
-            for(var i=0;i<len;i++){
-              widgetModel.imagesCarousel.push( new carouselImage(arrItems[i].primaryMediumImageURL,i,arrItems[i].listPrice,arrItems[i].salePrice,arrItems[i].displayName));
-            }
+              if(response){
+                  widgetModel.productsGroup(widgetModel.formatProducts(response,widgetModel.itemsPerRow()))
+              }
+
           },
           function(error){},null);
 
@@ -132,6 +129,8 @@ define(
         // Variables
         viewportWidth : ko.observable(),
         viewportMode : ko.observable(),
+        productsGroup : ko.observableArray(),
+        productsList : ko.observableArray(),
 
         // Generic version
         setViewportDefinitions: function (view, itemsPerRow) {
@@ -145,10 +144,10 @@ define(
         onLoad : function(widget){
           init(widget);
 
-          widgetModel.largeRows = 12/widgetModel.itemsPerRowLargeDesktop();
-          widgetModel.desktopRows = 12/widgetModel.itemsPerRowDesktop();
-          widgetModel.tabletRows = 12/widgetModel.itemsPerRowTablet();
-          widgetModel.mobileRows = 12/widgetModel.itemsPerRowMobile();
+          widgetModel.largeRows = 12/widget.itemsPerRowLargeDesktop();
+          widgetModel.desktopRows = 12/widget.itemsPerRowDesktop();
+          widgetModel.tabletRows = 12/widget.itemsPerRowTablet();
+          widgetModel.mobileRows = 12/widget.itemsPerRowMobile();
 
           widget.checkResponsiveFeatures = function(index) {
             if (index > constants.VIEWPORT_LARGE_DESKTOP_LOWER_WIDTH) {
@@ -180,13 +179,30 @@ define(
             widget.viewportWidth($(window)[0].innerWidth || $(window).width());
           });
 
+          createCarouselData(widgetModel,page.pageId);
+
           run('onLoad', widget);
         },
 
         beforeAppear : function(page){
-          createCarouselData(widget,page.pageId);
+         createCarouselData(widgetModel,page.pageId);
 
           run('beforeAppear', page);
+        },
+        formatProducts : function(arrItems, itemsRow){
+          var results = [];
+          var arrTemp = [];
+
+          for(var i = 0; i < arrItems.length; i++){
+            if(arrItems[i]){
+              results.push(new carouselImage(arrItems[i].primaryMediumImageURL,i,arrItems[i].listPrice,arrItems[i].salePrice,arrItems[i].displayName));
+            }
+          }
+          while(results.length > 0){
+            arrTemp = results.splice(0,itemsRow);
+            widgetModel.productsList.push(arrTemp);
+          }
+          return widgetModel.productsList();
         }
       };
     })();

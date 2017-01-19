@@ -8,5 +8,5 @@
   "imports": ["product"],
   "config": {},
   "global": true,
-  "globalEnabled": true
+  "globalEnabled":true
 }

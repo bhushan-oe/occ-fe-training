@@ -1,0 +1,3 @@
+<div id="CC-promotionDetails">
+  <h1>== <span data-bind="widgetLocaleText : 'welcomeText'"> </span> <span data-bind="widgetLocaleText : 'userName'"></span> ==</h1>
+</div>

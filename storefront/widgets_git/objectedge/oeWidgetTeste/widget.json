@@ -1,0 +1,51 @@
+{
+  "javascript": [
+    {
+      "path": "oeWidgetTeste_v1",
+      "version": "1"
+    }
+  ],
+  "editableWidget": true,
+  "minWidth": 1,
+  "instances": [
+    {
+      "id": "wi300145",
+      "pages": [
+        "home"
+      ],
+      "displayName": "erion testando",
+      "pageIds": [
+        "homePage"
+      ],
+      "repositoryId": "wi300145"
+    }
+  ],
+  "isLatestVersion": true,
+  "repositoryId": "oeWidgetTeste_v1",
+  "version": 1,
+  "id": "oeWidgetTeste_v1",
+  "availableToAllPages": true,
+  "jsEditable": true,
+  "latestVersion": 1,
+  "configurable": true,
+  "hiddenFromSiteStudio": false,
+  "widgetType": "oeWidgetTeste",
+  "pageTypes": [],
+  "defaultLayout": {
+    "id": "oeWidgetTeste_v1_lyt1",
+    "sourceLocation": "layout1/widget.template",
+    "description": "layout1",
+    "name": "layout1",
+    "repositoryId": "oeWidgetTeste_v1_lyt1"
+  },
+  "layouts": [
+    {
+      "id": "oeWidgetTeste_v1_lyt1",
+      "sourceLocation": "layout1/widget.template",
+      "description": "layout1",
+      "name": "layout1",
+      "repositoryId": "oeWidgetTeste_v1_lyt1"
+    }
+  ],
+  "displayName": "OE Widget Teste"
+}

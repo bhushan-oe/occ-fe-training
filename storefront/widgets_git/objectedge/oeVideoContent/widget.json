@@ -1,0 +1,48 @@
+{
+  "javascript": [
+    {
+      "path": "oeVideoContent_v1",
+      "version": "1"
+    }
+  ],
+  "editableWidget": true,
+  "minWidth": 1,
+  "instances": [
+    {
+      "id": "wi200023",
+      "pages": [
+        "home"
+      ],
+      "displayName": "OE Video Content",
+      "pageIds": [
+        "homePage"
+      ],
+      "repositoryId": "wi200023"
+    },
+    {
+      "id": "wi400067",
+      "pages": [
+        "category"
+      ],
+      "displayName": "Oe video 2",
+      "pageIds": [
+        "pa200003"
+      ],
+      "repositoryId": "wi400067"
+    }
+  ],
+  "isLatestVersion": true,
+  "repositoryId": "oeVideoContent_v1",
+  "version": 1,
+  "id": "oeVideoContent_v1",
+  "availableToAllPages": true,
+  "jsEditable": true,
+  "latestVersion": 1,
+  "configurable": true,
+  "hiddenFromSiteStudio": false,
+  "widgetType": "oeVideoContent",
+  "pageTypes": [],
+  "defaultLayout": null,
+  "layouts": [],
+  "displayName": "OE Video Content"
+}

@@ -1,0 +1,75 @@
+<!-- ko setContextVariable: {name: 'elementConfig', value: {
+  "100072": {
+    "id": "100072",
+    "image": {
+      "altText": "alt imagem",
+      "altTextId": "200122",
+      "isProductImage": false,
+      "link": "http://google.com",
+      "src": "/file/v2415717357858880182/general/banner2.jpg",
+      "titleText": "titulo imagem",
+      "titleTextId": "200123",
+      "zoomEnabled": false
+    }
+  },
+  "100073": {
+    "id": "100073",
+    "image": {
+      "altText": "segunda imagem alt",
+      "altTextId": "200125",
+      "isProductImage": false,
+      "link": "http://teste.com",
+      "src": "/file/v5278205657884006365/general/bgr-nossa-loja-mobile.png",
+      "titleText": "imagem 2 titulo",
+      "titleTextId": "200126",
+      "zoomEnabled": false
+    }
+  }
+}} --><!-- /ko -->
+
+<div id="oeHeroBannerErion" class="oeHeroBannerErion container-fluid">
+
+	<div id="heroBannerErionCarousel" class="carousel slide" data-bind="onRender: function(data, event) {$data.onRender($element)}">
+
+	  <!-- slides -->
+	  <div id="carousel-inner-erion" class="carousel-inner" role="listbox" data-bind="foreach: heroImages">
+	    <div class="item" data-bind="css: {active: $index() == 0}">
+	      <img alt="" data-bind="attr: {src: imageUrl}" />
+	      <div class="carousel-caption">
+	         <h3><a href="#" data-bind="text : bannerText, attr: {href: bannerLink}" ></a></h3>
+	      </div>
+	    </div>
+	  </div>
+
+
+      <!-- ko if: showNavigation == true -->
+		  <!-- Left and right controls -->
+		  <a class="left carousel-control" href="#heroBannerErionCarousel" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left"></span>
+		  </a>
+		  <a class="right carousel-control" href="#heroBannerErionCarousel" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right"></span>
+		  </a>
+	  <!-- /ko -->
+	</div>
+	
+</div>
+  <!-- oc layout: panels -->
+  <div class="row">
+
+    <div class="oc-panel col-md-12" data-oc-id="panel-0-0">
+
+      <!-- oc section: oeElementTeste2 -->
+<div data-bind="element: 'oeElementTeste2',id: '100072'"></div>
+      <!-- /oc -->
+
+      <!-- oc section: oeElementTeste2 -->
+<div data-bind="element: 'oeElementTeste2',id: '100073'"></div>
+
+      <!-- /oc -->
+
+    </div>
+
+
+  </div>
+  <!-- /oc -->

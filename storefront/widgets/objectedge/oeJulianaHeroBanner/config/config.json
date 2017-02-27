@@ -1,0 +1,17 @@
+{
+  "widgetDescriptorName": "oe Juliana Hero Banner",
+  "properties": [
+    {
+      "id": "sampleText",
+      "type": "stringType",
+      "name": "sampleText",
+      "helpTextResourceId": "sampleText",
+      "labelResourceId": "sampleText",
+      "defaultValue": "",
+      "required": true,
+      "maxLength": 50,
+      "minLength": 3,
+      "pattern": "regex"
+    }
+  ]
+}

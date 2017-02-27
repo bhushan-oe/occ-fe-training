@@ -1,0 +1,7 @@
+{
+  "name": "oe Juliana Hero Banner",
+  "availableToAllPages": true,
+  "javascript": "oeJulianaHeroBanner",
+  "jsEditable": true,
+  "i18nresources": "oeJulianaHeroBanner"
+}

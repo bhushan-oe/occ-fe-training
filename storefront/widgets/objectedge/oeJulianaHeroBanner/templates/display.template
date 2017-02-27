@@ -1,0 +1,30 @@
+<div class="oeJulianaHeroBanner">
+  <div class="carousel slide" id="carousel-example-generic">
+    <div class="carousel-inner" data-bind="foreach: bannerItems">
+			<!-- ko if: imageUrl -->
+				<!-- ko ifnot: $index -->
+		  		<div class="item active" data-bind="attr: { alt: $index }">
+		        <a data-bind="attr: { href: bannerLink }">
+		          <img class="img-responsive center-block" data-bind="attr: { src: imageUrl }">
+		        </a>
+		      </div>
+	      <!-- /ko -->
+	      <!-- ko if: $index -->
+		  		<div class="item" data-bind="attr: { alt: $index }">
+		        <a data-bind="attr: { href: bannerLink }">
+		          <img class="img-responsive center-block" data-bind="attr: { src: imageUrl }">
+		        </a>
+		      </div>
+	      <!-- /ko -->
+			<!-- /ko -->
+    </div>
+    <a href="#carousel-example-generic" class="left carousel-control" role="button" data-slide="prev">
+    	<span class="glyphicon-arrow-right carousel-arrow-left"></span>
+      <div class="sr-only">previous</div>
+    </a>
+    <a href="#carousel-example-generic" class="right carousel-control" role="button" data-slide="next">
+    	<span class="glyphicon-arrow-right"></span>
+      <div class="sr-only">next</div>
+    </a>
+  </div>
+</div>

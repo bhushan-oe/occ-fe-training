@@ -2,8 +2,7 @@
     "widgetDescriptorName": "OE Aramyz Hero Banner",
     "properties": [
 
-
-	{
+	  {
       "id": "timeSwitchImage",
       "type": "stringType",
       "name": "timeSwitchImage",
@@ -22,6 +21,7 @@
       "labelResourceId": "boolLoopCarouselLabel",
       "defaultValue": false
     },
+
     {
       "id": "boolAutoplayCarousel",
       "type": "booleanType",
@@ -29,7 +29,7 @@
       "helpTextResourceId": "boolAutoplayCarouselHelpText",
       "labelResourceId": "boolAutoplayCarouselLabel",
       "defaultValue": true
-    }
+    },
 
 
     {
@@ -39,7 +39,7 @@
       "helpTextResourceId": "imageUrl1HelpText",
       "labelResourceId": "imageUrl1CarouselLabel",
       "required": false
-    }
+    },
 
     {
       "id": "mobileImageUrl1",
@@ -48,7 +48,7 @@
       "helpTextResourceId": "mobileImageUrl1HelpText",
       "labelResourceId": "mobileImageUrl1CarouselLabel",
       "required": false
-    }
+    },
 
     {
       "id": "bannerLink1",
@@ -57,7 +57,7 @@
       "helpTextResourceId": "bannerLink1HelpText",
       "labelResourceId": "bannerLink1CarouselLabel",
       "required": false
-    }
+    },
 
     {
       "id": "startDate1",
@@ -67,7 +67,7 @@
       "labelResourceId": "startDate1CarouselLabel",
       "defaultValue": "",
       "required": false
-    }
+    },
 
     {
       "id": "endDate1",
@@ -77,7 +77,7 @@
       "labelResourceId": "endDate1CarouselLabel",
       "defaultValue": "",
       "required": false
-    }
+    },
 
     {
       "id": "bannerText1",
@@ -87,7 +87,7 @@
       "labelResourceId": "bannerText1CarouselLabel",
       "defaultValue": "",
       "required": false
-    }
+    },
 
     {
       "id": "imageUrl2",
@@ -96,7 +96,7 @@
       "helpTextResourceId": "imageUrl2HelpText",
       "labelResourceId": "imageUrl2CarouselLabel",
       "required": false
-    }
+    },
 
     {
       "id": "mobileImageUrl2",
@@ -105,7 +105,7 @@
       "helpTextResourceId": "mobileImageUrl2HelpText",
       "labelResourceId": "mobileImageUrl2CarouselLabel",
       "required": false
-    }
+    },
 
     {
       "id": "bannerLink2",
@@ -114,7 +114,7 @@
       "helpTextResourceId": "bannerLink2HelpText",
       "labelResourceId": "bannerLink2CarouselLabel",
       "required": false
-    }
+    },
 
     {
       "id": "startDate2",
@@ -124,7 +124,7 @@
       "labelResourceId": "startDate2CarouselLabel",
       "defaultValue": "",
       "required": false
-    }
+    },
 
     {
       "id": "endDate2",
@@ -134,7 +134,7 @@
       "labelResourceId": "endDate2CarouselLabel",
       "defaultValue": "",
       "required": false
-    }
+    },
 
     {
       "id": "bannerText2",
@@ -144,7 +144,7 @@
       "labelResourceId": "bannerText2CarouselLabel",
       "defaultValue": "",
       "required": false
-    }    
+    },   
 
     {
       "id": "imageUrl3",
@@ -153,7 +153,7 @@
       "helpTextResourceId": "imageUrl3HelpText",
       "labelResourceId": "imageUrl3CarouselLabel",
       "required": false
-    }
+    },
 
     {
       "id": "mobileImageUrl3",
@@ -162,7 +162,7 @@
       "helpTextResourceId": "mobileImageUrl3HelpText",
       "labelResourceId": "mobileImageUrl3CarouselLabel",
       "required": false
-    }
+    },
 
     {
       "id": "bannerLink3",
@@ -171,7 +171,7 @@
       "helpTextResourceId": "bannerLink3HelpText",
       "labelResourceId": "bannerLink3CarouselLabel",
       "required": false
-    }
+    },
 
     {
       "id": "startDate3",
@@ -181,7 +181,7 @@
       "labelResourceId": "startDate3CarouselLabel",
       "defaultValue": "",
       "required": false
-    }
+    },
 
     {
       "id": "endDate3",
@@ -191,7 +191,7 @@
       "labelResourceId": "endDate3CarouselLabel",
       "defaultValue": "",
       "required": false
-    }
+    },
 
     {
       "id": "bannerText3",
@@ -201,7 +201,7 @@
       "labelResourceId": "bannerText3CarouselLabel",
       "defaultValue": "",
       "required": false
-    }
+    },
 
     {
       "id": "imageUrl4",
@@ -210,7 +210,7 @@
       "helpTextResourceId": "imageUrl4HelpText",
       "labelResourceId": "imageUrl4CarouselLabel",
       "required": false
-    }
+    },
 
     {
       "id": "mobileImageUrl4",
@@ -219,7 +219,7 @@
       "helpTextResourceId": "mobileImageUrl4HelpText",
       "labelResourceId": "mobileImageUrl4CarouselLabel",
       "required": false
-    }
+    },
 
     {
       "id": "bannerLink4",
@@ -228,7 +228,7 @@
       "helpTextResourceId": "bannerLink4HelpText",
       "labelResourceId": "bannerLink4CarouselLabel",
       "required": false
-    }
+    },
 
     {
       "id": "startDate4",
@@ -238,7 +238,7 @@
       "labelResourceId": "startDate4CarouselLabel",
       "defaultValue": "",
       "required": false
-    }
+    },
 
     {
       "id": "endDate4",
@@ -248,7 +248,7 @@
       "labelResourceId": "endDate4CarouselLabel",
       "defaultValue": "",
       "required": false
-    }
+    },
 
     {
       "id": "bannerText4",
@@ -258,7 +258,7 @@
       "labelResourceId": "bannerText4CarouselLabel",
       "defaultValue": "",
       "required": false
-    }
+    },
 
     {
       "id": "imageUrl5",
@@ -267,7 +267,7 @@
       "helpTextResourceId": "imageUrl5HelpText",
       "labelResourceId": "imageUrl5CarouselLabel",
       "required": false
-    }
+    },
 
     {
       "id": "mobileImageUrl5",
@@ -276,7 +276,7 @@
       "helpTextResourceId": "mobileImageUrl5HelpText",
       "labelResourceId": "mobileImageUrl5CarouselLabel",
       "required": false
-    }
+    },
 
     {
       "id": "bannerLink5",
@@ -285,7 +285,7 @@
       "helpTextResourceId": "bannerLink5HelpText",
       "labelResourceId": "bannerLink5CarouselLabel",
       "required": false
-    }
+    },
 
     {
       "id": "startDate5",
@@ -295,7 +295,7 @@
       "labelResourceId": "startDate5CarouselLabel",
       "defaultValue": "",
       "required": false
-    }
+    },
 
     {
       "id": "endDate5",
@@ -305,7 +305,7 @@
       "labelResourceId": "endDate5CarouselLabel",
       "defaultValue": "",
       "required": false
-    }
+    },
 
     {
       "id": "bannerText5",
@@ -315,7 +315,7 @@
       "labelResourceId": "bannerText5CarouselLabel",
       "defaultValue": "",
       "required": false
-    }
+    },
 
     {
       "id": "imageUrl6",
@@ -324,7 +324,7 @@
       "helpTextResourceId": "imageUrl6HelpText",
       "labelResourceId": "imageUrl6CarouselLabel",
       "required": false
-    }
+    },
 
     {
       "id": "mobileImageUrl6",
@@ -333,7 +333,7 @@
       "helpTextResourceId": "mobileImageUrl6HelpText",
       "labelResourceId": "mobileImageUrl6CarouselLabel",
       "required": false
-    }
+    },
 
     {
       "id": "bannerLink6",
@@ -342,7 +342,7 @@
       "helpTextResourceId": "bannerLink6HelpText",
       "labelResourceId": "bannerLink6CarouselLabel",
       "required": false
-    }
+    },
 
     {
       "id": "startDate6",
@@ -352,7 +352,7 @@
       "labelResourceId": "startDate6CarouselLabel",
       "defaultValue": "",
       "required": false
-    }
+    },
 
     {
       "id": "endDate6",
@@ -362,7 +362,7 @@
       "labelResourceId": "endDate6CarouselLabel",
       "defaultValue": "",
       "required": false
-    }
+    },
 
     {
       "id": "bannerText6",

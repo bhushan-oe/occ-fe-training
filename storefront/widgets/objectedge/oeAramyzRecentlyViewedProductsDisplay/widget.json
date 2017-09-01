@@ -1,0 +1,13 @@
+{
+  "name": "oeAramyzRecentlyViewedProductsDisplay",
+  "widgetType": "oeAramyzRecentlyViewedProductsDisplay",
+  "i18nresources": "oeAramyzRecentlyViewedProductsDisplay",
+  "javascript": "oeAramyzRecentlyViewedProductsDisplay",
+  "availableToAllPages": true,
+  "global": false,
+  "globalEnabled": false,
+  "version": 1,
+  "jsEditable": true,
+  "imports": ["product"],
+  "config": {}
+}

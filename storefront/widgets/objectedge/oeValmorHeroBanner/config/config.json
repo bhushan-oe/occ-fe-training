@@ -1,0 +1,340 @@
+{
+    "widgetDescriptorName": "OE Valmor Hero Banner",
+    "properties": [{
+        "id": "timeSwitchImage",
+        "type": "stringType",
+        "name": "timeSwitchImage",
+        "helpTextResourceId": "ht_timeSwitchImage",
+        "labelResourceId": "lb_timeSwitchImage",
+        "defaultValue": "4",
+        "pattern": "^\\d+$",
+        "required": true
+      },{
+        "id": "boolLoopCarousel",
+        "type": "booleanType",
+        "name": "boolLoopCarousel",
+        "helpTextResourceId": "ht_boolLoopCarousel",
+        "labelResourceId": "lb_boolLoopCarousel",
+        "defaultValue": false
+      },{
+        "id": "boolAutoplayCarousel",
+        "type": "booleanType",
+        "name": "boolAutoplayCarousel",
+        "helpTextResourceId": "ht_boolAutoplayCarousel",
+        "labelResourceId": "lb_boolAutoplayCarousel",
+        "defaultValue": true
+      },{
+        "id": "imageUrl1",
+        "type": "stringType",
+        "name": "imageUrl1",
+        "helpTextResourceId": "ht_imageUrl1",
+        "labelResourceId": "lb_imageUrl1",
+        "pattern": "(^(\\/[\\w\\-]+)*.\\w{3,}$|^$)",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "mobileImageUrl1",
+        "type": "stringType",
+        "name": "mobileImageUrl1",
+        "helpTextResourceId": "ht_mobileImageUrl1",
+        "labelResourceId": "lb_mobileImageUrl1",
+        "pattern": "(^(\\/[\\w\\-]+)*.\\w{3,}$|^$)",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "bannerLink1",
+        "type": "stringType",
+        "name": "bannerLink1",
+        "helpTextResourceId": "ht_bannerLink1",
+        "labelResourceId": "lb_bannerLink1",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "bannerText1",
+        "type": "stringType",
+        "name": "bannerText1",
+        "helpTextResourceId": "ht_bannerText1",
+        "labelResourceId": "lb_bannerText1",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "startDate1",
+        "type": "stringType",
+        "name": "startDate1",
+        "helpTextResourceId": "ht_startDate1",
+        "labelResourceId": "lb_startDate1",
+        "pattern": "(^(0[1-9]|1[0-2])\\/(0[1-9]|[1-2][0-9]|3[01])\\/(19|20)\\d{2}$|^$)",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "endDate1",
+        "type": "stringType",
+        "name": "endDate1",
+        "helpTextResourceId": "ht_endDate1",
+        "labelResourceId": "lb_endDate1",
+        "pattern": "(^(0[1-9]|1[0-2])\\/(0[1-9]|[1-2][0-9]|3[01])\\/(19|20)\\d{2}$|^$)",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "imageUrl2",
+        "type": "stringType",
+        "name": "imageUrl2",
+        "helpTextResourceId": "ht_imageUrl2",
+        "labelResourceId": "lb_imageUrl2",
+        "pattern": "(^(\\/[\\w\\-]+)*.\\w{3,}$|^$)",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "mobileImageUrl2",
+        "type": "stringType",
+        "name": "mobileImageUrl2",
+        "helpTextResourceId": "ht_mobileImageUrl2",
+        "labelResourceId": "lb_mobileImageUrl2",
+        "pattern": "(^(\\/[\\w\\-]+)*.\\w{3,}$|^$)",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "bannerLink2",
+        "type": "stringType",
+        "name": "bannerLink2",
+        "helpTextResourceId": "ht_bannerLink2",
+        "labelResourceId": "lb_bannerLink2",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "bannerText2",
+        "type": "stringType",
+        "name": "bannerText2",
+        "helpTextResourceId": "ht_bannerText2",
+        "labelResourceId": "lb_bannerText2",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "startDate2",
+        "type": "stringType",
+        "name": "startDate2",
+        "helpTextResourceId": "ht_startDate2",
+        "labelResourceId": "lb_startDate2",
+        "pattern": "(^(0[1-9]|1[0-2])\\/(0[1-9]|[1-2][0-9]|3[01])\\/(19|20)\\d{2}$|^$)",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "endDate2",
+        "type": "stringType",
+        "name": "endDate2",
+        "helpTextResourceId": "ht_endDate2",
+        "labelResourceId": "lb_endDate2",
+        "pattern": "(^(0[1-9]|1[0-2])\\/(0[1-9]|[1-2][0-9]|3[01])\\/(19|20)\\d{2}$|^$)",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "imageUrl3",
+        "type": "stringType",
+        "name": "imageUrl3",
+        "helpTextResourceId": "ht_imageUrl3",
+        "labelResourceId": "lb_imageUrl3",
+        "pattern": "(^(\\/[\\w\\-]+)*.\\w{3,}$|^$)",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "mobileImageUrl3",
+        "type": "stringType",
+        "name": "mobileImageUrl3",
+        "helpTextResourceId": "ht_mobileImageUrl3",
+        "labelResourceId": "lb_mobileImageUrl3",
+        "pattern": "(^(\\/[\\w\\-]+)*.\\w{3,}$|^$)",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "bannerLink3",
+        "type": "stringType",
+        "name": "bannerLink3",
+        "helpTextResourceId": "ht_bannerLink3",
+        "labelResourceId": "lb_bannerLink3",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "bannerText3",
+        "type": "stringType",
+        "name": "bannerText3",
+        "helpTextResourceId": "ht_bannerText3",
+        "labelResourceId": "lb_bannerText3",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "startDate3",
+        "type": "stringType",
+        "name": "startDate3",
+        "helpTextResourceId": "ht_startDate3",
+        "labelResourceId": "lb_startDate3",
+        "pattern": "(^(0[1-9]|1[0-2])\\/(0[1-9]|[1-2][0-9]|3[01])\\/(19|20)\\d{2}$|^$)",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "endDate3",
+        "type": "stringType",
+        "name": "endDate3",
+        "helpTextResourceId": "ht_endDate3",
+        "labelResourceId": "lb_endDate3",
+        "pattern": "(^(0[1-9]|1[0-2])\\/(0[1-9]|[1-2][0-9]|3[01])\\/(19|20)\\d{2}$|^$)",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "imageUrl4",
+        "type": "stringType",
+        "name": "imageUrl4",
+        "helpTextResourceId": "ht_imageUrl4",
+        "labelResourceId": "lb_imageUrl4",
+        "pattern": "(^(\\/[\\w\\-]+)*.\\w{3,}$|^$)",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "mobileImageUrl4",
+        "type": "stringType",
+        "name": "mobileImageUrl4",
+        "helpTextResourceId": "ht_mobileImageUrl4",
+        "labelResourceId": "lb_mobileImageUrl4",
+        "pattern": "(^(\\/[\\w\\-]+)*.\\w{3,}$|^$)",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "bannerLink4",
+        "type": "stringType",
+        "name": "bannerLink4",
+        "helpTextResourceId": "ht_bannerLink4",
+        "labelResourceId": "lb_bannerLink4",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "bannerText4",
+        "type": "stringType",
+        "name": "bannerText4",
+        "helpTextResourceId": "ht_bannerText4",
+        "labelResourceId": "lb_bannerText4",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "startDate4",
+        "type": "stringType",
+        "name": "startDate4",
+        "helpTextResourceId": "ht_startDate4",
+        "labelResourceId": "lb_startDate4",
+        "pattern": "(^(0[1-9]|1[0-2])\\/(0[1-9]|[1-2][0-9]|3[01])\\/(19|20)\\d{2}$|^$)",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "endDate4",
+        "type": "stringType",
+        "name": "endDate4",
+        "helpTextResourceId": "ht_endDate4",
+        "labelResourceId": "lb_endDate4",
+        "pattern": "(^(0[1-9]|1[0-2])\\/(0[1-9]|[1-2][0-9]|3[01])\\/(19|20)\\d{2}$|^$)",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "imageUrl5",
+        "type": "stringType",
+        "name": "imageUrl5",
+        "helpTextResourceId": "ht_imageUrl5",
+        "labelResourceId": "lb_imageUrl5",
+        "pattern": "(^(\\/[\\w\\-]+)*.\\w{3,}$|^$)",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "mobileImageUrl5",
+        "type": "stringType",
+        "name": "mobileImageUrl5",
+        "helpTextResourceId": "ht_mobileImageUrl5",
+        "labelResourceId": "lb_mobileImageUrl5",
+        "pattern": "(^(\\/[\\w\\-]+)*.\\w{3,}$|^$)",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "bannerLink5",
+        "type": "stringType",
+        "name": "bannerLink5",
+        "helpTextResourceId": "ht_bannerLink5",
+        "labelResourceId": "lb_bannerLink5",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "bannerText5",
+        "type": "stringType",
+        "name": "bannerText5",
+        "helpTextResourceId": "ht_bannerText5",
+        "labelResourceId": "lb_bannerText5",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "startDate5",
+        "type": "stringType",
+        "name": "startDate5",
+        "helpTextResourceId": "ht_startDate5",
+        "labelResourceId": "lb_startDate5",
+        "pattern": "(^(0[1-9]|1[0-2])\\/(0[1-9]|[1-2][0-9]|3[01])\\/(19|20)\\d{2}$|^$)",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "endDate5",
+        "type": "stringType",
+        "name": "endDate5",
+        "helpTextResourceId": "ht_endDate5",
+        "labelResourceId": "lb_endDate5",
+        "pattern": "(^(0[1-9]|1[0-2])\\/(0[1-9]|[1-2][0-9]|3[01])\\/(19|20)\\d{2}$|^$)",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "imageUrl6",
+        "type": "stringType",
+        "name": "imageUrl6",
+        "helpTextResourceId": "ht_imageUrl6",
+        "labelResourceId": "lb_imageUrl6",
+        "pattern": "(^(\\/[\\w\\-]+)*.\\w{3,}$|^$)",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "mobileImageUrl6",
+        "type": "stringType",
+        "name": "mobileImageUrl6",
+        "helpTextResourceId": "ht_mobileImageUrl6",
+        "labelResourceId": "lb_mobileImageUrl6",
+        "pattern": "(^(\\/[\\w\\-]+)*.\\w{3,}$|^$)",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "bannerLink6",
+        "type": "stringType",
+        "name": "bannerLink6",
+        "helpTextResourceId": "ht_bannerLink6",
+        "labelResourceId": "lb_bannerLink6",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "bannerText6",
+        "type": "stringType",
+        "name": "bannerText6",
+        "helpTextResourceId": "ht_bannerText6",
+        "labelResourceId": "lb_bannerText6",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "startDate6",
+        "type": "stringType",
+        "name": "startDate6",
+        "helpTextResourceId": "ht_startDate6",
+        "labelResourceId": "lb_startDate6",
+        "pattern": "(^(0[1-9]|1[0-2])\\/(0[1-9]|[1-2][0-9]|3[01])\\/(19|20)\\d{2}$|^$)",
+        "defaultValue": "",
+        "required": false
+      },{
+        "id": "endDate6",
+        "type": "stringType",
+        "name": "endDate6",
+        "helpTextResourceId": "ht_endDate6",
+        "labelResourceId": "lb_endDate6",
+        "pattern": "(^(0[1-9]|1[0-2])\\/(0[1-9]|[1-2][0-9]|3[01])\\/(19|20)\\d{2}$|^$)",
+        "defaultValue": "",
+        "required": false
+      }
+    ]
+}

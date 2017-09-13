@@ -1,0 +1,16 @@
+{
+  "resources": {
+    "ht_carouselTitle": "Título do Carrossel dos produtos vistos recentemente",
+    "lb_carouselTitle": "Título do Carrossel PVR",
+    "ht_maxItems": "Quantidade máxima de items exibidos na lista de produtos vistos recentemente",
+    "lb_maxItems": "Quantidade máxima de items",
+    "ht_itemsPerRowLargeDesktop": "Quantidade de items exibidos por linha em desktops grandes",
+    "lb_itemsPerRowLargeDesktop": "Items por linha (desktops grandes)",
+    "ht_itemsPerRowDesktop": "Quantidade de items exibidos por linha em desktops",
+    "lb_itemsPerRowDesktop": "Items por linha (desktops)",
+    "ht_itemsPerRowTablet": "Quantidade de items exibidos por linha em tablets",
+    "lb_itemsPerRowTablet": "Items por linha (tablets)",
+    "ht_itemsPerRowMobile": "Quantidade de items exibidos por linha em dispositivos móveis",
+    "lb_itemsPerRowMobile": "Items por linha (móveis)"
+  }
+}

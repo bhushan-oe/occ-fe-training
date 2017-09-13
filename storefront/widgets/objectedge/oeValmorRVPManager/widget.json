@@ -1,0 +1,13 @@
+{
+  "name": "oeValmorRVPManager",
+  "widgetType": "oeValmorRVPManager",
+  "i18nresources": "oeValmorRVPManager",
+  "javascript": "oeValmorRVPManager",
+  "availableToAllPages": true,
+  "global": true,
+  "globalEnabled": true,
+  "version": 1,
+  "jsEditable": true,
+  "imports": ["product"],
+  "config": {}
+}

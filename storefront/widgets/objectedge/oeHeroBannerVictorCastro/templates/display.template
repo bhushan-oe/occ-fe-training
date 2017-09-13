@@ -13,11 +13,11 @@
       </div>
       <!-- ko if: bannerItems().length > 1 -->
           <a href="#carousel-example-generic" class="left carousel-control" role="button" data-slide="prev">
-              <span class="glyphicon-arrow-right carousel-arrow-left"></span>
+              <span class="glyphicon-chevron-left"></span>
             <div class="sr-only">previous</div>
           </a>
           <a href="#carousel-example-generic" class="right carousel-control" role="button" data-slide="next">
-              <span class="glyphicon-arrow-right"></span>
+              <span class="glyphicon-chevron-right"></span>
             <div class="sr-only">next</div>
           </a>
       <!-- /ko -->

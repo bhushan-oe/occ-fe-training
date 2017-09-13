@@ -50,11 +50,6 @@ define
                           widget['endDate'+i](),
                           widget['bannerText'+i]()));
         }
-
-          //format the date using momentJS. Necessary for item validation
-         
-
-
           //item validation
           widget.bannerItems = ko.computed(function() {
             widget.currentDate = moment().format('YYYYMMDD');
@@ -66,7 +61,7 @@ define
                     //verify start and end date, and check if the current date is between those values, in order to display item in right time
                     if(item.startDate && item.endDate)
                     {
-                        if(moment(widget.currentDate).isSameOrAfter(item.startDate) && moment(widget.currentDate).isSameOrBefore(item.endDate))
+                        if(widget.currentDate>=item.startDate && widget.currentDate<=item.endDate)
                         {
                           return item;
                         }
@@ -74,7 +69,7 @@ define
                     //if there is only startDate, it checks for start item display
                     else if(item.startDate)
                     {
-                        if(moment(widget.currentDate).isSameOrAfter(item.startDate))
+                        if(widget.currentDate>=item.startDate)
                         {
                           return item;
                         }
@@ -82,7 +77,7 @@ define
                     //if there is only endDate, it checks for finish item display
                     else if(item.endDate)
                     {
-                        if(moment(widget.currentDate).isSameOrBefore(item.endDate))
+                        if(widget.currentDate<=item.endDate)
                         {
                           return item; 
                         }

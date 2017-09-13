@@ -1,0 +1,25 @@
+<div class="oeHeroBannerVictorCastro">
+    <div class="carousel slide" id="carousel-example-generic">
+      <div class="carousel-inner" data-bind="foreach: bannerItems, attr: {alt: bannerItems().length}">
+            <div class="item" data-bind="css: { active: !$index() }">
+          <a data-bind="attr: { href: bannerLink }">
+            <img class="img-responsive center-block hidden-xs" data-bind="attr: { src: imageUrl }">
+            <img class="img-responsive center-block hidden-sm hidden-md hidden-lg" data-bind="attr: { src: mobileImageUrl }">
+          </a>
+          <!-- ko if: bannerText -->
+              <div class="carousel-caption"><h3 data-bind="text: bannerText"></h3></div>
+          <!-- /ko -->
+        </div>
+      </div>
+      <!-- ko if: bannerItems().length > 1 -->
+          <a href="#carousel-example-generic" class="left carousel-control" role="button" data-slide="prev">
+              <span class="glyphicon-arrow-right carousel-arrow-left"></span>
+            <div class="sr-only">previous</div>
+          </a>
+          <a href="#carousel-example-generic" class="right carousel-control" role="button" data-slide="next">
+              <span class="glyphicon-arrow-right"></span>
+            <div class="sr-only">next</div>
+          </a>
+      <!-- /ko -->
+    </div>
+  </div>

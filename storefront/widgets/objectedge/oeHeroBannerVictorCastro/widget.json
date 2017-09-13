@@ -1,0 +1,13 @@
+{
+  "name": "oeHeroBannerVictorCastro",
+  "widgetType": "oeHeroBannerVictorCastro",
+  "i18nresources": "oeHeroBannerVictorCastro",
+  "javascript": "oeHeroBannerVictorCastro",
+  "availableToAllPages": true,
+  "global": false,
+  "globalEnabled": false,
+  "version": 1,
+  "jsEditable": true,
+  "imports": [],
+  "config": {}
+}

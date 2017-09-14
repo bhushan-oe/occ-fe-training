@@ -16,52 +16,28 @@
 
 ### Description
 
-The Widget Description
+
+A Simple HeroBanner made for training
 
 ### Installation and configuration
 
-The widget installation description
+login to OCC, select DESIGN>Layout Tab>Grid view
+Drag and drop the widget where you want to.
 
 ####Configs
-
-Explain here what configurations exist and why they are there
+First time you set the widget, is necessary to upload all images (all the 6) and write something in all fields.
 
 ### Libraries
 
-My Widget uses:
-
-* [KnockoutJS] - Javascript UI
-* [jQuery] - DOM Manipulation, Ajax requests..
-
-### Apis
-
-All necessary Apis used from OCC Apis
-
-* Name of api - Explanation
-
-### OCC Version
-
-version of occ which this widget has been built
-
-### Projects using this widget
-
-* [Name of Project](Dev or Production url) 
-
-Please, update this document adding your project here in order to keep this tidy and trackable. 
+* [KnockoutJS]
+* [jQuery] 
 
 ### Screen Shots
-
-URL of screen shots from this widget running. Save all screen shots on Google Drive and put the URLS here
+https://drive.google.com/open?id=0B_y6gGcUrJoEdDVhVkkwN3pQZjA
+https://drive.google.com/open?id=0B_y6gGcUrJoERkJzb3YxWDdCWGM
 
 ### Development
 
-Instructions for people who will maintain your code or fix something
+Developed with the following settings and instructions:
+https://objectedge.atlassian.net/wiki/spaces/OS/pages/44826759/oeHeroBanner
 
-* Follow the OE OCC Patterns
-* Test your code before pushing to occ-components
-
-### Todos
-
-All todos
-
- - Write Tests

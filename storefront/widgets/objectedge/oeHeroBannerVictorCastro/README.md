@@ -28,6 +28,7 @@ First time you set the widget, is necessary to upload all images (all the 6) and
 
 ### Screen Shots
 https://drive.google.com/open?id=0B_y6gGcUrJoEdDVhVkkwN3pQZjA
+
 https://drive.google.com/open?id=0B_y6gGcUrJoERkJzb3YxWDdCWGM
 
 ### Development

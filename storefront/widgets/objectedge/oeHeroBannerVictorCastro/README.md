@@ -4,15 +4,9 @@
 - [oeHeroBannerVictorCastro Widget](#oeHeroBannerVictorCastro-widget)
     - [Description](#description)
     - [Installation](#installation)
-    - [Installation and Configuration](#installation-and-configuration)
-        - [Configs](#configs)
     - [Libraries](#libraries)
-    - [Apis](#apis)
-    - [OCC Version](#occ-version)
-    - [Projects using this widget](#projects-using-this-widget)
     - [Screen Shots](#screen-shots)
     - [Development](#development)
-    - [Todos](#todos)
 
 ### Description
 

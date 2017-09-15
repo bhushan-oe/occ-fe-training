@@ -8,6 +8,6 @@
   "globalEnabled": false,
   "version": 1,
   "jsEditable": true,
-  "imports": [],
+  "imports": ["product"],
   "config": {}
 }

@@ -1,6 +1,49 @@
 /* ---------------------------------------------------------------------- */
 /*  OE Generic Widget Styles
 /* ---------------------------------------------------------------------- */
-#oeES6Widget {
+#oeValmorRVPDisplay {
+  .carousel-inner {
+    height: 200px;
+    overflow: hidden;
+    padding: 0;
+  }
+  .item {
+    .product {
+      padding: 10px;
+      height: 200px;
+      float: left;
+      &::after {
+        content: '';
+        clear: both;
+        float: none;
+      }
+    }
+    a {
+      text-decoration: none;
+    }
+    .img-responsive {
+      padding: 10px;
+    }
+    .displayName {
+      font-size: 0.9em;
+      color: #532479;
+    }
+    .price {
+      font-weight: bold;
+      color: #ff9416;
 
+      .oldPrice {
+        font-weight: normal;
+        font-size: 0.9em;
+        color: #532479;
+      }
+    }
+  }
+  .carousel-control {
+    color: #ff9416;
+
+    &:hover, &:focus {
+      color:#e45600;
+    }
+  }
 }

@@ -44,15 +44,13 @@ define(
         maxItems=widgetModel.maxItems();
       }
 
+      //defines the storage entry as  oe-recently-viewed-products-it | widgetModel.recentProducts
       function setStorage(cookieId)
       {
         if(widgetModel.recentProducts.split(";").length-1 < maxItems)
         {
-          widgetModel.recentProducts = id+";"+widgetModel.recentProducts;
-        }
-        else
-        {
-          
+          widgetModel.recentProducts = cookieId+";"+widgetModel.recentProducts;
+          localStorage.setItem(cookieKey,widgetModel.recentProducts);
         }
       }
 
@@ -78,10 +76,7 @@ define(
         return "";
       }
 
-      function setCookie(id)
-      {
-
-      }
+      
 
       return {
         // Obligatory
@@ -90,14 +85,20 @@ define(
         config : ko.observable(),
 
         // Generic version
-        onLoad : function(widget) {
+        onLoad : function(widget) 
+        {
           init(widget);
-
-          // ...
+          //subscribe to topic OE_RVP_NEW_PRODUCT as the spec says
+          $.Topic(listenToTopic).subscribe(function(data){ setStorage(data) });
 
           widgetModel.__run('onLoad', widget);
         },
         beforeAppear : function(page) {
+          //check page and set local storage
+          if(page.pageId=="product")
+          {
+            setStorage(widgetModel.product().id());
+          }
 
           widgetModel.__run('beforeAppear', page);
         }

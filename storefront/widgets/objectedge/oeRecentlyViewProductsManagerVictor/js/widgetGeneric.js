@@ -7,11 +7,11 @@ define(
   //-------------------------------------------------------------------
   // DEPENDENCIES
   //-------------------------------------------------------------------
-  ['knockout'],
+  ['knockout', 'jquery', 'ccConstants', 'viewportHelper', 'storageApi', 'ccRestClient'],
   //-------------------------------------------------------------------
   // WIDGET DEFINITION
   //-------------------------------------------------------------------
-  function(ko) {
+  function(ko, $, constants, viewportHelper, storageApi, restClient) {
     function Generic() {
       // default constructor
     }

@@ -61,7 +61,7 @@
             "helpTextResourceId": "startDateTextHelpText1",
             "labelResourceId": "startDateLabel1",
             "defaultValue": "",
-            "required": false,
+            "required": false
         },
         {
             "id": "endDate1",
@@ -70,7 +70,7 @@
             "helpTextResourceId": "endDateTextHelpText1",
             "labelResourceId": "endDateLabel1",
             "defaultValue": "",
-            "required": false,
+            "required": false
         },
         {
             "id": "bannerText1",

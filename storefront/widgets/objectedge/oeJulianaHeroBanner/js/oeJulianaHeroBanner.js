@@ -107,9 +107,10 @@ define(
       /**
        * This function will run when the widget was loaded and every page change
        */
-      beforeAppear: function(page) {
+      beforeAppear: function(page) 
+       {
 
-        var selfWidget = this;
+        var selfWidget = this; 
         /*
           ------------- Instructions to configure the carousel -------------
 

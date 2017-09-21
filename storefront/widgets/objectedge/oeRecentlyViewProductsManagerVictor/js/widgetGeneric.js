@@ -97,11 +97,6 @@ define(
       }
 
       
-
-      
-      
-
-
       //get a cookie and splits it
       function getCookie(cname) 
       {
@@ -139,7 +134,7 @@ define(
         },
         beforeAppear : function(page) {
           //check page and set local storage
-          if(page.pageId=="product")
+          if(widgetModel.pageContext().page.name==="product")
           {
             setStorage(widgetModel.product().id());
           }

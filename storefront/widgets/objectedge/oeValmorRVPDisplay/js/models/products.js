@@ -14,7 +14,7 @@ export default class Products {
     const endpoint = constants.ENDPOINT_PRODUCTS_LIST_PRODUCTS;
     const query = {};
 
-    query[constants.FIELDS_QUERY_PARAM] = "active,id,route,displayName,primaryThumbImageURL,listPrice,salePrice";
+    query[constants.FIELDS_QUERY_PARAM] = "active,id,route,displayName,primaryThumbImageURL,primarySmallImageURL,primaryMediumImageURL,primaryLargeImageURL,primaryFullImageURL,listPrice,salePrice";
     query[constants.PRODUCT_IDS] = prodList;
     query[constants.SHOW_INACTIVE_PRODUCT] = false;
     query[constants.DATA_ONLY] = true;

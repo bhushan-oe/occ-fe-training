@@ -8,9 +8,8 @@
         </ol>
         <div class="carousel-inner" data-bind="foreach: slides">
           <div class="item" data-bind="css: { active: $index() == 0 }">
-            <a data-bind="attr: { href: bannerLink }">
-              <img data-bind="attr: { src: mobileImageUrl }, css: { hide: !hasMobile, 'visible-xs': hasMobile }" />
-              <img data-bind="attr: { src: imageUrl }, css: { 'hidden-xs': hasMobile }" />
+            <a data-bind="ccLink: { url: $data.bannerLink }">
+              <img data-bind="imageSource: { src: $parent.isPhone() ? mobileImageUrl || imageUrl : imageUrl }" />
               <div class="carousel-caption">
                 <p data-bind="text: bannerText"></p>
               </div>

@@ -7,11 +7,11 @@
         <div class="carousel-inner" data-bind="foreach: slides">
           <div class="item text-center" data-bind="css: { active: $index() == 0 }, foreach: products">
             <div class="product" data-bind="style: { width: $parents[1].config().itemWidth }">
-              <a data-bind="attr: { href: route }">
-                <img data-bind="attr: { src: primaryThumbImageURL }" class="thumbImage img-responsive center-block"/>
+              <a data-bind="ccLink: { url: $data.route }">
+                <img data-bind="productImageSource: { src: $data, errorSrc: '/file/ccimg/missing-product.jpg', imageType: 'thumb', alt: $data.displayName, errorAlt: 'Missing Product Image' }, attr: { title: $data.displayName }" class="thumbImage img-responsive center-block"/>
                 <p data-bind="text: displayName" class="displayName text-center center"></p>
                 <span class="price">
-                  <span data-bind="currency: { price: salePrice ? salePrice : listPrice, currencyObj: $parents[1].site().currency }"></span>
+                  <span data-bind="currency: { price: salePrice || listPrice, currencyObj: $parents[1].site().currency }"></span>
                   <del class='oldPrice'>
                     <span data-bind="currency: { price: salePrice ? listPrice : null, currencyObj: $parents[1].site().currency }"></span>
                   </del>

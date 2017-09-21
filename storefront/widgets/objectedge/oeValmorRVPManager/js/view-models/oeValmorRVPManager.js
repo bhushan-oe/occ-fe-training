@@ -26,9 +26,11 @@ export class oeValmorRVPManager extends BaseWidget {
     this.setTopicListener();
   }
 
-  beforeAppear() {
-    // Store the current product id, if the actual page is a PDP
-    this.storeCurrentIfProduct();
+  beforeAppear(page) {
+    // If the actual page is a PDP, store the current product id
+    if (page.pageId && page.pageId === 'product') {
+      this.storeProduct();
+    }
   }
 
   /**
@@ -36,7 +38,7 @@ export class oeValmorRVPManager extends BaseWidget {
    */
   getStoredProducts() {
     const productList = this.storage.getItem(STORAGE_KEY);
-    return productList && productList !== '' ? productList.split(';') : [];
+    return productList ? productList.split(';') : [];
   }
 
   /**
@@ -50,10 +52,11 @@ export class oeValmorRVPManager extends BaseWidget {
 
   /**
    * Stores the product Id
+   * Sliced from storeProduct to allow it to be invoked by the topic listener, receiving an ID to store
    */
   storeProductById(productId) {
     if (productId) {
-      const maxProducts = this.$data.maxItems && typeof this.$data.maxItems === 'function' && !isNaN(this.$data.maxItems()) ? parseInt(this.$data.maxItems(),10) : 8;
+      const maxProducts = ko.isObservable(this.$data.maxItems) && !isNaN(this.$data.maxItems()) ? parseInt(this.$data.maxItems(),10) : 8;
       const storedProducts = [].concat(productId, this.getStoredProducts().filter((pId) => pId !== productId)).slice(0,maxProducts);
       return this.storage.setItem(STORAGE_KEY, storedProducts.join(';'));
     }
@@ -61,10 +64,11 @@ export class oeValmorRVPManager extends BaseWidget {
   }
 
   /**
-   * If data is defined, $data.product is a function and it's return is not undefined, stores the product id
+   * If product.id is an observable, evaluates it and stores the product id
    */
-  storeCurrentIfProduct() {
-    if (this.$data && typeof this.$data.product === 'function' && this.$data.product()) {
+  storeProduct() {
+    // if (this.$data && typeof this.$data.product === 'function' && this.$data.product()) {
+    if (ko.isObservable(this.$data.product) && ko.isObservable(this.$data.product().id)) {
       const productId = this.$data.product().id();
       return this.storeProductById(productId);
     }

@@ -39,10 +39,11 @@ export class oeValmorRVPDisplay extends BaseWidget {
 
     this.getConfig();
     this.getProducts();
+    this.controlView();
   }
 
   beforeAppear() {
-    this.controlView();
+
   }
 
   controlView() {
@@ -56,13 +57,12 @@ export class oeValmorRVPDisplay extends BaseWidget {
     let value = defaultValue;
     switch(type) {
       case 'num':
-        if (prop && this.$data.hasOwnProperty(prop) && typeof this.$data[prop] === 'function' && !isNaN(this.$data[prop]())) {
+        if (ko.isObservable(this.$data[prop]) && !isNaN(this.$data[prop]())) {
           value = parseInt(this.$data[prop](), 10);
         }
         break;
-      case 'str':
       default:
-        if (prop && this.$data.hasOwnProperty(prop) && typeof this.$data[prop] === 'function' && this.$data[prop]()) {
+        if (ko.isObservable(this.$data[prop])) {
           value = this.$data[prop]();
         }
         break;

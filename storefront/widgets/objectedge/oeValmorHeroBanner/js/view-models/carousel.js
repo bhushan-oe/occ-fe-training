@@ -61,7 +61,6 @@ export class Carousel extends BaseWidget {
         const slide = new Slide();
         slide.imageUrl = imageUrl;
         slide.mobileImageUrl = mobileImageUrl;
-        slide.hasMobile = !!(mobileImageUrl != '' && mobileImageUrl != null);
         slide.bannerLink = this.$data.hasOwnProperty(`bannerLink${i}`) && this.$data[`bannerLink${i}`]() !== undefined ? this.$data[`bannerLink${i}`]() : null;
         slide.bannerText = this.$data.hasOwnProperty(`bannerText${i}`) && this.$data[`bannerText${i}`]() !== undefined ? this.$data[`bannerText${i}`]() : null;
         slide.startDate = startDate;

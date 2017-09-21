@@ -45,6 +45,7 @@ define(
       }
 
       //defines the storage entry as  oe-recently-viewed-products-it | widgetModel.recentProducts
+      //it is necessary delete one entry if its repeated or delete the last one if there is no more space in recentProducts
       function setStorage(cookieId)
       {
         if(widgetModel.recentProducts.split(";").length-1 < maxItems)
@@ -53,14 +54,29 @@ define(
           widgetModel.recentProducts = cookieId+";"+widgetModel.recentProducts;
           localStorage.setItem(cookieKey,widgetModel.recentProducts);
         }
+        else
+        {
+          if(deleteRepeated(cookieId))
+          {
+            widgetModel.recentProducts = cookieId+";"+widgetModel.recentProducts;
+            localStorage.setItem(cookieKey,widgetModel.recentProducts);
+          }
+          else
+          {
+            deleteLastProduct();
+            widgetModel.recentProducts = cookieId+";"+widgetModel.recentProducts;
+            localStorage.setItem(cookieKey,widgetModel.recentProducts);
+          }
+        }
       }
 
-      //
+      //this function below will copy recentProducts to an Array, delete the index of the 
+      //selected element (the element itself) and join the array without the element back to recentProducts
       function deleteRepeated(id)
       {
-        var productsArray = widgetModel.recentProducts.split(";");
+        var productsArray = widgetModel.recentProducts.split(";") || [];
         var index=productsArray.indexOf(id);
-        if(index>=0)
+        if(index!==-1)
         {
           productsArray.splice(index,1);
           widgetModel.recentProducts = productsArray.join(";");
@@ -70,6 +86,14 @@ define(
         {
           return false;
         }
+      }
+
+      //delete the last entry
+      function deleteLastProduct()
+      {
+        var productsArray = widgetModel.recentProducts.split(";") || [];
+        productsArray.splice(productsArray.length-1,1);
+        widgetModel.recentProducts=productsArray.join(";");
       }
 
       

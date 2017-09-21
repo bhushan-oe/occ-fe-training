@@ -49,10 +49,30 @@ define(
       {
         if(widgetModel.recentProducts.split(";").length-1 < maxItems)
         {
+          deleteRepeated(cookieId);
           widgetModel.recentProducts = cookieId+";"+widgetModel.recentProducts;
           localStorage.setItem(cookieKey,widgetModel.recentProducts);
         }
       }
+
+      //
+      function deleteRepeated(id)
+      {
+        var productsArray = widgetModel.recentProducts.split(";");
+        var index=productsArray.indexOf(id);
+        if(index>=0)
+        {
+          productsArray.splice(index,1);
+          widgetModel.recentProducts = productsArray.join(";");
+          return true;
+        }
+        else
+        {
+          return false;
+        }
+      }
+
+      
 
       
       

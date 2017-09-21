@@ -1,0 +1,13 @@
+{
+  "name": "oeValmorRVPDisplay",
+  "widgetType": "oeValmorRVPDisplay",
+  "i18nresources": "oeValmorRVPDisplay",
+  "javascript": "oeValmorRVPDisplay",
+  "availableToAllPages": true,
+  "global": false,
+  "globalEnabled": false,
+  "version": 1,
+  "jsEditable": true,
+  "imports": ["product"],
+  "config": {}
+}

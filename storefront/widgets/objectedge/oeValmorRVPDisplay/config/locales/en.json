@@ -1,0 +1,16 @@
+{
+  "resources": {
+    "ht_carouselTitle": "Recently Viewed Products carousel title",
+    "lb_carouselTitle": "RVP Carousel Title",
+    "ht_maxItems": "Maximum amount of items that will be displayed on RVP",
+    "lb_maxItems": "Maximum amount of items",
+    "ht_itemsPerRowLargeDesktop": "Amount of items shown per row on large desktops",
+    "lb_itemsPerRowLargeDesktop": "Items per row (large desktops)",
+    "ht_itemsPerRowDesktop": "Amount of items shown per row on regular desktops",
+    "lb_itemsPerRowDesktop": "Items per row (desktops)",
+    "ht_itemsPerRowTablet": "Amount of items shown per row on tablets",
+    "lb_itemsPerRowTablet": "Items per row (tablets)",
+    "ht_itemsPerRowMobile": "Amount of items shown per row on mobile devices",
+    "lb_itemsPerRowMobile": "Items per row (mobile)"
+  }
+}

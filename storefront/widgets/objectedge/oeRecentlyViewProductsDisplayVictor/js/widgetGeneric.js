@@ -35,6 +35,9 @@ define(
         }
       }
 
+
+      //load the information in order to create data for the carousel
+      //here is where cookies will be setted and rest client will be called
       function loadProductData(widget,page)
       {
         maxProducts = widgetModel.maxProducts;
@@ -66,6 +69,7 @@ define(
           }
         }
 
+        //variables necessary to query 
         var productIdsString = widgetModel.recentProducts;
         var productIdArray = productIdsString.split(";").join();
         var query = createQuery(productIdArray);
@@ -84,6 +88,8 @@ define(
         )
       }
 
+
+      //create the query with params needed to search products in rest request
       function createQuery(productId)
       {
         var params = {};
@@ -129,8 +135,33 @@ define(
         },
         beforeAppear : function(page) {
 
+          loadProductData(widget,page);
+
           widgetModel.__run('beforeAppear', page);
+        },
+
+        formatProducts: function (arrayProducts,itemsRow)
+        {
+          var arrayProd = [];
+          var temporaryArrayprod = [];
+
+          for(var i=0;i<arrayProducts.length;i++)
+          {
+            if(arrayProducts[i])
+            {
+              arrayProd.push(new carouselData(arrayProducts[i].displayName,arrayProducts[i].primaryMediumImageURL,i,arrayProducts[i].listPrice,arrayProducts[i].salePrice));
+            }
+          }
+          while(arrayProd.length>0)
+          {
+            temporaryArrayprod = arrayProd.splice(0,itemsRow);
+            widgetModel.productsList.push(temporaryArrayprod);
+          }
+          return widgetModel.productsList;
+
         }
+
+
       };
     })();
 

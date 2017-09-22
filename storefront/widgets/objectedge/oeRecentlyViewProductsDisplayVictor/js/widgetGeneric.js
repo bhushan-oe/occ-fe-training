@@ -98,6 +98,23 @@ define(
         return params;
       }
 
+      //preparation of carouselData.
+      function carouselData(name,image,index,listPrice,salePrice)
+      {
+        this.name = ko.observable(name);
+        this.imageSource = ko.observable(image);
+        this.index = ko.observable(index);
+        this.listPrice = ko.observable(listPrice.toFixed(2));
+        if(salePrice)
+        {
+          this.salePrice = ko.observable(salePrice.toFixed(2));
+        }
+        if(index===0)
+        {
+          this.class = "active";
+        }
+      }
+
 
       //function to get cookies and split it
       function getCookie(cname) 

@@ -66,9 +66,31 @@ define(
           }
         }
 
+        var productIdsString = widgetModel.recentProducts;
+        var productIdArray = productIdsString.split(";").join();
+        var query = createQuery(productIdArray);
 
+        //request(url, data, success, error, param1, param2, param3, param4, beforeSend)
+        //rest call to obtain product parameters in order to create carousel
+        restClient.request(constants.ENDPOINT_PRODUCTS_LIST_PRODUCTS,query,
+          function(response)
+          {
+            widgetModel.productsGroup(widgetModel.formatProducts(response,widgetModel.itemsPerRow()));
+          },
+          function(error)
+          {
+            alert("Error: requesting product params failed. See RVPDisplay for more information.");
+          }
+        )
       }
 
+      function createQuery(productId)
+      {
+        var params = {};
+        params[constants.PRODUCT_ID] = productId;
+        params[constants.FIELDS_QUERY_PARAM] = "displayName,listPrice,salePrice,primaryMediumImageURL";
+        return params;
+      }
 
 
       //function to get cookies and split it
@@ -93,13 +115,15 @@ define(
         // Obligatory
         constructor : Generic,
         // Variables
-        config : ko.observable(),
+        viewportWidth : ko.observable(),
+        viewportMode : ko.observable(),
+        productsGroup : ko.observableArray(),
+        productsList : ko.observableArray(),
 
         // Generic version
         onLoad : function(widget) {
           init(widget);
 
-          // ...
 
           widgetModel.__run('onLoad', widget);
         },

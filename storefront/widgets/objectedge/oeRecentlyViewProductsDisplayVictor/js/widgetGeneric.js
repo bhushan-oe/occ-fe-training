@@ -72,7 +72,7 @@ define(
         //variables necessary to query 
         var productIdsString = widgetModel.recentProducts;
         var productIdArray = productIdsString.split(";").join();
-        var query = createQuery(productIdArray);
+        var query = createQuery(productIdArray),active;
 
         //request(url, data, success, error, param1, param2, param3, param4, beforeSend)
         //rest call to obtain product parameters in order to create carousel
@@ -144,11 +144,28 @@ define(
         productsList : ko.observableArray(),
 
         // Generic version
+        //viweport and items per row definitions
+        setViewport: function(viewMode,itemsRow)
+        {
+          this.viewportMode(viewmode);
+          this.setItemsPerRow(itemsRow);
+        },
+
+        setItemsPerRow: function(itemsRow)
+        {
+          widgetModel.itemsPerRow=ko.observable(12/widgetModel[itemsPerRow]);
+        },
+
+
+
+
         onLoad : function(widget) {
           init(widget);
 
 
           widgetModel.__run('onLoad', widget);
+
+          //create of responsive validations
         },
         beforeAppear : function(page) {
 

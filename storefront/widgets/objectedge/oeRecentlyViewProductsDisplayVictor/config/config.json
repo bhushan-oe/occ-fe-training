@@ -1,6 +1,53 @@
 {
-    "widgetDescriptorName": "OE Generic Widget",
+    "widgetDescriptorName": "OE Recently viewed products display Victor Castro",
     "properties": [
+        {
+            "id":"maxItems",
+            "type":"stringtype",
+            "name":"maxItems",
+            "labelResourceId":"maxItemsLabel",
+            "helpTextResourceId":"maxItemsHelpText",
+            "defaultValue":"8",
+            "required":true
+        },
+        {
+            "id":"itemsPerRowLargeDestkop",
+            "type":"stringtype",
+            "name":"itemsPerRowLargeDestkop",
+            "labelResourceId":"itemsPerRowLargeDestkopLabel",
+            "helpTextResourceId":"itemsPerRowLargeDesktopHelpText",
+            "defaultValue":"4",
+            "required":true
+        },
+        {
+            "id":"itemsPerRowDesktop",
+            "type":"stringtype",
+            "name":"itemsPerRowDesktop",
+            "labelResourceId":"itemsPerRowDesktopLabel",
+            "helpTextResourceId":"itemsPerRowDesktopHelpText",
+            "defaultValue":"4",
+            "required":true
+        },
+        {
+            "id":"itemsPerRowTablet",
+            "type":"stringtype",
+            "name":"itemsPerRowTablet",
+            "labelResourceId":"itemsPerRowTabletLabel",
+            "helpTextResourceId":"itemsPerRowTabletHelpText",
+            "defaultValue":"2",
+            "required":true
+        },
+        {
+            "id":"itemsPerRowMobile",
+            "type":"stringtype",
+            "name":"itemsPerRowMobile",
+            "labelResourceId":"itemsPerRowMobileLabel",
+            "helpTextResourceId":"itemsPerRowMobileHelpText",
+            "defaultValue":"2",
+            "required":true
+        }
         
     ]
 }
+
+

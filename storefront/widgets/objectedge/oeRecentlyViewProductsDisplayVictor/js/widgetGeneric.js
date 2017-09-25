@@ -162,6 +162,11 @@ define(
         onLoad : function(widget) {
           init(widget);
 
+          widgetModel.largeRows = 12/widget.itemsPerRowLargeDesktop();
+          widgetModel.desktopRows = 12/widget.itemsPerRowDesktop();
+          wdigetModel.tabletRows = 12/widget.itemsPerRowTablet();
+          widgetModel.mobileRows = 12/widget.itemsPerRowMobile();
+
 
           widgetModel.__run('onLoad', widget);
 

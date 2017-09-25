@@ -2,37 +2,37 @@
 <div id="oeRecentlyViewProductsDisplayVictor">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox" data-bind="foreach: productsGroup">
-              <div class="item" data-bind="css: { 'active' : $index() == 0 }, foreach: $data">
-                <div data-bind = "attr: {'class' :'col-lg-' + $parents[1].largeRows + ' col-md-' + $parents[1].desktopRows + ' col-sm-' + $parents[1].tabletRows + ' col-xs-' + $parents[1].mobileRows + ' center-block'}">
-                  <a data-bind=" attr: { title: $data.name }">
-                    <img data-bind="attr: { src: $data.imgSrc, alt: $data.name }" class="img-responsive center-block">
-                    <h4 class="text-center product-name" data-bind="text: $data.name"></h4>
-                    <div class="product-price text-center">
-                    <!-- ko if: $data.salePrice-->
-                      <h4 data-bind="text:'R$' + $data.salePrice()"></h4>
-                      <del data-bind="text:'R$' + $data.price()"></del>
-                    <!-- /ko -->
-                    <!-- ko ifnot: $data.salePrice-->
-                      <h3 data-bind="text:'R$' + $data.price()"></h3>
-                    <!-- /ko -->
-                    </div>
-                  </a>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox" data-bind="foreach: productsGroup">
+          <div class="item" data-bind="css: { 'active' : $index() == 0 }, foreach: $data">
+            <div data-bind = "attr: {'class' :'col-lg-' + $parents[1].largeRows + ' col-md-' + $parents[1].desktopRows + ' col-sm-' + $parents[1].tabletRows + ' col-xs-' + $parents[1].mobileRows + ' center-block'}">
+              <a data-bind=" attr: { title: $data.name }">
+                <img data-bind="attr: { src: $data.imgSrc, alt: $data.name }" class="img-responsive center-block">
+                <h4 class="text-center product-name" data-bind="text: $data.name"></h4>
+                <div class="product-price text-center">
+                <!-- ko if: $data.salePrice-->
+                  <h4 data-bind="text:'R$' + $data.salePrice()"></h4>
+                  <del data-bind="text:'R$' + $data.price()"></del>
+                <!-- /ko -->
+                <!-- ko ifnot: $data.salePrice-->
+                  <h3 data-bind="text:'R$' + $data.price()"></h3>
+                <!-- /ko -->
                 </div>
-              </div>
+              </a>
             </div>
-            <!-- ko if: productsGroup() && $data.recentlyViewed.length > $data.itemsPerRow() -->
-            <!-- Left and right controls -->
-            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-            <!-- /ko -->
           </div>
+        </div>
+        <!-- ko if: productsGroup() && $data.recentlyViewed.length > $data.itemsPerRow() -->
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        <!-- /ko -->
+      </div>
 
 </div>

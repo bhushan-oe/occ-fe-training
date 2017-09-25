@@ -153,7 +153,7 @@ define(
 
         setItemsPerRow: function(itemsRow)
         {
-          widgetModel.itemsPerRow=ko.observable(12/widgetModel[itemsPerRow]);
+          widgetModel.itemsPerRow=ko.observable(12/widgetModel[itemsRow]);
         },
 
 
@@ -162,23 +162,72 @@ define(
         onLoad : function(widget) {
           init(widget);
 
+          //set what rows are, dividing the grid maximum rows per rows to be shown
           widgetModel.largeRows = 12/widget.itemsPerRowLargeDesktop();
           widgetModel.desktopRows = 12/widget.itemsPerRowDesktop();
           wdigetModel.tabletRows = 12/widget.itemsPerRowTablet();
           widgetModel.mobileRows = 12/widget.itemsPerRowMobile();
 
+          //this function checks the width and set rows in order to display the correct amount of items
+          //this function uses the config above in setViewport second parameter
+          widget.checkResponsiveFeatures = function(res)
+          {
+            if(res>constants.VIEWPORT_LARGE_DESKTOP_LOWER_WIDTH)
+            {
+              if(widget.viewportMode()!==constants.LARGE_DESKTOP_VIEW)
+              {
+                widget.setViewport(constants.DESKTOP_VIEW,"largeRows");
+              }
+            }
+            else
+            {
+              if(res > constants.VIEWPORT_TABLET_UPPER_WIDTH && res <= constants.VIEWPORT_LARGE_DESKTOP_LOWER_WIDTH)
+              {
+                if(widget.viewportMode()!==constants.DESKTOP_VIEW)
+                {
+                  widget.setViewport(constants.DESKTOP_VIEW,"desktopRows");
+                }
+              }
+              else
+              {
+                if(res>=constants.VIEWPORT_MOBILE_WIDTH)
+                {
+                  if(widget.viewportMode() !== constants.TABLET_VIEW)
+                  {
+                    widget.setViewport(constants.TABLET_VIEW,"tableRows");
+                  }
+                }
+                else
+                {
+                  if(widget.viewportMode()!== constants.PHONE_VIEW)
+                  {
+                    widget.setViewport(constants.PHONE_VIEW,"mobileRows");
+                  }
+                }
+              }
+            }
+          }
 
+        //resize function
+        $(window).resize(function()
+        {
+            widget.checkResponsiveFeatures($(window)[0].innerWidth || $(window).width());
+            widget.viewportWidth($(window)[0].innerWidth || $(window).width());
+        });
+
+          loadProductData(widgetModel,page.pageId);
           widgetModel.__run('onLoad', widget);
 
-          //create of responsive validations
+         
         },
         beforeAppear : function(page) {
 
-          loadProductData(widget,page);
+          loadProductData(widgetModel,page.pageId);
 
           widgetModel.__run('beforeAppear', page);
         },
 
+        //product format.Its called in restClient
         formatProducts: function (arrayProducts,itemsRow)
         {
           var arrayProd = [];

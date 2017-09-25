@@ -23,5 +23,3 @@ My Widget uses:
 * [KnockoutJS] - Javascript UI
 * [jQuery] - DOM Manipulation, Ajax requests..
 
-
- - Write Tests

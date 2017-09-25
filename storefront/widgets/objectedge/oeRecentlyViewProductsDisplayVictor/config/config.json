@@ -3,7 +3,7 @@
     "properties": [
         {
             "id":"maxItems",
-            "type":"stringtype",
+            "type":"stringType",
             "name":"maxItems",
             "labelResourceId":"maxItemsLabel",
             "helpTextResourceId":"maxItemsHelpText",
@@ -12,7 +12,7 @@
         },
         {
             "id":"itemsPerRowLargeDestkop",
-            "type":"stringtype",
+            "type":"stringType",
             "name":"itemsPerRowLargeDestkop",
             "labelResourceId":"itemsPerRowLargeDestkopLabel",
             "helpTextResourceId":"itemsPerRowLargeDesktopHelpText",
@@ -21,7 +21,7 @@
         },
         {
             "id":"itemsPerRowDesktop",
-            "type":"stringtype",
+            "type":"stringType",
             "name":"itemsPerRowDesktop",
             "labelResourceId":"itemsPerRowDesktopLabel",
             "helpTextResourceId":"itemsPerRowDesktopHelpText",
@@ -30,7 +30,7 @@
         },
         {
             "id":"itemsPerRowTablet",
-            "type":"stringtype",
+            "type":"stringType",
             "name":"itemsPerRowTablet",
             "labelResourceId":"itemsPerRowTabletLabel",
             "helpTextResourceId":"itemsPerRowTabletHelpText",
@@ -39,7 +39,7 @@
         },
         {
             "id":"itemsPerRowMobile",
-            "type":"stringtype",
+            "type":"stringType",
             "name":"itemsPerRowMobile",
             "labelResourceId":"itemsPerRowMobileLabel",
             "helpTextResourceId":"itemsPerRowMobileHelpText",

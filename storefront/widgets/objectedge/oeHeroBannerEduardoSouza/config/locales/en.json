@@ -1,0 +1,131 @@
+{
+  "resources":
+  {
+    "headerLabel": "Epic Settings",
+    "headerHelpText": "Customize and configure the hero banner",
+
+    "timeSwitchImageLabel": "Image switch time",
+    "timeSwitchImageHelpText": "Value (in seconds) for banner image change",
+
+    "boolLoopCarouselLabel": "Endless loop",
+    "boolLoopCarouselHelpText": "Motion restart when reach the last image",
+
+    "boolAutoplayCarouselLabel": "Autoplay image switching",
+    "boolAutoplayCarouselHelpText": "Start changing the images when page enter",
+
+    "imageSection1Label": "1st Image settings",
+    "imageUrl1Label": "Image 1",
+    "imageUrl1HelpText": "Select image 1 for banner presentation",
+
+    "mobileImageUrl1Label": "Image 1 for mobile size",
+    "mobileImageUrl1HelpText": "Select image 1 for mobile size banner presentation",
+
+    "bannerLink1Label": "Image 1 link",
+    "bannerLink1HelpText": "A link for the image 1 to redirect",
+
+    "startDate1Label": "Start date for image 1",
+    "startDate1HelpText": "When the image 1 is available to display",
+
+    "endDate1Label": "End date for image 1",
+    "endDate1HelpText": "When the image 1 will not be available anymore",
+
+    "bannerText1Label": "Image 1 text",
+    "bannerText1HelpText": "Text to display for image 1",
+
+    "imageSection2Label": "2nd Image settings",
+    "imageUrl2Label": "Image 2",
+    "imageUrl2HelpText": "Select image 2 for banner presentation",
+
+    "mobileImageUrl2Label": "Image 2 for mobile size",
+    "mobileImageUrl2HelpText": "Select image 2 for mobile size banner presentation",
+
+    "bannerLink2Label": "Image 2 link",
+    "bannerLink2HelpText": "A link for the image 2 to redirect",
+
+    "startDate2Label": "Start date for image 2",
+    "startDate2HelpText": "When the image 2 is available to display",
+
+    "endDate2Label": "End date for image 2",
+    "endDate2HelpText": "When the image 2 will not be available anymore",
+
+    "bannerText2Label": "Image 2 text",
+    "bannerText2HelpText": "Text to display for image 2",
+
+    "imageSection3Label": "3rd Image settings",
+    "imageUrl3Label": "Image 3",
+    "imageUrl3HelpText": "Select image 3 for banner presentation",
+
+    "mobileImageUrl3Label": "Image 3 for mobile size",
+    "mobileImageUrl3HelpText": "Select image 3 for mobile size banner presentation",
+
+    "bannerLink3Label": "Image 3 link",
+    "bannerLink3HelpText": "A link for the image 3 to redirect",
+
+    "startDate3Label": "Start date for image 3",
+    "startDate3HelpText": "When the image 3 is available to display",
+
+    "endDate3Label": "End date for image 3",
+    "endDate3HelpText": "When the image 3 will not be available anymore",
+
+    "bannerText3Label": "Image 3 text",
+    "bannerText3HelpText": "Text to display for image 3",
+
+    "imageSection4Label": "4th Image settings",
+    "imageUrl4Label": "Image 4",
+    "imageUrl4HelpText": "Select image 4 for banner presentation",
+
+    "mobileImageUrl4Label": "Image 4 for mobile size",
+    "mobileImageUrl4HelpText": "Select image 4 for mobile size banner presentation",
+
+    "bannerLink4Label": "Image 4 link",
+    "bannerLink4HelpText": "A link for the image 4 to redirect",
+
+    "startDate4Label": "Start date for image 4",
+    "startDate4HelpText": "When the image 4 is available to display",
+
+    "endDate4Label": "End date for image 4",
+    "endDate4HelpText": "When the image 4 will not be available anymore",
+
+    "bannerText4Label": "Image 4 text",
+    "bannerText4HelpText": "Text to display for image 4",
+
+    "imageSection5Label": "5th Image settings",
+    "imageUrl5Label": "Image 5",
+    "imageUrl5HelpText": "Select image 5 for banner presentation",
+
+    "mobileImageUrl5Label": "Image 5 for mobile size",
+    "mobileImageUrl5HelpText": "Select image 5 for mobile size banner presentation",
+
+    "bannerLink5Label": "Image 5 link",
+    "bannerLink5HelpText": "A link for the image 5 to redirect",
+
+    "startDate5Label": "Start date for image 5",
+    "startDate5HelpText": "When the image 5 is available to display",
+
+    "endDate5Label": "End date for image 5",
+    "endDate5HelpText": "When the image 5 will not be available anymore",
+
+    "bannerText5Label": "Image 5 text",
+    "bannerText5HelpText": "Text to display for image 5",
+
+    "imageSection6Label": "6th Image settings",
+    "imageUrl6Label": "Image 6",
+    "imageUrl6HelpText": "Select image 6 for banner presentation",
+
+    "mobileImageUrl6Label": "Image 6 for mobile size",
+    "mobileImageUrl6HelpText": "Select image 6 for mobile size banner presentation",
+
+    "bannerLink6Label": "Image 6 link",
+    "bannerLink6HelpText": "A link for the image 6 to redirect",
+
+    "startDate6Label": "Start date for image 6",
+    "startDate6HelpText": "When the image 6 is available to display",
+
+    "endDate6Label": "End date for image 6",
+    "endDate6HelpText": "When the image 6 will not be available anymore",
+
+    "bannerText6Label": "Image 6 text",
+    "bannerText6HelpText": "Text to display for image 6"
+  }
+}
+

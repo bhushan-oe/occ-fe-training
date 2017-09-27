@@ -1,0 +1,13 @@
+{
+  "name": "oeHeroBannerEduardoSouza",
+  "widgetType": "oeHeroBannerEduardoSouza",
+  "i18nresources": "oeHeroBannerEduardoSouza",
+  "javascript": "oeHeroBannerEduardoSouza",
+  "availableToAllPages": true,
+  "global": false,
+  "globalEnabled": false,
+  "version": 1,
+  "jsEditable": true,
+  "imports": [],
+  "config": {}
+}

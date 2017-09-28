@@ -28,6 +28,17 @@ define(
         }
       }
 
+      //variable used to data-bind message
+      var paragraph = "";
+
+      function showMessage()
+      {
+        var self = this;
+
+        self.paragraph=ko.observable("hello element");
+      }
+
+
       return {
         // Obligatory
         constructor : Generic,

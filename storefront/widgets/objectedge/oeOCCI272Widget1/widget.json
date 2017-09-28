@@ -1,0 +1,13 @@
+{
+  "name": "oeOCCI272Widget1",
+  "widgetType": "oeOCCI272Widget1",
+  "i18nresources": "oeOCCI272Widget1",
+  "javascript": "oeOCCI272Widget1",
+  "availableToAllPages": true,
+  "global": false,
+  "globalEnabled": false,
+  "version": 1,
+  "jsEditable": true,
+  "imports": [],
+  "config": {}
+}

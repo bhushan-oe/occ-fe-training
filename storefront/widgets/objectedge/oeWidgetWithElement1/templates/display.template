@@ -1,6 +1,0 @@
-<!-- oeWidgetWithElement1 -->
-<div id="oeWidgetWithElement1">
-    <button data-bind="click:showMessage"></button>
-    <p data-bind="onRender: paragraph"></p>
-
-</div>

@@ -1,0 +1,13 @@
+{
+  "name": "oeWidgetWithoutElement2",
+  "widgetType": "oeWidgetWithoutElement2",
+  "i18nresources": "oeWidgetWithoutElement2",
+  "javascript": "oeWidgetWithoutElement2",
+  "availableToAllPages": true,
+  "global": false,
+  "globalEnabled": false,
+  "version": 1,
+  "jsEditable": true,
+  "imports": [],
+  "config": {}
+}

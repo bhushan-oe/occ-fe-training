@@ -1,0 +1,13 @@
+{
+  "name": "oeRecentlyManagerEduardo",
+  "widgetType": "oeRecentlyManagerEduardo",
+  "i18nresources": "oeRecentlyManagerEduardo",
+  "javascript": "oeRecentlyManagerEduardo",
+  "availableToAllPages": true,
+  "global": true,
+  "globalEnabled": true,
+  "version": 1,
+  "jsEditable": true,
+  "imports": [],
+  "config": {}
+}

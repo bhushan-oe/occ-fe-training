@@ -1,0 +1,24 @@
+{
+  "resources": {
+    "headerLabel": "Products display settings",
+    "headerHelpText": "Set the amount of items to show for each display size",
+
+    "componentNameLabel": "Component Name",
+    "componentNameHelpText": "Display name for the component",
+
+    "maxItemsLabel": "Maximum items",
+    "maxItemsHelpText": "Maximium number of items to request",
+
+    "itemsPerRowLargeDesktopLabel": "Items Per Row - LARGE DESKTOP",
+    "itemsPerRowLargeDesktopHelpText": "Visible items per carousel slide on Large Desktop displays",
+
+    "itemsPerRowDesktopLabel": "Items Per Row - DESKTOP",
+    "itemsPerRowDesktopHelpText": "Visible items per carousel slide on Desktop displays",
+
+    "itemsPerRowTabletLabel": "Items Per Row - TABLET",
+    "itemsPerRowTabletHelpText": "Visible items per carousel slide on Tablet displays",
+
+    "itemsPerRowMobileLabel": "Items Per Row - MOBILE",
+    "itemsPerRowMobileHelpText": "Visible items per carousel slide on Mobile displays"
+  }
+}

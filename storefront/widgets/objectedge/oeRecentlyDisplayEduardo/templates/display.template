@@ -1,0 +1,34 @@
+<div id="oeRecentlyDisplayEduardo">
+    <!-- ko if: ( showTemplate() ) -->
+    <div class="rvp-title">
+        <h3 data-bind="text: componentName" class="text-center"></h3>
+    </div>
+
+    <!-- Carousel -->
+    <div id="RVPCarousel" class="carousel slide" data-interval="false">
+        <div class="carousel-inner" data-bind="foreach: rows">
+            <div class="item" data-bind="css: {active: !$index()}">
+                <div class="text-center" data-bind="foreach: $data">
+
+                    <div data-bind="css: colClass">
+                        <img data-bind="attr: {src: displayImage}" class="img-responsive center-block" />
+                        <span data-bind="text: displayName" class="rvpd-title"></span>
+                        <p data-bind="text: listPrice"></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <!-- ko if: ( showArrows() ) -->
+        <a class="left carousel-control" href="#RVPCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#RVPCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+        <!-- /ko -->
+    </div>
+    <!-- /ko -->
+</div>

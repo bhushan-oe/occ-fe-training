@@ -90,7 +90,9 @@ define(['knockout', 'jquery', 'storageApi'], function(ko, $, storageApi) {
       });
 
     },
-    beforeAppear: function(page) {}
+    beforeAppear: function(page) {
+        $.Topic('OE_RVP_MANAGER_EDUARDO_STARTED').publish('LOADED');
+    }
 
   };
 

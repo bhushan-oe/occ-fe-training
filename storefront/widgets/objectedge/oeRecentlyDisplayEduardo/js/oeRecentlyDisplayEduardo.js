@@ -53,6 +53,11 @@ define(['knockout', 'jquery', 'pageLayout/product', 'ccRestClient', 'ccConstants
    */
   function retrieveProducts() {
     var products = JSON.parse( STORAGE_API.getItem(STORAGE_KEY) );
+    
+    if (!products) {
+        return;
+    }
+
     var request = buildRequest(products.ids, WIDGET.maxItems());
     
     // Hide/show carousel arrows based on itemsPerRow X Saved items
@@ -145,7 +150,7 @@ define(['knockout', 'jquery', 'pageLayout/product', 'ccRestClient', 'ccConstants
       // Ignore current product in the PDP
       PDP_ID = (page.pageId == constants.LIST_VIEW_PRODUCTS) ? page.contextId : PDP_ID;
 
-      retrieveProducts();
+      //retrieveProducts();
 
     },
     onLoad: function (widget) {
@@ -155,6 +160,13 @@ define(['knockout', 'jquery', 'pageLayout/product', 'ccRestClient', 'ccConstants
       widget.rows = ko.observable([]);
       widget.showArrows = ko.observable(false);
       WIDGET = widget;
+      
+      // Wait for manager startup
+      $.Topic('OE_RVP_MANAGER_EDUARDO_STARTED').subscribe(function(status){
+          if (status == 'LOADED') {
+              retrieveProducts();
+          }
+      });
 
     }
   }

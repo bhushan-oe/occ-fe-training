@@ -1,0 +1,21 @@
+{
+    "version": 1,
+    "global": false,
+    "javascript": "oeLucasPellisoliTreinamento",
+    "i18nresources": "oeLucasPellisoliTreinamento",
+    "availableToAllPages": true,
+    "jsEditable": true,
+    "config": {
+    },
+    "translations" : [
+      {
+        "language": "en",
+        "name": "oeLucasPellisoliTreinamento"
+      },
+      {
+        "language": "de",
+        "name": "oeLucasPellisoliTreinamento"
+      }
+    ]
+  }
+  

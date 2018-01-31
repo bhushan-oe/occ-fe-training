@@ -1,0 +1,14 @@
+{
+    "titleResourceId": "title",
+    "descriptionResourceId": "description",
+    "properties": [
+        {
+            "id": "textWidget",
+            "type": "stringType",
+            "helpTextResourceId": "textWidgetHelpText",
+            "labelResourceId": "textWidgetLabel",
+            "required": true,
+            "maxLength": 50
+        }
+    ]
+}

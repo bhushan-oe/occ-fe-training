@@ -1,0 +1,7 @@
+{
+  "resources": {
+    "Label": "textGlobal",
+    "HelpText": "textGlobal",
+    "textGlobal":"novo texto"
+  }
+}

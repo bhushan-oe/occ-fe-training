@@ -1,0 +1,14 @@
+{
+    "widgetDescriptorName": "oeLucasPellisoliTreinamento",
+    "properties": [
+        {
+            "id": "textWidgetConfigLocal",
+            "type": "stringType",
+            "helpTextResourceId": "textWidgetConfigLocalHelpText",
+            "labelResourceId": "textWidgetConfigLocalLabel",
+            "defaultValue": "teste",
+            "required": true,
+            "maxLength": 50
+        }
+    ]
+}

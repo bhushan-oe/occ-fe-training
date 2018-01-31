@@ -1,0 +1,30 @@
+<!-- oeTreinamentoLucasPellisoli -->
+<div id="oeTreinamentoLucasPellisoli" class="col-12 row">
+
+    <span class="title"> Text locales: </span>
+    <span data-bind="widgetLocaleText: 'text'" class="text"></span><br/>
+    
+    
+    <span class="title"> Text ext config: </span>
+
+    <span data-bind="text: site().extensionSiteSettings['textConfig']['textWidget']" class="text"></span><br/>
+
+
+    <!-- ko ifnot : textWidgetConfigLocal() == "" -->
+        <span class="title"> Text widget config: </span>
+        
+        
+        <span data-bind="text: textWidgetConfigLocal" class="text"></span><br/>
+
+    <!-- /ko -->
+    <br><br>
+    <span class="title"> TextJs: </span>
+    
+    <span class="text" data-bind="text: myFirstText"></span><br/>
+
+    <span class="title"> textAppLevel: </span>
+    <span class="text" data-bind="text: myFirstAppLevelText"></span><br/><br/>
+    <span class="title"> textComputed: </span>
+    <span class="text" data-bind="text: myCompute"></span><br/>
+    
+</div> 

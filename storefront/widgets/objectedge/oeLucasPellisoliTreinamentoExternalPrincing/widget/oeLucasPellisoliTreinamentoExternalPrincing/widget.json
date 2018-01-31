@@ -1,0 +1,14 @@
+{
+    "name": "oeLucasPellisoliTreinamentoExternalPrincing",
+    "widgetType": "oeLucasPellisoliTreinamentoExternalPrincing",
+    "i18nresources": "oeLucasPellisoliTreinamentoExternalPrincing",
+    "javascript": "oeLucasPellisoliTreinamentoExternalPrincing",
+    "availableToAllPages": true,
+    "global": true,
+    "globalEnabled": false,
+    "version": 1,
+    "jsEditable": true,
+    "imports": [],
+    "config": {}
+}
+  

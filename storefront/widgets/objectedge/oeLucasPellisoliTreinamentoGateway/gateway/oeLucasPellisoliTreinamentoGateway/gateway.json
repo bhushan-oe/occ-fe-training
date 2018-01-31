@@ -1,0 +1,8 @@
+{
+    "provider": "oeLucas Pellisoli Treinamento Gateway",
+    "paymentMethodTypes": ["card"],
+    "transactionTypes": {
+      "card": ["authorization", "void", "refund"]
+    }
+  }
+  

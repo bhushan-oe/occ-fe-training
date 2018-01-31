@@ -1,0 +1,24 @@
+<!-- oeTreinamentoLucasPellisoli -->
+<div id="oeTreinamentoLucasPellisoli">
+
+
+    <span data-bind="widgetLocaleText: 'text'" class="text-color"></span><br/>
+
+
+    <span data-bind="text: site().extensionSiteSettings['textConfig']['textWidget']" class="text-color"></span><br/>
+
+
+    <!-- ko ifnot : textWidgetConfigLocal() == "" -->
+        
+        <span data-bind="text: textWidgetConfigLocal" class="text-color"></span><br/>
+
+    <!-- /ko -->
+    <br><br>
+    <span class="text-color" data-bind="text: myFirstText"></span><br/>
+
+    <span class="text-color"> textAppLevel: </span>
+    <span class="text-color" data-bind="text: myFirstAppLevelText"></span><br/><br/>
+    <span class="text-color"> textComputed: </span>
+    <span class="text-color" data-bind="text: myCompute"></span><br/>
+    
+</div> 

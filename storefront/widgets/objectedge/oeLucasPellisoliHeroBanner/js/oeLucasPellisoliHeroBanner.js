@@ -97,14 +97,9 @@ define(
       var carousel = [];
       for (var i = 1; i <= max; i++) {
         if ((widget["imageUrl" + i]()) && validadeDate((widget["startDate" + i]()), (widget["endDate" + i]()))) {
-          if(widget["mobileImageUrl" + i]){
-            widget.carouselDataMobileTam=  widget.carouselDataMobileTam+1;
-
-          }
           carousel.push(new CAROUSELIMAGE(i, widget["imageUrl" + i], widget["mobileImageUrl" + i], widget["bannerLink" + i], widget["startDate" + i], widget["endDate" + i], widget["bannerText" + i]));
         }
       }
-      console.log('TESTE',widget.carouselDataMobileTam);
       return carousel;
     }
 
@@ -121,19 +116,17 @@ define(
     }
 
     function viewPortChang(viewPort) {
-      var widget = this;
+      var widget = this;DataMobileTam
       return viewPort;
     }
-
-    function setCarouselIndex(number){
-      $('#HeroBanerLP').carousel(number);
-    }
-
+   
     return {
 
       /**
        * This function will run just on time when the widget was loaded the first time
        */
+
+       // $('#HeroBanerLP .active').index('#HeroBanerLP .item')
 
       onLoad: function (widget) {
         const numberImage = 6; // define number max into carousel;        
@@ -145,17 +138,20 @@ define(
         carouselSetings(widget);
 
         widget.carouselDataTam = ko.observable(widget.carouselData.length);
+        widget.carouselDataMobileTam = ko.observable( widget.carouselData.filter(function(p){
+          if(p.srcMobile()){
+            return p;
+          }
+        }).length);
 
-        widget.carouselDataMobileTam = ko.observable(0);
-
-        // widget.viewportHelper = viewportHelper;
+        // widget.viewportHe  lper = viewportHelper;
         widget.testDisplayA = ko.observable(viewportHelper.viewportDesignation());
 
         widget.testDisplay = viewportHelper.viewportDesignation.subscribe(function (vw) {
-          setCarouselIndex(0);
           widget.testDisplayA(vw);
-        });
-
+        },widget);
+        
+      
       },
 
       /**

@@ -1,0 +1,327 @@
+{
+  "widgetDescriptorName": "oeLucasPellisoliHeroBanner",
+  "properties": [
+    {
+      "id": "boolAutoplayCarousel",
+      "type": "booleanType",
+      "helpTextResourceId": "helpTextBoolAutoplayCarousel",
+      "labelResourceId": "labelBoolAutoplayCarousel",
+      "defaultValue": true
+    },
+    {
+      "id": "boolLoopCarousel",
+      "type": "booleanType",
+      "helpTextResourceId": "helpTextBoolLoopCarousel",
+      "labelResourceId": "labelBoolLoopCarousel",
+      "defaultValue": false
+    },
+    {
+      "id": "timeSwitchImage",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextTimeSwitchImage",
+      "labelResourceId": "labelTimeSwitchImage",
+      "defaultValue": "4",
+      "required": true
+    },
+    {
+      "id": "imageUrl1",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextImageUrl",
+      "labelResourceId": "labelImageUrl1",
+      "defaultValue": "",
+      "required": false
+    },
+    {
+      "id": "mobileImageUrl1",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextMobileImageUrl",
+      "labelResourceId": "labelMobileImageUrl1",
+      "defaultValue": "",
+      "required": false
+    },
+    {
+      "id": "bannerLink1",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextBannerLink",
+      "labelResourceId": "labelBannerLink1",
+      "defaultValue": "",
+      "required": false
+    },
+    {
+      "id": "startDate1",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextStartDate",
+      "labelResourceId": "labelStartDate1",
+      "defaultValue": "",
+      "required": false,
+      "pattern": "\\d{2}\/\\d{2}\/\\d{4}$"
+    },
+    {
+      "id": "endDate1",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextEndDate",
+      "labelResourceId": "labelEndDate1",
+      "defaultValue": "",
+      "required": false,
+      "pattern": "\\d{2}\/\\d{2}\/\\d{4}$"
+    },
+    {
+      "id": "bannerText1",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextBannerText",
+      "labelResourceId": "labelBannerText1",
+      "defaultValue": "",
+      "required": false
+    },
+    {
+      "id": "imageUrl2",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextImageUrl",
+      "labelResourceId": "labelImageUrl2",
+      "defaultValue": "",
+      "required": false
+    },
+    {
+      "id": "mobileImageUrl2",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextMobileImageUrl",
+      "labelResourceId": "labelMobileImageUrl2",
+      "defaultValue": "",
+      "required": false
+    },
+    {
+      "id": "bannerLink2",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextBannerLink",
+      "labelResourceId": "labelBannerLink2",
+      "defaultValue": "",
+      "required": false
+    },
+    {
+      "id": "startDate2",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextStartDate",
+      "labelResourceId": "labelStartDate2",
+      "defaultValue": "",
+      "required": false,
+      "pattern": "\\d{2}\/\\d{2}\/\\d{4}$"
+    },
+    {
+      "id": "endDate2",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextEndDate",
+      "labelResourceId": "labelEndDate2",
+      "defaultValue": "",
+      "required": false,
+      "pattern": "\\d{2}\/\\d{2}\/\\d{4}$"
+    },
+    {
+      "id": "bannerText2",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextBannerText",
+      "labelResourceId": "labelBannerText2",
+      "defaultValue": "",
+      "required": false
+    },
+    {
+      "id": "imageUrl3",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextImageUrl",
+      "labelResourceId": "labelImageUrl3",
+      "defaultValue": "",
+      "required": false
+    },
+    {
+      "id": "mobileImageUrl3",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextMobileImageUrl",
+      "labelResourceId": "labelMobileImageUrl3",
+      "defaultValue": "",
+      "required": false
+    },
+    {
+      "id": "bannerLink3",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextBannerLink",
+      "labelResourceId": "labelBannerLink3",
+      "defaultValue": "",
+      "required": false
+    },
+    {
+      "id": "startDate3",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextStartDate",
+      "labelResourceId": "labelStartDate3",
+      "defaultValue": "",
+      "required": false,
+      "pattern": "\\d{2}\/\\d{2}\/\\d{4}$"
+    },
+    {
+      "id": "endDate3",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextEndDate",
+      "labelResourceId": "labelEndDate3",
+      "defaultValue": "",
+      "required": false,
+      "pattern": "\\d{2}\/\\d{2}\/\\d{4}$"
+    },
+    {
+      "id": "bannerText3",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextBannerText",
+      "labelResourceId": "labelBannerText3",
+      "defaultValue": "",
+      "required": false
+    },
+    {
+      "id": "imageUrl4",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextImageUrl",
+      "labelResourceId": "labelImageUrl4",
+      "defaultValue": "",
+      "required": false
+    },
+    {
+      "id": "mobileImageUrl4",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextMobileImageUrl",
+      "labelResourceId": "labelMobileImageUrl4",
+      "defaultValue": "",
+      "required": false
+    },
+    {
+      "id": "bannerLink4",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextBannerLink",
+      "labelResourceId": "labelBannerLink4",
+      "defaultValue": "",
+      "required": false
+    },
+    {
+      "id": "startDate4",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextStartDate",
+      "labelResourceId": "labelStartDate4",
+      "defaultValue": "",
+      "required": false,
+      "pattern": "\\d{2}\/\\d{2}\/\\d{4}$"
+    },
+    {
+      "id": "endDate4",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextEndDate",
+      "labelResourceId": "labelEndDate4",
+      "defaultValue": "",
+      "required": false,
+      "pattern": "\\d{2}\/\\d{2}\/\\d{4}$"
+    },
+    {
+      "id": "bannerText4",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextBannerText",
+      "labelResourceId": "labelBannerText4",
+      "defaultValue": "",
+      "required": false
+    },
+    {
+      "id": "imageUrl5",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextImageUrl",
+      "labelResourceId": "labelImageUrl5",
+      "defaultValue": "",
+      "required": false
+    },
+    {
+      "id": "mobileImageUrl5",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextMobileImageUrl",
+      "labelResourceId": "labelMobileImageUrl5",
+      "defaultValue": "",
+      "required": false
+    },
+    {
+      "id": "bannerLink5",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextBannerLink",
+      "labelResourceId": "labelBannerLink5",
+      "defaultValue": "",
+      "required": false
+    },
+    {
+      "id": "startDate5",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextStartDate",
+      "labelResourceId": "labelStartDate5",
+      "defaultValue": "",
+      "required": false,
+      "pattern": "\\d{2}\/\\d{2}\/\\d{4}$"
+    },
+    {
+      "id": "endDate5",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextEndDate",
+      "labelResourceId": "labelEndDate5",
+      "defaultValue": "",
+      "required": false,
+      "pattern": "\\d{2}\/\\d{2}\/\\d{4}$"
+    },
+    {
+      "id": "bannerText5",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextBannerText",
+      "labelResourceId": "labelBannerText5",
+      "defaultValue": "",
+      "required": false
+    },
+    {
+      "id": "imageUrl6",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextImageUrl",
+      "labelResourceId": "labelImageUrl6",
+      "defaultValue": "",
+      "required": false
+    },
+    {
+      "id": "mobileImageUrl6",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextMobileImageUrl",
+      "labelResourceId": "labelMobileImageUrl6",
+      "defaultValue": "",
+      "required": false
+    },
+    {
+      "id": "bannerLink6",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextBannerLink",
+      "labelResourceId": "labelBannerLink6",
+      "defaultValue": "",
+      "required": false
+    },
+    {
+      "id": "startDate6",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextStartDate",
+      "labelResourceId": "labelStartDate6",
+      "defaultValue": "",
+      "required": false,
+      "pattern": "\\d{2}\/\\d{2}\/\\d{4}$"
+    },
+    {
+      "id": "endDate6",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextEndDate",
+      "labelResourceId": "labelEndDate6",
+      "defaultValue": "",
+      "required": false,
+      "pattern": "\\d{2}\/\\d{2}\/\\d{4}$"
+    },
+    {
+      "id": "bannerText6",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextBannerText",
+      "labelResourceId": "labelBannerText6",
+      "defaultValue": "",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+    "resources": {
+      "title": "oeLucasPellisoliHeroBanner Settings",
+      "description": "Settings to widget oeLucasPellisoliHeroBanner",
+      "helpTextBoolAutoplayCarousel":"Habilitado/Desabilitado",
+      "labelBoolAutoplayCarousel": "Autoplay",
+
+      "helpTextBoolLoopCarousel":"Habilitado/Desabilitado",
+      "labelBoolLoopCarousel":"Infinito",
+
+      "helpTextTimeSwitchImage":"O tempo deve ser em em segundos",
+      "labelTimeSwitchImage":"Tempo de troca das imagens",
+
+      "helpTextImageUrl":"Nome do arquivo (ex.: test.png). As imagens devem ser subidas manualmente no OCC Media.",
+      "helpTextMobileImageUrl":"Nome do arquivo (ex.: test.png). As imagens devem ser subidas manualmente no OCC Media.",
+      "helpTextBannerLink":"Link do Banner(ex.: /category/id-of-category)",
+      "helpTextStartDate":"Data inicial para exibição do banner",
+      "helpTextEndDate":"Data final para exibição banner",
+      "helpTextBannerText":"Texto exibido no banner",
+
+      "labelImageUrl1":"1ª Imagem para computador",
+      "labelImageUrl2":"2ª Imagem para computador",
+      "labelImageUrl3":"3ª Imagem para computador",
+      "labelImageUrl4":"4ª Imagem para computador",
+      "labelImageUrl5":"5ª Imagem para computador",
+      "labelImageUrl6":"6ª Imagem para computador",
+        
+      "labelMobileImageUrl1":"1ª Imagem para celular",
+      "labelMobileImageUrl2":"2ª Imagem para celular",
+      "labelMobileImageUrl3":"3ª Imagem para celular",
+      "labelMobileImageUrl4":"4ª Imagem para celular",
+      "labelMobileImageUrl5":"5ª Imagem para celular",
+      "labelMobileImageUrl6":"6ª Imagem para celular",
+    
+      "labelBannerLink1":"1ª Banner Link",
+      "labelBannerLink2":"2ª Banner Link",
+      "labelBannerLink3":"3ª Banner Link",
+      "labelBannerLink4":"4ª Banner Link",
+      "labelBannerLink5":"5ª Banner Link",
+      "labelBannerLink6":"6ª Banner Link",
+
+      "labelStartDate1":"1ª Data Inicial",
+      "labelStartDate2":"2ª Data Inicial",
+      "labelStartDate3":"3ª Data Inicial",
+      "labelStartDate4":"4ª Data Inicial",
+      "labelStartDate5":"5ª Data Inicial",
+      "labelStartDate6":"6ª Data Inicial",
+
+      "labelEndDate1":"1ª Data Final",
+      "labelEndDate2":"2ª Data Final",
+      "labelEndDate3":"3ª Data Final",
+      "labelEndDate4":"4ª Data Final",
+      "labelEndDate5":"5ª Data Final",
+      "labelEndDate6":"6ª Data Final",
+    
+      "labelBannerText1":"1ª Texto do banner ",
+      "labelBannerText2":"2ª Texto do banner",
+      "labelBannerText3":"3ª Texto do banner",
+      "labelBannerText4":"4ª Texto do banner",
+      "labelBannerText5":"5ª Texto do banner",
+      "labelBannerText6":"6ª Texto do banner"
+  
+    }
+}

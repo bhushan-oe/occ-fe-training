@@ -1,0 +1,17 @@
+{
+    "name": "oeLucasPellisoliHeroBanner",
+    "widgetType": "oeLucasPellisoliHeroBanner",
+    "i18nresources": "oeLucasPellisoliHeroBanner",
+    "javascript": "oeLucasPellisoliHeroBanner",
+    "availableToAllPages": true,
+    "global": false,
+    "globalEnabled": false,
+    "version": 1,
+    "jsEditable": true,
+    "imports": [],
+    "config": {
+      
+    }
+  }
+  
+  

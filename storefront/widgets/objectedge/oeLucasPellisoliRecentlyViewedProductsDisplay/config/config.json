@@ -1,0 +1,51 @@
+{
+  "widgetDescriptorName": "oeLucasPellisoliRecentlyViewedProductsDisplay",
+  "properties": [
+    {
+      "id": "maxItems",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextmaxItems",
+      "labelResourceId": "labelmaxItems",
+      "defaultValue": "8",
+      "required": true,
+      "pattern": "^(([0-9]*)|(([0-9]*)([0-9]*)))$"
+    }
+    ,
+    {
+      "id": "itemsPerRowLargeDesktop",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextitemsPerRowLargeDesktop",
+      "labelResourceId": "labelitemsPerRowLargeDesktop",
+      "defaultValue": "4",
+      "required": true,
+      "pattern": "^(([0-9]*)|(([0-9]*)([0-9]*)))$"
+    },
+    {
+      "id": "itemsPerRowDesktop",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextitemsPerRowDesktop",
+      "labelResourceId": "labelitemsPerRowDesktop",
+      "defaultValue": "4",
+      "required": true,
+      "pattern": "^(([0-9]*)|(([0-9]*)([0-9]*)))$"
+    },
+    {
+      "id": "itemsPerRowTablet",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextitemsPerRowTablet",
+      "labelResourceId": "labelitemsPerRowTablet",
+      "defaultValue": "2",
+      "required": true,
+      "pattern": "^(([0-9]*)|(([0-9]*)([0-9]*)))$"
+    },
+    {
+      "id": "itemsPerRowMobile",
+      "type": "stringType",
+      "helpTextResourceId": "helpTextitemsPerRowMobile",
+      "labelResourceId": "labelitemsPerRowMobile",
+      "defaultValue": "2",
+      "required": true,
+      "pattern": "^(([0-9]*)|(([0-9]*)([0-9]*)))$"
+    }
+  ]
+}

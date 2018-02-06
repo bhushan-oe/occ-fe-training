@@ -1,0 +1,20 @@
+{
+  "resources": {
+    "title": "oeLucasPellisoliRecentlyViewedProductsDisplay Settings",
+    "description": "Settings to widget oeLucasPellisoliRecentlyViewedProductsDisplay",
+    
+
+    "helpTextmaxItems":"This configuration must accept numerical values only.",
+    "helpTextitemsPerRowLargeDesktop":"This configuration must accept numerical values only.",
+    "helpTextitemsPerRowDesktop":"This configuration must accept numerical values only.",
+    "helpTextitemsPerRowTablet":"This configuration must accept numerical values only.",
+    "helpTextitemsPerRowMobile":"This configuration must accept numerical values only.",
+
+    "labelmaxItems":"Represents the maximum number of items to request",
+    "labelitemsPerRowLargeDesktop":"Represents the number items to show in each group on Large Desktop breakpoint",
+    "labelitemsPerRowDesktop":"Represents the number items to show in each group on Desktop breakpoint",
+    "labelitemsPerRowTablet":"Represents the number items to show in each group on Tablet breakpoint",
+    "labelitemsPerRowMobile":"Represents the number items to show in each group on Mobile breakpoint"
+    
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "oeLucasPellisoliRecentlyViewedProductsDisplay",
+    "widgetType": "oeLucasPellisoliRecentlyViewedProductsDisplay",
+    "i18nresources": "oeLucasPellisoliRecentlyViewedProductsDisplay",
+    "javascript": "oeLucasPellisoliRecentlyViewedProductsDisplay",
+    "availableToAllPages": true,
+    "global": false,
+    "globalEnabled": false,
+    "version": 1,
+    "jsEditable": true,
+    "imports": [],
+    "config": {
+      
+    }
+  }
+  
+  

@@ -1,19 +1,11 @@
 <!-- oeLucasPellisoliRecentlyViewedProductsDisplay -->
 <div id="oeLucasPellisoliRecentlyViewedProductsDisplay" data-bind="attr:{class:'viewport-'+ DisplaySize() }">
-
+  <!-- ko if: rowCarouselProd -->
   <div class="container">
 
     <span class="section-title">Recently Viewed </span>
 
     <div id="RecentlyViewedProductsDisplayLp" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <!-- <ol class="carousel-indicators">
-        <li data-target="#RecentlyViewedProductsDisplayLp" data-slide-to="0" class="active"></li>
-        <li data-target="#RecentlyViewedProductsDisplayLp" data-slide-to="1"></li>
-        <li data-target="#RecentlyViewedProductsDisplayLp" data-slide-to="2"></li>
-      </ol> -->
-
-      <!-- Wrapper for slides -->
       <div class="carousel-inner" data-bind="foreach: { data: rowCarouselProd, as: 'row' } ">
         <div class="item row" data-bind="css: {'active': $index() === 0}, foreach: row">
           <div class="" data-bind="attr:{class:$parents[1].itemsPerRowCLass()}">
@@ -21,21 +13,18 @@
             <div class="descProd">
               <span class="row" data-bind="text: displayName"></span>
               <!-- ko if: salePrice -->
-                <span class="" data-bind="text: '$'+ salePrice "></span>
+              <span class="" data-bind="text: '$'+ salePrice "></span>
               <!-- /ko -->
               <!-- ko if: (salePrice && listPrice) -->
-                <span> - </span>
+              <span> - </span>
               <!-- /ko -->
-
               <!-- ko if: listPrice -->
-                <span data-bind="text: '$'+ listPrice "></span>
+              <span data-bind="text: '$'+ listPrice "></span>
               <!-- /ko -->
             </div>
           </div>
         </div>
       </div>
-
-      <!-- Left and right controls -->
       <!-- ko if: (rowCarouselProd.lenght > 0)-->
         <a class="left carousel-control" href="#RecentlyViewedProductsDisplayLp" data-slide="prev">
           <span class="glyphicon glyphicon-chevron-left"></span>
@@ -48,4 +37,5 @@
       <!-- /ko -->
     </div>
   </div>
+  <!-- /ko -->
 </div>

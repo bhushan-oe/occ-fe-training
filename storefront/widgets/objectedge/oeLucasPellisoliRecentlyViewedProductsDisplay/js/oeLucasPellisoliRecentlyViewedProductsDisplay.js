@@ -27,12 +27,11 @@ define(
     }
 
 
-    var arrIds = ["1010"], query = createQuery(arrIds), active;
+    var query = createQuery(getIDs());
 
 
     function getIDs() {
-
-      var ids = sApi.getItem('oe-recently-viewed-products');
+      return sApi.getItem('oe-recently-viewed-products');
     }
 
     function loadProducts() {
@@ -52,7 +51,7 @@ define(
       }
       widget.itemsPerRowCLass('col-' + DisplaySize + '-' + df);
 
-      console.log("TESTE", 'col-' + DisplaySize + '-' + df);
+      // s.log("TESTE", 'col-' + DisplaySize + '-' + df);
     }
 
     function products(widget, DisplaySize) {
@@ -105,8 +104,7 @@ define(
         }
         
       }
-      console.log("TESTE rProd", rProd);
-
+      // console.log("TESTE rProd", rProd);
       widget.rowCarouselProd(rProd);
     }
 

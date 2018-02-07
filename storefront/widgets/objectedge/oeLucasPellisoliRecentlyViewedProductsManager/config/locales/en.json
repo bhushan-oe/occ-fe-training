@@ -1,0 +1,11 @@
+{
+  "resources": {
+    "title": "oeLucasPellisoliRecentlyViewedProductsManager Settings",
+    "description": "Settings to widget oeLucasPellisoliRecentlyViewedProductsManager",
+    
+    "maxItemsHelpText": "Define how many products' ID should be stored",
+    "maxItemsLabel": "Storage size",
+    "headerLabel": "Recently Viewed Products Manager Settings",
+    "headerHelpText":""
+  }
+}

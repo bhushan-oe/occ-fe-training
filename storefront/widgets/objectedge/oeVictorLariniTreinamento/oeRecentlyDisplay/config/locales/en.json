@@ -1,0 +1,20 @@
+{
+  "resources": {
+    "title": "oeVictorLariniRecentlyDisplay Settings",
+    "description": "Settings to widget oeVictorLariniRecentlyDisplay",
+    
+
+    "helpTextmaxItems":"Only numerical values.",
+    "helpTextitemsPerRowLargeDesktop":"Only numerical values.",
+    "helpTextitemsPerRowDesktop":"Only numerical values.",
+    "helpTextitemsPerRowTablet":"Only numerical values.",
+    "helpTextitemsPerRowMobile":"Only numerical values.",
+
+    "labelmaxItems":"Maximum number of items on demand",
+    "labelitemsPerRowLargeDesktop":"Number of items to display in carrosel",
+    "labelitemsPerRowDesktop":"Number of items to display in carrosel",
+    "labelitemsPerRowTablet":"Number of items to display in carrosel",
+    "labelitemsPerRowMobile":"Number of items to display in carrosel"
+
+  }
+}

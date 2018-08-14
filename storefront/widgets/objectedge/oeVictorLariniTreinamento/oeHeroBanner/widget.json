@@ -1,0 +1,13 @@
+{
+  "name": "oeHeroBannerVictorLarini",
+  "widgetType": "oeHeroBannerVictorLarini",
+  "i18nresources": "oeHeroBannerVictorLarini",
+  "javascript": "oeHeroBannerVictorLarini",
+  "availableToAllPages": true,
+  "global": false,
+  "globalEnabled": false,
+  "version": 1,
+  "jsEditable": true,
+  "imports": [],
+  "config": {}
+}

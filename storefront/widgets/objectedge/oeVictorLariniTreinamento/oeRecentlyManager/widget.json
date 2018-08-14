@@ -1,0 +1,13 @@
+{
+  "name": "oeRecentlyManagerVictorLarini",
+  "widgetType": "oeRecentlyManagerVictorLarini",
+  "i18nresources": "oeRecentlyManagerVictorLarini",
+  "javascript": "oeRecentlyManagerVictorLarini",
+  "availableToAllPages": true,
+  "global": true,
+  "globalEnabled": false,
+  "version": 1,
+  "jsEditable": true,
+  "imports": [],
+  "config": {}
+}

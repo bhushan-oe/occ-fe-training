@@ -1,0 +1,11 @@
+{
+  "resources": {
+    "title": "oeRecentlyManagerVictorLarini",
+    "description": "oeRecentlyManagerVictorLarini",
+    
+    "maxItemsHelpText": "Quantos produtos serao guardados",
+    "maxItemsLabel": "Tamanho do armazenamento",
+    "headerLabel": "Recently Viewed Products Manager",
+    "headerHelpText":""
+  }
+}

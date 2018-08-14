@@ -1,0 +1,3 @@
+<div class="HelloWorldSetting">
+  <p data-bind="text: site().extensionSiteSettings['site-settings-examples']['stringItem']"></p>
+</div>

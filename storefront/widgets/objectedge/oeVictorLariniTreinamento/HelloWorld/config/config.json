@@ -1,0 +1,17 @@
+{
+    "widgetDescriptorName": "OE HelloWorld",
+    "properties": [
+        {
+            "id": "sampleText",
+            "type": "stringType",
+            "name": "sampleText",
+            "helpTextResourceId": "sampleTextHelpText",
+            "labelResourceId": "sampleTextLabel",
+            "defaultValue": "",
+            "required": true,
+            "maxLength": 50,
+            "minLength": 3,
+            "pattern": "regex"
+        }
+    ]
+}

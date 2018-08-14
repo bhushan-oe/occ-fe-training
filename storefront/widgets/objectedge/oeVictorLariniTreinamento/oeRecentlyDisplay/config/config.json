@@ -1,0 +1,55 @@
+{
+  "widgetDescriptorName": "oeVictorLariniRecentlyDisplay",
+  "properties": [
+    {
+      "id": "maxItems",
+      "type": "stringType",
+      "name": "maxItems",
+      "helpTextResourceId": "helpTextmaxItems",
+      "labelResourceId": "labelmaxItems",
+      "defaultValue": "8",
+      "required": true
+    }
+    ,
+    {
+      "id": "itemsPerRowLargeDesktop",
+      "type": "stringType",
+      "name": "itemsPerRowLargeDesktop",
+      "helpTextResourceId": "helpTextitemsPerRowLargeDesktop",
+      "labelResourceId": "labelitemsPerRowLargeDesktop",
+      "defaultValue": "4",
+      "required": true
+    },
+
+    {
+      "id": "itemsPerRowDesktop",
+      "type": "stringType",
+      "name": "itemsPerRowDesktop",
+      "helpTextResourceId": "helpTextitemsPerRowDesktop",
+      "labelResourceId": "labelitemsPerRowDesktop",
+      "defaultValue": "4",
+      "required": true
+    },
+
+    {
+      "id": "itemsPerRowTablet",
+      "type": "stringType",
+      "name":"itemsPerRowTablet",
+      "helpTextResourceId": "helpTextitemsPerRowTablet",
+      "labelResourceId": "labelitemsPerRowTablet",
+      "defaultValue": "2",
+      "required": true
+    },
+
+    {
+      "id": "itemsPerRowMobile",
+      "type": "stringType",
+      "name":"itemsPerRowMobile",
+      "helpTextResourceId": "helpTextitemsPerRowMobile",
+      "labelResourceId": "labelitemsPerRowMobile",
+      "defaultValue": "2",
+      "required": true
+    }
+
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "availableToAllPages": true,
+    "widgetType": "oeExternalPricing",
+    "global": true,
+    "globalEnabled": true,
+    "imports": [],
+    "javascript": "oeExternalPricing",
+    "jsEditable": true,
+    "name": "oeExternalPricing",
+    "version": 1
+}

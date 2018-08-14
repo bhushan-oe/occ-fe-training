@@ -1,0 +1,6 @@
+{
+  "name": "Site Settings Hello World",
+  "javascript": "widget-site-settings",
+  "i18nresources": "widgetsitesettings",
+  "pageTypes": ["home"]
+}

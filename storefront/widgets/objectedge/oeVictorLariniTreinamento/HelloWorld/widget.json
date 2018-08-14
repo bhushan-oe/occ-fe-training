@@ -1,0 +1,7 @@
+{
+  "name": "HelloWorld",
+  "availableToAllPages": true,
+  "javascript": "HelloWorld",
+  "jsEditable": true,
+  "i18nresources": "HelloWorld"
+}

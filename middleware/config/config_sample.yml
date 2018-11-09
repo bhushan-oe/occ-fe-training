@@ -9,6 +9,10 @@ environment: dev
 scheduler:
   enabled: true
 
+# JSON Web Token secret
+auth:
+  jwt_secret: "test"
+
 # Database settings.
 databases:
   middleware:
@@ -26,9 +30,16 @@ email-alert:
   email-to: USER@objectedge.com
   email-from: noreply@objectedge.com
 
+logging:
+  level: INFO
+  loggers:
+      org.hibernate.engine.internal.StatisticalLoggingSessionEventListener: WARN
+      com.objectedge: DEBUG
+      com.<project>: DEBUG
+
 occ:
-  host: https://ccadmin-ENV.oracleoutsourcing.com
-  store_host: https://ccstore-ENV.oracleoutsourcing.com
+  host: https://ccadmin-z1ma.oracleoutsourcing.com
+  store_host: https://ccstore-z1ma.oracleoutsourcing.com
   assets_language: en
   timeout: 30
   admin:
@@ -48,8 +59,5 @@ occ:
   connection_type: APPLICATION | USER
   webhook_secret: Asdf124#124
 
-order-broker:
-  host: https://omsqa.objectedge.com
-  timeout: 30
-  username: "USER@objectedge.com"
-  password: ""
+
+

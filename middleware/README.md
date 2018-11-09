@@ -1,4 +1,4 @@
-# ${PROJECT} Middleware
+# OE Middleware
 
 OCC Middleware is a process runner, allowing to create, configure and 
 run process of many types (manual, scheduled, webhook listener, and 

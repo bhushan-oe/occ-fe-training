@@ -85,18 +85,12 @@ If you want to use a large button with an icon, you will have to add a container
 
   &.disabled,
   &[disabled] {
-    opacity: 1;
+    background: @ColorSilver;
+    color: @ColorWhite;
 
     &:after {
-     content: '';
-     position: absolute;
-     left: -@ButtonBorderSize;
-     right: -@ButtonBorderSize;
-     top: -@ButtonBorderSize;
-     bottom: -@ButtonBorderSize;
-     background-color: @ButtonDisabledBackgroundColor;
-     opacity: 0.5;
-   }
+      display: none;
+    }
   }
 
   &.cc-button-uppercase {
@@ -128,14 +122,15 @@ If you want to use a large button with an icon, you will have to add a container
   }
 
   &.cc-button-transparent {
-    color: @ButtonPrimaryBackgroundColor;
+    color: @ColorMercury;
     background-color: transparent;
+    border-color: @ColorMercury;
 
     &:focus,
     &:visited,
     &:link,
     &:active {
-      color: @ButtonPrimaryBackgroundColor;
+      color: @ColorMercury;
       background-color: transparent;
     }
 
@@ -144,6 +139,13 @@ If you want to use a large button with an icon, you will have to add a container
       color: @ButtonPrimaryBackgroundColorHover;
       border-color: @ButtonPrimaryBorderColorHover;
     }
+  }
+
+  &.disabled,
+  &[disabled] {
+    background: @ColorSilver;
+    color: @ColorWhite;
+    border-color: @ColorSilver;
   }
 }
 
@@ -171,22 +173,31 @@ If you want to use a large button with an icon, you will have to add a container
   }
 
   &.cc-button-transparent {
-    color: @ButtonSecondaryTextColorHover;
-    background-color: transparent;
+    color: @ColorWhite;
+    background-color: @ColorSilver;
+    border-color: @ColorSilver;
+    opacity: 0.5;
 
     &:focus,
     &:visited,
     &:link,
     &:active {
-      color: @ButtonSecondaryBackgroundColor;
-      background-color: transparent;
+      color: @ColorWhite;
+      background-color: @ColorSilver;
     }
 
     &:hover {
-      background-color: @ButtonSecondaryTextColorHover;
-      color: @ButtonSecondaryBackgroundColorHover;
-      border-color: @ButtonSecondaryBorderColorHover;
+      background-color: @ColorSilver;
+      color: @ColorWhite;
+      border-color: @ColorSilver;
     }
+  }
+
+  &.disabled,
+  &[disabled] {
+    background: @ColorSilver;
+    color: @ColorWhite;
+    border-color: @ColorSilver;
   }
 }
 

@@ -1,4 +1,4 @@
-# <PROJECT> E-commerce
+# OE Trainning E-commerce
 
 The e-commerce is hosted and developed in Oracle Cloud Commerce (OCC) platform, and 
 is divided in two parts:
@@ -10,23 +10,17 @@ Documentation index
 * [Storefront](storefront/README.md)
 * [Middleware](middleware/README.md)
 
-
 # Project Documentation
-* <LINK_CONFLUENCE>
+* https://objectedge.atlassian.net/wiki/spaces/OEB/overview
 
 # API Documentation
-* Admin https://ccadmin-<ENV>.oracleoutsourcing.com/api/admin
-* Agent https://ccadmin-<ENV>.oracleoutsourcing.com/api/agent
-* Store https://ccadmin-<ENV>.oracleoutsourcing.com/api
+* Admin https://ccadmin-z1ma.oracleoutsourcing.com/api/admin
+* Agent https://ccadmin-z1ma.oracleoutsourcing.com/api/agent
+* Store https://ccadmin-z1ma.oracleoutsourcing.com/api
 
 # Environments
-## UAT
-* Admin https://ccadmin-<ENV>.oracleoutsourcing.com/occs-admin/
-* Agent https://ccadmin-<ENV>.oracleoutsourcing.com/occs-agent/
-* Store https://ccstore-<ENV>.oracleoutsourcing.com/
-
-## Prod
-* Admin https://ccadmin-<ENV>.oracleoutsourcing.com/occs-admin/
-* Agent https://ccadmin-<ENV>.oracleoutsourcing.com/occs-agent/
-* Store https://ccstore-<ENV>.oracleoutsourcing.com/
+## Sandbox
+* Admin https://ccadmin-z1ma.oracleoutsourcing.com/occs-admin/
+* Agent https://ccadmin-z1ma.oracleoutsourcing.com/occs-agent/
+* Store https://ccstore-z1ma.oracleoutsourcing.com/
 

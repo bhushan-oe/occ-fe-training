@@ -1,4 +1,4 @@
-# <PROJECT> Storefront
+# OE Training Storefront
 
 ## Technologies:
   *  Node.js

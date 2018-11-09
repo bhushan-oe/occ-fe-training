@@ -3,8 +3,8 @@
 Vagrant.require_version ">= 1.8.5"
 VAGRANTFILE_API_VERSION = "2"
 
-CUSTOMER = "xxxxxx"
-MIDDLEWARE_IP = "192.168.33.xx"
+CUSTOMER = "OETraining"
+MIDDLEWARE_IP = "192.168.33.10"
 
 MIDDLEWARE_MEMORY = "512"
 

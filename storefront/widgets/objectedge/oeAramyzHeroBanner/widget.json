@@ -1,0 +1,13 @@
+{
+  "name": "oeAramyzHeroBanner",
+  "widgetType": "oeAramyzHeroBanner",
+  "i18nresources": "oeAramyzHeroBanner",
+  "javascript": "oeAramyzHeroBanner",
+  "availableToAllPages": true,
+  "global": false,
+  "globalEnabled": false,
+  "version": 1,
+  "jsEditable": true,
+  "imports": [],
+  "config": {}
+}

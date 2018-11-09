@@ -1,0 +1,378 @@
+{
+    "widgetDescriptorName": "OE Aramyz Hero Banner",
+    "properties": [
+
+	  {
+      "id": "timeSwitchImage",
+      "type": "stringType",
+      "name": "timeSwitchImage",
+      "helpTextResourceId": "timeSwitchImageHelpText",
+      "labelResourceId": "timeSwitchImageLabel",
+      "defaultValue": "4",
+      "required": true,
+      "maxLength": 2  
+    },
+
+    {
+      "id": "boolLoopCarousel",
+      "type": "booleanType",
+      "name": "boolLoopCarousel",
+      "helpTextResourceId": "boolLoopCarouselHelpText",
+      "labelResourceId": "boolLoopCarouselLabel",
+      "defaultValue": false
+    },
+
+    {
+      "id": "boolAutoplayCarousel",
+      "type": "booleanType",
+      "name": "boolAutoplayCarousel",
+      "helpTextResourceId": "boolAutoplayCarouselHelpText",
+      "labelResourceId": "boolAutoplayCarouselLabel",
+      "defaultValue": true
+    },
+
+
+    {
+      "id": "imageUrl1",
+      "type": "mediaType",
+      "name": "imageUrl1",
+      "helpTextResourceId": "imageUrl1HelpText",
+      "labelResourceId": "imageUrl1CarouselLabel",
+      "required": false
+    },
+
+    {
+      "id": "mobileImageUrl1",
+      "type": "mediaType",
+      "name": "mobileImageUrl1",
+      "helpTextResourceId": "mobileImageUrl1HelpText",
+      "labelResourceId": "mobileImageUrl1CarouselLabel",
+      "required": false
+    },
+
+    {
+      "id": "bannerLink1",
+      "type": "stringType",
+      "name": "bannerLink1",
+      "helpTextResourceId": "bannerLink1HelpText",
+      "labelResourceId": "bannerLink1CarouselLabel",
+      "required": false
+    },
+
+    {
+      "id": "startDate1",
+      "type": "stringType",
+      "name": "startDate1",
+      "helpTextResourceId": "startDate1HelpText",
+      "labelResourceId": "startDate1CarouselLabel",
+      "defaultValue": "",
+      "required": false
+    },
+
+    {
+      "id": "endDate1",
+      "type": "stringType",
+      "name": "endDate1",
+      "helpTextResourceId": "endDate1HelpText",
+      "labelResourceId": "endDate1CarouselLabel",
+      "defaultValue": "",
+      "required": false
+    },
+
+    {
+      "id": "bannerText1",
+      "type": "stringType",
+      "name": "bannerText1",
+      "helpTextResourceId": "bannerText1HelpText",
+      "labelResourceId": "bannerText1CarouselLabel",
+      "defaultValue": "",
+      "required": false
+    },
+
+    {
+      "id": "imageUrl2",
+      "type": "mediaType",
+      "name": "imageUrl2",
+      "helpTextResourceId": "imageUrl2HelpText",
+      "labelResourceId": "imageUrl2CarouselLabel",
+      "required": false
+    },
+
+    {
+      "id": "mobileImageUrl2",
+      "type": "mediaType",
+      "name": "mobileImageUrl2",
+      "helpTextResourceId": "mobileImageUrl2HelpText",
+      "labelResourceId": "mobileImageUrl2CarouselLabel",
+      "required": false
+    },
+
+    {
+      "id": "bannerLink2",
+      "type": "stringType",
+      "name": "bannerLink2",
+      "helpTextResourceId": "bannerLink2HelpText",
+      "labelResourceId": "bannerLink2CarouselLabel",
+      "required": false
+    },
+
+    {
+      "id": "startDate2",
+      "type": "stringType",
+      "name": "startDate2",
+      "helpTextResourceId": "startDate2HelpText",
+      "labelResourceId": "startDate2CarouselLabel",
+      "defaultValue": "",
+      "required": false
+    },
+
+    {
+      "id": "endDate2",
+      "type": "stringType",
+      "name": "endDate2",
+      "helpTextResourceId": "endDate2HelpText",
+      "labelResourceId": "endDate2CarouselLabel",
+      "defaultValue": "",
+      "required": false
+    },
+
+    {
+      "id": "bannerText2",
+      "type": "stringType",
+      "name": "bannerText2",
+      "helpTextResourceId": "bannerText2HelpText",
+      "labelResourceId": "bannerText2CarouselLabel",
+      "defaultValue": "",
+      "required": false
+    },   
+
+    {
+      "id": "imageUrl3",
+      "type": "mediaType",
+      "name": "imageUrl3",
+      "helpTextResourceId": "imageUrl3HelpText",
+      "labelResourceId": "imageUrl3CarouselLabel",
+      "required": false
+    },
+
+    {
+      "id": "mobileImageUrl3",
+      "type": "mediaType",
+      "name": "mobileImageUrl3",
+      "helpTextResourceId": "mobileImageUrl3HelpText",
+      "labelResourceId": "mobileImageUrl3CarouselLabel",
+      "required": false
+    },
+
+    {
+      "id": "bannerLink3",
+      "type": "stringType",
+      "name": "bannerLink3",
+      "helpTextResourceId": "bannerLink3HelpText",
+      "labelResourceId": "bannerLink3CarouselLabel",
+      "required": false
+    },
+
+    {
+      "id": "startDate3",
+      "type": "stringType",
+      "name": "startDate3",
+      "helpTextResourceId": "startDate3HelpText",
+      "labelResourceId": "startDate3CarouselLabel",
+      "defaultValue": "",
+      "required": false
+    },
+
+    {
+      "id": "endDate3",
+      "type": "stringType",
+      "name": "endDate3",
+      "helpTextResourceId": "endDate3HelpText",
+      "labelResourceId": "endDate3CarouselLabel",
+      "defaultValue": "",
+      "required": false
+    },
+
+    {
+      "id": "bannerText3",
+      "type": "stringType",
+      "name": "bannerText3",
+      "helpTextResourceId": "bannerText3HelpText",
+      "labelResourceId": "bannerText3CarouselLabel",
+      "defaultValue": "",
+      "required": false
+    },
+
+    {
+      "id": "imageUrl4",
+      "type": "mediaType",
+      "name": "imageUrl4",
+      "helpTextResourceId": "imageUrl4HelpText",
+      "labelResourceId": "imageUrl4CarouselLabel",
+      "required": false
+    },
+
+    {
+      "id": "mobileImageUrl4",
+      "type": "mediaType",
+      "name": "mobileImageUrl4",
+      "helpTextResourceId": "mobileImageUrl4HelpText",
+      "labelResourceId": "mobileImageUrl4CarouselLabel",
+      "required": false
+    },
+
+    {
+      "id": "bannerLink4",
+      "type": "stringType",
+      "name": "bannerLink4",
+      "helpTextResourceId": "bannerLink4HelpText",
+      "labelResourceId": "bannerLink4CarouselLabel",
+      "required": false
+    },
+
+    {
+      "id": "startDate4",
+      "type": "stringType",
+      "name": "startDate4",
+      "helpTextResourceId": "startDate4HelpText",
+      "labelResourceId": "startDate4CarouselLabel",
+      "defaultValue": "",
+      "required": false
+    },
+
+    {
+      "id": "endDate4",
+      "type": "stringType",
+      "name": "endDate4",
+      "helpTextResourceId": "endDate4HelpText",
+      "labelResourceId": "endDate4CarouselLabel",
+      "defaultValue": "",
+      "required": false
+    },
+
+    {
+      "id": "bannerText4",
+      "type": "stringType",
+      "name": "bannerText4",
+      "helpTextResourceId": "bannerText4HelpText",
+      "labelResourceId": "bannerText4CarouselLabel",
+      "defaultValue": "",
+      "required": false
+    },
+
+    {
+      "id": "imageUrl5",
+      "type": "mediaType",
+      "name": "imageUrl5",
+      "helpTextResourceId": "imageUrl5HelpText",
+      "labelResourceId": "imageUrl5CarouselLabel",
+      "required": false
+    },
+
+    {
+      "id": "mobileImageUrl5",
+      "type": "mediaType",
+      "name": "mobileImageUrl5",
+      "helpTextResourceId": "mobileImageUrl5HelpText",
+      "labelResourceId": "mobileImageUrl5CarouselLabel",
+      "required": false
+    },
+
+    {
+      "id": "bannerLink5",
+      "type": "stringType",
+      "name": "bannerLink5",
+      "helpTextResourceId": "bannerLink5HelpText",
+      "labelResourceId": "bannerLink5CarouselLabel",
+      "required": false
+    },
+
+    {
+      "id": "startDate5",
+      "type": "stringType",
+      "name": "startDate5",
+      "helpTextResourceId": "startDate5HelpText",
+      "labelResourceId": "startDate5CarouselLabel",
+      "defaultValue": "",
+      "required": false
+    },
+
+    {
+      "id": "endDate5",
+      "type": "stringType",
+      "name": "endDate5",
+      "helpTextResourceId": "endDate5HelpText",
+      "labelResourceId": "endDate5CarouselLabel",
+      "defaultValue": "",
+      "required": false
+    },
+
+    {
+      "id": "bannerText5",
+      "type": "stringType",
+      "name": "bannerText5",
+      "helpTextResourceId": "bannerText5HelpText",
+      "labelResourceId": "bannerText5CarouselLabel",
+      "defaultValue": "",
+      "required": false
+    },
+
+    {
+      "id": "imageUrl6",
+      "type": "mediaType",
+      "name": "imageUrl6",
+      "helpTextResourceId": "imageUrl6HelpText",
+      "labelResourceId": "imageUrl6CarouselLabel",
+      "required": false
+    },
+
+    {
+      "id": "mobileImageUrl6",
+      "type": "mediaType",
+      "name": "mobileImageUrl6",
+      "helpTextResourceId": "mobileImageUrl6HelpText",
+      "labelResourceId": "mobileImageUrl6CarouselLabel",
+      "required": false
+    },
+
+    {
+      "id": "bannerLink6",
+      "type": "stringType",
+      "name": "bannerLink6",
+      "helpTextResourceId": "bannerLink6HelpText",
+      "labelResourceId": "bannerLink6CarouselLabel",
+      "required": false
+    },
+
+    {
+      "id": "startDate6",
+      "type": "stringType",
+      "name": "startDate6",
+      "helpTextResourceId": "startDate6HelpText",
+      "labelResourceId": "startDate6CarouselLabel",
+      "defaultValue": "",
+      "required": false
+    },
+
+    {
+      "id": "endDate6",
+      "type": "stringType",
+      "name": "endDate6",
+      "helpTextResourceId": "endDate6HelpText",
+      "labelResourceId": "endDate6CarouselLabel",
+      "defaultValue": "",
+      "required": false
+    },
+
+    {
+      "id": "bannerText6",
+      "type": "stringType",
+      "name": "bannerText6",
+      "helpTextResourceId": "bannerText6HelpText",
+      "labelResourceId": "bannerText6CarouselLabel",
+      "defaultValue": "",
+      "required": false
+    }
+        
+    ]
+}

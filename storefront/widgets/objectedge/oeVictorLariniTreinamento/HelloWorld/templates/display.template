@@ -1,6 +1,0 @@
-<div class="HelloWorld" data-bind="text: text()">
-
-</div>
-
-
-<button data-bind="click: blabla.bind($data)"> Mudar texto</button>

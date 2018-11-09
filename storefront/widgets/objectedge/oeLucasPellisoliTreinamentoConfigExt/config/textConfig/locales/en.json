@@ -1,8 +1,0 @@
-{
-    "resources": {
-        "title": "oeLucasTreinamento Settings",
-        "description":"config to widget oeLucasPellisoliTreinamento",
-        "textWidgetHelpText":"(required, maxLength: 50)",
-        "textWidgetLabel":"Text Widget"
-    }
-  }

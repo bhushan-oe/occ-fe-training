@@ -1,0 +1,31 @@
+<section class="oe-hero-banner" data-bind="css: {'row-full' : false}">
+  <div class="carousel slide" data-bind="carouselSwipe, attr: {id: $data.id()}">
+    <div class="carousel-inner" data-bind="foreach: {data: $data.imagesCarousel()} ">
+      <figure class="item" data-bind="css: {active: $index() == 0 }">
+        <!-- ko if: $data.imageLink -->
+        <a data-bind="ccLink: 'article', attr: {href: $data.imageLink}">
+          <img data-bind="ccResizeImage: {
+            source: $data.mobileImageUrl(),
+            small_img: $data.mobileImageUrl(),
+            isSrcSetEnabled: true
+          }">
+        </a>
+        <!-- /ko -->
+        <!-- ko ifnot: $data.imageLink -->
+        <img data-bind="ccResizeImage: {
+          source: $data.mobileImageUrl(),
+          small_img: $data.mobileImageUrl(),
+          isSrcSetEnabled: true
+        }">
+        <!-- /ko -->
+        <!-- ko if: $data.bannerText -->
+        <figcaption data-bind="html: $data.bannerText"></figcaption>
+        <!-- /ko -->
+      </figure>
+    </div>
+    <!-- ko if: $data.imagesCarousel() && $data.imagesCarousel().length > 1 -->
+    <button data-slide="prev" data-bind="attr: {href: '#' + $data.id()}, widgetLocaleText: 'Previous'"></button>
+    <button data-slide="next" data-bind="attr: {href: '#' + $data.id()}, widgetLocaleText: 'Next'"></button>
+    <!-- /ko -->
+  </div>
+</section>

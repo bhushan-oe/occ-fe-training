@@ -1,0 +1,30 @@
+<!-- oeBannerHeroFabian -->
+<div id="oeBannerHeroFabian">
+  <div class="row">
+    <div class="col-sm-12">
+      <div id="bannerCarousel" class="carousel slide" data-bind="attr: { 'data-wrap': config().wrap ? 'true' : 'false', 'data-interval': config().interval, 'data-ride': config().autoPlay ? 'carousel' : false }">
+        <ol class="carousel-indicators" data-bind="foreach: slides">
+          <li data-target="#bannerCarousel" data-bind="attr: { 'data-slide-to': $index }, css: { active: $index() == 0 }"></li>
+        </ol>
+        <div class="carousel-inner" data-bind="foreach: slides">
+          <div class="item" data-bind="css: { active: $index() == 0 }">
+            <a data-bind="ccLink: { url: $data.bannerLink }">
+              <img data-bind="imageSource: { src: $parent.isPhone() ? mobileImageUrl || imageUrl : imageUrl }" />
+              <div class="carousel-caption">
+                <p data-bind="text: bannerText"></p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <a class="left carousel-control" href="#bannerCarousel" role="button" data-slide="prev" data-bind="css: { hide: slides().length < 2 }">
+          <span class="glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#bannerCarousel" role="button" data-slide="next" data-bind="css: { hide: slides().length < 2 }">
+          <span class="glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

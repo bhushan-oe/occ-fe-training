@@ -9,7 +9,7 @@
         <div class="carousel-inner" data-bind="foreach: slides">
           <div class="item" data-bind="css: { active: $index() == 0 }">
             <a data-bind="ccLink: { url: $data.bannerLink }">
-              <img data-bind="imageSource: { src: $parent.isPhone() ? mobileImageUrl || imageUrl : imageUrl }" />
+              <img data-bind="imageSource: { src: $parent.isPhone() ? mobileImageUrl || imageUrl : imageUrl }" class="image"/>
               <div class="carousel-caption">
                 <p data-bind="text: bannerText"></p>
               </div>

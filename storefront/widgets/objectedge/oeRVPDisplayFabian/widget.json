@@ -1,0 +1,13 @@
+{
+  "name": "oeRVPDisplayFabian",
+  "widgetType": "oeRVPDisplayFabian",
+  "i18nresources": "oeRVPDisplayFabian",
+  "javascript": "oeRVPDisplayFabian",
+  "availableToAllPages": true,
+  "global": false,
+  "globalEnabled": false,
+  "version": 1,
+  "jsEditable": true,
+  "imports": ["product"],
+  "config": {}
+}

@@ -1,0 +1,58 @@
+{
+  "widgetDescriptorName": "oeRVPDisplayFabian",
+  "properties": [{
+      "id": "carouselTitle",
+      "type": "stringType",
+      "name": "carouselTitle",
+      "helpTextResourceId": "ht_carouselTitle",
+      "labelResourceId": "lb_carouselTitle",
+      "defaultValue": "",
+      "required": false
+    },{
+      "id": "maxItems",
+      "type": "stringType",
+      "name": "maxItems",
+      "helpTextResourceId": "ht_maxItems",
+      "labelResourceId": "lb_maxItems",
+      "defaultValue": "8",
+      "pattern": "^\\d+$",
+      "required": true
+    },{
+      "id": "itemsPerRowLargeDesktop",
+      "type": "stringType",
+      "name": "itemsPerRowLargeDesktop",
+      "helpTextResourceId": "ht_itemsPerRowLargeDesktop",
+      "labelResourceId": "lb_itemsPerRowLargeDesktop",
+      "defaultValue": "4",
+      "pattern": "^\\d+$",
+      "required": true
+    },{
+      "id": "itemsPerRowDesktop",
+      "type": "stringType",
+      "name": "itemsPerRowDesktop",
+      "helpTextResourceId": "ht_itemsPerRowDesktop",
+      "labelResourceId": "lb_itemsPerRowDesktop",
+      "defaultValue": "4",
+      "pattern": "^\\d+$",
+      "required": true
+    },{
+      "id": "itemsPerRowTablet",
+      "type": "stringType",
+      "name": "itemsPerRowTablet",
+      "helpTextResourceId": "ht_itemsPerRowTablet",
+      "labelResourceId": "lb_itemsPerRowTablet",
+      "defaultValue": "2",
+      "pattern": "^\\d+$",
+      "required": true
+    },{
+      "id": "itemsPerRowMobile",
+      "type": "stringType",
+      "name": "itemsPerRowMobile",
+      "helpTextResourceId": "ht_itemsPerRowMobile",
+      "labelResourceId": "lb_itemsPerRowMobile",
+      "defaultValue": "2",
+      "pattern": "^\\d+$",
+      "required": true
+    }
+  ]
+}

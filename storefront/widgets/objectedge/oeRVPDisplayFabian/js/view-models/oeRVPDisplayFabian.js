@@ -10,10 +10,15 @@ import {BaseWidget} from "occ-components/widget-core";
  */
 import ko from "knockout";
 import storageApi from "storageApi";
+import viewportHelper from 'viewportHelper';
 
 /**
  * Models
- */ 
+ */
+import Products from '../models/products';
+import Slide from './slide';
+
+
 export class oeRVPDisplayFabian extends BaseWidget {
   
   @exportToViewModel
@@ -45,7 +50,7 @@ export class oeRVPDisplayFabian extends BaseWidget {
     let itemsPerRow = 0;
     let itemWidth = 0;
     
-    itemsPerRow = setItems(viewPort, itemsPRLDesktop, itemsPRTablet, itemsPRMobile, itemsPRDesktop);
+    itemsPerRow = this.setItems(viewPort, itemsPRLDesktop, itemsPRTablet, itemsPRMobile, itemsPRDesktop);
     itemWidth = parseFloat(100 / itemsPerRow) + '%';
     
     this.config({

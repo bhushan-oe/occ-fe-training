@@ -1,1 +1,1 @@
-export {oeRVPDisplayFabian} from './oeRVPDisplayFabian';
+export { oeRVPDisplayFabian } from './oeRVPDisplayFabian'

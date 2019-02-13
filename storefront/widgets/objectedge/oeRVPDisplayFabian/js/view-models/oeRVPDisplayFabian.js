@@ -18,6 +18,7 @@ import viewportHelper from 'viewportHelper';
 import Products from '../models/products';
 import Slide from './slide';
 
+const KEY_STORAGE = 'oe-recently-viewed-products-fabian';
 
 export class oeRVPDisplayFabian extends BaseWidget {
   
@@ -26,19 +27,46 @@ export class oeRVPDisplayFabian extends BaseWidget {
   
   @exportToViewModel
   slide = ko.observable([]);
-    
+  
   constructor() {
     super();
     this.storage = storageApi.getInstance();
     this.products = [];
     
     this.getConfig();
+    this.getProducts();
+    this.controlView();
   }
   
-  beforeAppear() {
+  controlView() {
+    viewPort.viewportDesignation.subscrible((view) => {
+      this.getConfig();
+      this.renderSlides();
+    })
+  }
+  
+  getProducts() {
+    const prodtList = this.storage.getItem(KEY_STORAGE);
+    const maxItems = this.getData('maxItems', 'num', 8);
+    const prodArray = prodtList !== '' ? prodtList.split(';') : [];
+    const prodId = this.$data.product && typeof this.$data.product === 'function' && this.$data.product() ? 
 
+    this.$data.product().id() : null;
+    this.getNewProduct(prodArray, maxItems, prodId);
   }
   
+  getNewProduct(prodArray, maxItems, prodId) {
+    return new Products()
+      .getProducts(prodArray.filter((pid) => !prodId || pid !== prodId).splice(0, maxItems).join(','))
+      .then((prod) => {
+        this.products = prod;
+        this.renderSlides();
+      })
+      .catch((msg) => {
+        console.log('Unable to retrieve product ', msg);
+      });
+  }
+    
   getConfig() {
     const viewPort = viewportHelper.viewportDesignation();
     const title = this.getData('carouselTitle', 'str', '');
@@ -94,5 +122,19 @@ export class oeRVPDisplayFabian extends BaseWidget {
         break;
     }
     return valueFinal;
+  }
+  
+  renderSlides() {
+    const { itemsPerRow } = this.config();
+    const products = [...this.products];
+    this.slides(this.getSlides(itemsPerRow, products));
+  }
+  
+  getSlides(itemsPerRow, products) {
+    let slides = [];
+    for(let i = 0 ; i < Math.ceil(this.products.length / itemsPerRow); i++) {
+      slides.push(new Slide(products.splice(0, itemsPerRow)));
+    }
+    return slides
   }
 }

@@ -1,0 +1,531 @@
+[33mcommit 1cf95f046af0098d62da1703fd17d27297c03ccc[m[33m ([m[1;36mHEAD -> [m[1;32mdev-alterado[m[33m)[m
+Author: FabianFleck <faabianfleeck@gmail.com>
+Date:   Wed Feb 6 13:30:50 2019 -0200
+
+    Template change
+
+[33mcommit a631b66c8707628b27022bf3bf8ee09f079ee576[m[33m ([m[1;32mdev-OET-75[m[33m)[m
+Author: FabianFleck <faabianfleeck@gmail.com>
+Date:   Wed Feb 6 11:43:21 2019 -0200
+
+    Template change
+
+[33mcommit 38a1b6c2692599f96dccbbc06dd519ff2a6feae1[m[33m ([m[1;31morigin/OET-75-FabianFleck[m[33m, [m[1;32mOET-75-FabianFleck[m[33m)[m
+Author: FabianFleck <faabianfleeck@gmail.com>
+Date:   Tue Feb 5 11:47:52 2019 -0200
+
+    OET-75 - Create carousel
+
+[33mcommit d08ae6f7aa0d8d043d87d14fb9b0056a78e4b29f[m[33m ([m[1;31morigin/OET-73-MarioAraujo[m[33m, [m[1;32mdev-banner-reserva[m[33m)[m
+Author: paribus <oiram.araujo@gmail.com>
+Date:   Thu Jan 31 10:44:40 2019 -0200
+
+    OET-73: Widget Hero Banner developed based on the Helton widget.
+
+[33mcommit a7acf080b28e81b3c5324555a92ad9faa5759207[m[33m ([m[1;31morigin/development[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mdevelopment-pura[m[33m, [m[1;32mdevelopment[m[33m)[m
+Author: Adriano Zanette <adzanette@gmail.com>
+Date:   Fri Nov 9 13:42:21 2018 -0200
+
+    Update Readme
+
+[33mcommit 31cc16acc992374cfc7f026e29bf4e161ecd4504[m
+Author: Adriano Zanette <adzanette@gmail.com>
+Date:   Fri Nov 9 13:38:15 2018 -0200
+
+    Clean up repository
+
+[33mcommit cdf25dbc5fcf784489eaca1984269b158a71142b[m
+Author: Adriano Zanette <adzanette@gmail.com>
+Date:   Fri Nov 9 13:38:00 2018 -0200
+
+    Clean up repository
+
+[33mcommit 78af6fa6198be7b5a7a5bbc9efff456c41c26c15[m
+Author: Adriano Zanette <adzanette@gmail.com>
+Date:   Fri Nov 9 13:25:05 2018 -0200
+
+    Update training project
+
+[33mcommit aaeff37d185792ab56c4f11736fa5672d5b2b33e[m
+Merge: 872424e 7737f43
+Author: Adriano Zanette <adzanette@gmail.com>
+Date:   Fri Nov 9 05:36:47 2018 -0800
+
+    Merge pull request #4 from intelimen/training-aramyz-recentlyViewedProducts
+    
+    Training aramyz recently viewed products
+
+[33mcommit 872424ebc31221c411e2659576ecd9fbafb292c7[m
+Merge: 72502f3 9e5b855
+Author: Adriano Zanette <adzanette@gmail.com>
+Date:   Fri Nov 9 05:36:38 2018 -0800
+
+    Merge pull request #3 from intelimen/treinamento-aramyz
+    
+    Treinamento aramyz
+
+[33mcommit 72502f3ee1937b0cca848afc185a1206112cf566[m
+Merge: eaef025 2509779
+Author: larinivitor <larinivitor@gmail.com>
+Date:   Tue Aug 14 10:12:13 2018 -0300
+
+    Merge pull request #6 from intelimen/larinivitor-patch-1
+    
+    Treinamentos primeiras semanas
+
+[33mcommit 2509779ab725794adc24f4e138100ace258e71b8[m
+Author: Vitor <larinivitor@gmail.com>
+Date:   Tue Aug 14 10:02:00 2018 -0300
+
+    Treinamentos primeiras semanas
+
+[33mcommit eaef0253a4548a15556502bd1fc882cd1d732dcd[m
+Author: LucasPellisoli <lucaspellisoli1998@gmail.com>
+Date:   Wed Feb 7 11:40:39 2018 -0200
+
+    OET-53 finish 2nd widgwt
+
+[33mcommit d24cc6f07a671bc4b7f7068bbbdc40c53f3fa3d3[m
+Author: LucasPellisoli <lucaspellisoli1998@gmail.com>
+Date:   Tue Feb 6 14:43:01 2018 -0200
+
+    OET-53(widget 2) add Recently ViewedProducts Display
+
+[33mcommit 12f9fff0c2e61b42b49b9ced66a9f322e70a6c23[m
+Author: LucasPellisoli <lucaspellisoli1998@gmail.com>
+Date:   Mon Feb 5 10:23:22 2018 -0200
+
+    update widget  OET-53
+
+[33mcommit 227b7cf20a1ae40b8824e708e2a7d6db3574439e[m
+Author: LucasPellisoli <lucaspellisoli1998@gmail.com>
+Date:   Mon Feb 5 08:52:21 2018 -0200
+
+     addwidget 1  OET-53
+
+[33mcommit d2a1883c1b0d78105a403b7bf8435bed6d17ab6e[m
+Author: LucasPellisoli <lucaspellisoli1998@gmail.com>
+Date:   Mon Feb 5 08:48:05 2018 -0200
+
+    removing my private repository OET-53
+
+[33mcommit 6ce2b772f921fa207d36ff81aeb6c9310af8914a[m
+Author: LucasPellisoli <lucaspellisoli1998@gmail.com>
+Date:   Thu Feb 1 08:29:28 2018 -0200
+
+    update widget OET-53
+
+[33mcommit 6c438903e4a2a22f8c0233e2770025b8e0dbb86f[m
+Author: LucasPellisoli <lucaspellisoli1998@gmail.com>
+Date:   Wed Jan 31 13:30:25 2018 -0200
+
+    carousel working
+
+[33mcommit 7f3586f15265cff08ac7ad9d6b82e1e83c3630c0[m
+Author: gokulanathan1992 <gokulanathan1992@gmail.com>
+Date:   Mon Dec 18 11:42:09 2017 -0800
+
+    Delete oeHeroBannerWidgetGokul
+
+[33mcommit 75f7e26d03408864351346c79d13277bca30445a[m
+Author: gokulanathan1992 <gokulanathan1992@gmail.com>
+Date:   Mon Dec 18 11:41:48 2017 -0800
+
+    Create oeHeroBannerWidgetGokul
+
+[33mcommit a37038beaf5f788ebf60ba574e79bfae5346a11e[m
+Author: Eduardo Souza <eduardo.souza@objectedge.com>
+Date:   Thu Oct 5 16:47:53 2017 -0300
+
+    OET-41 - Fix storage first-load bug
+
+[33mcommit 2eb6a284c040b064251940706cbea5eeb42ae18b[m
+Merge: c8e92e7 535453e
+Author: Eduardo Souza <eduardo.souza@objectedge.com>
+Date:   Thu Oct 5 16:09:52 2017 -0300
+
+    OET-41 merge
+
+[33mcommit c8e92e7d6b43ab5f2f7444e8705e48e595947e33[m
+Author: Eduardo Souza <eduardo.souza@objectedge.com>
+Date:   Thu Oct 5 16:06:52 2017 -0300
+
+    OET-41 - RVP Display Created
+
+[33mcommit b21237d99dfe3118e4da0468d9e56062247b62c5[m
+Author: Eduardo Souza <eduardo.souza@objectedge.com>
+Date:   Mon Oct 2 10:17:02 2017 -0300
+
+    OET-41 - RVP Manager Created
+
+[33mcommit 535453e8cc611c7ee1856bfdc4ba7f6770cb30e0[m
+Author: victor castro <victor.admc@gmail.com>
+Date:   Thu Sep 28 17:30:58 2017 -0300
+
+    OCCI-272 Generated 2 widgets in order to test elements
+
+[33mcommit 5021a409d1c228a2176c226736d0154953a9712c[m
+Author: victor castro <victor.admc@gmail.com>
+Date:   Thu Sep 28 15:47:23 2017 -0300
+
+    OCCI-272 removed files from widgets - files for elements and widgets will be generated again soon
+
+[33mcommit 9ff7bfe1172497e6861bc7e11625564ec8b11e1b[m
+Author: victor castro <victor.admc@gmail.com>
+Date:   Thu Sep 28 15:37:24 2017 -0300
+
+    OCCI-272 Created simple test template to show a message. Configured widget.json to global
+
+[33mcommit 291c3ca678d00098a4873fd588896d5f11641be8[m
+Author: victor castro <victor.admc@gmail.com>
+Date:   Thu Sep 28 15:03:33 2017 -0300
+
+    OCCI-272 Created both widgets in order to verify if one element can be accessed by another
+
+[33mcommit 3a73f2540801d58af784260f0385e9b9f7afc9fd[m
+Author: Eduardo Souza <eduardo.souza@objectedge.com>
+Date:   Wed Sep 27 15:44:07 2017 -0300
+
+    OET-41 - Eduardo Souza Hero Banner concluído
+
+[33mcommit c6ae5544278acad66e4c0c4f829ace58fc82991a[m
+Author: victor castro <victor.admc@gmail.com>
+Date:   Mon Sep 25 14:05:53 2017 -0300
+
+    fixed identation for display.template
+
+[33mcommit 3b96333edde6e3cd02c803f6fabc8562e4fcda00[m
+Author: victoradmc <victor.admc@gmail.com>
+Date:   Mon Sep 25 13:59:09 2017 -0300
+
+    Update README.md
+
+[33mcommit 034e38d5173b0044b7aa16264332f52034d097ff[m
+Author: victoradmc <victor.admc@gmail.com>
+Date:   Mon Sep 25 13:58:54 2017 -0300
+
+    Update Readme
+
+[33mcommit 7c63e848dbb2a15d5b51fbf42804223e5b1225f6[m
+Author: victoradmc <victor.admc@gmail.com>
+Date:   Mon Sep 25 13:57:57 2017 -0300
+
+    Update Readme
+
+[33mcommit 9a1423321e6bd504f9b0c31b7cd7535143a7a2fa[m
+Author: victor castro <victor.admc@gmail.com>
+Date:   Mon Sep 25 12:33:56 2017 -0300
+
+    Added template for products display - the carosusel template was not setted yet. Right and left controles appears only when the number of products is bigger than number of products per row
+
+[33mcommit 4d575102e80613ee900fc8acdc21449726374dc6[m
+Author: victor castro <victor.admc@gmail.com>
+Date:   Mon Sep 25 12:28:51 2017 -0300
+
+    Fixed property type name, it was not in lowerCamelCase - it was setted 'stringtype', and the correct is 'stringType'
+
+[33mcommit f5b46e42fd9947fb2d26053c55aeefaf6c327703[m
+Author: victor castro <victor.admc@gmail.com>
+Date:   Mon Sep 25 11:52:59 2017 -0300
+
+    created funcion to check reponsive features, veriying window width and changing rows according to it. Added also comments in functions to make it easy to review code later
+
+[33mcommit c959016ca808e3eba3e082adf9704ae5eb4fcec6[m
+Author: victor castro <victor.admc@gmail.com>
+Date:   Mon Sep 25 10:06:50 2017 -0300
+
+    Populated the config.json with properties from widget definitions - added en.json labels and help texts - started to create the functions in widgetGeneric.js in order to check responsive features and rows
+
+[33mcommit 180cb8a76a250d6085f66f08e5ed354de24816a6[m
+Author: victor castro <victor.admc@gmail.com>
+Date:   Fri Sep 22 18:09:30 2017 -0300
+
+    viewport definitions and items per row function created, still needed create the responsive / viewport validation inside onLoad function
+
+[33mcommit f45cd9e8c4f7b0e9f150da45890b51bd5260919b[m
+Author: victor castro <victor.admc@gmail.com>
+Date:   Fri Sep 22 16:41:07 2017 -0300
+
+    function carouselData is now implemented, in order to create the info needed in carousel. this function is called only in formatProducts
+
+[33mcommit ae2ea80853abbd603749a6dbf971cc39c50e3ae3[m
+Author: victor castro <victor.admc@gmail.com>
+Date:   Fri Sep 22 15:02:59 2017 -0300
+
+    created function formatProducts, necessary to push into productslist and create the instance of carouselData(not implemented yet)
+
+[33mcommit 681da91607ee3f025df7e7491a4c5eb251e5a009[m
+Author: victor castro <victor.admc@gmail.com>
+Date:   Fri Sep 22 09:47:11 2017 -0300
+
+    added function to create query for searching product parameters - finished main function to load data, using rest call
+
+[33mcommit 47b6d058afe482df0d59da7f87d8523af8a6018d[m
+Author: victor castro <victor.admc@gmail.com>
+Date:   Fri Sep 22 09:05:57 2017 -0300
+
+    created function to load data from cookies and split it (not finishied yet)
+
+[33mcommit b027567132f1e0f6a9036f4d0a6fe80c0252fe62[m
+Merge: 2f3f24b be20d92
+Author: Rafael Zorzo <rafael@rafaelzorzo.com.br>
+Date:   Thu Sep 21 15:51:46 2017 -0300
+
+    Merge pull request #5 from intelimen/OET-37-ValmorCastro
+    
+    [OET 37] Treinamento Valmor Castro
+
+[33mcommit be20d92b48cd5166397dabc3228be7dd62b983d6[m
+Author: Valmor Castro <valmor.castro@objectedge.com>
+Date:   Thu Sep 21 15:40:48 2017 -0300
+
+    OET-37 requested changes
+
+[33mcommit 2f3f24b041b08cc69b48af23451743c2974df762[m
+Author: victor castro <victor.admc@gmail.com>
+Date:   Thu Sep 21 14:45:54 2017 -0300
+
+    Fixed identation and page name validation in widgetGeneric.beforeAppear
+
+[33mcommit 9006f294874507ac78e530c05392457b07e2870f[m
+Author: victor castro <victor.admc@gmail.com>
+Date:   Thu Sep 21 12:33:32 2017 -0300
+
+    created new function to remove last product in localStorage, in order to free space to new recent viewdly products
+
+[33mcommit 3df1592f9a05d4ef0503759ecbde13fbbbfea4c3[m
+Author: victor castro <victor.admc@gmail.com>
+Date:   Thu Sep 21 11:09:04 2017 -0300
+
+    Added config files with widget properties and helptext. Created a function to delete repeated products in cache
+
+[33mcommit f75ed5994eb5a70186f90368e02c81e342260ac8[m
+Author: victor castro <victor.admc@gmail.com>
+Date:   Tue Sep 19 17:43:30 2017 -0300
+
+    fixed the missing dependencies
+
+[33mcommit ef921ce47169f6bb2d83c03385be3e0ee41efe1f[m
+Author: victor castro <victor.admc@gmail.com>
+Date:   Tue Sep 19 17:38:48 2017 -0300
+
+    finished basic functions and storage / cookies settings. subscribe to OE_RVP_NEW_PRODUCT done in onLoad function
+
+[33mcommit 37ffc6c7b53c1d328d7332fc1aa73a7bc2898bfc[m
+Author: victor castro <victor.admc@gmail.com>
+Date:   Tue Sep 19 17:04:00 2017 -0300
+
+    initial commit, with first functions to get cookie and starts to check and set localStorage
+
+[33mcommit 5fc4e4be0f5af2f031cc6774813a55a3babacdb8[m
+Author: victor castro <victor.admc@gmail.com>
+Date:   Tue Sep 19 15:42:48 2017 -0300
+
+    creation of oeRVP manager and display, base structure and settings. No code was added, just generated by occ tools
+
+[33mcommit b8e7d011884e1f490eedfa9c1e950e94fc8295d2[m
+Merge: 46d08e6 068c507
+Author: Rafael Zorzo <rafael@rafaelzorzo.com.br>
+Date:   Tue Sep 19 14:12:39 2017 -0300
+
+    Merge branch 'development' into OET-37-ValmorCastro
+
+[33mcommit 068c507502fb0b1b07de3ef025126eec9da6fb2d[m
+Author: Rafael Zorzo <rafael@rafaelzorzo.com.br>
+Date:   Tue Sep 19 14:12:21 2017 -0300
+
+    Ignore occ-components and occ-transpiled directories from Git
+
+[33mcommit 46d08e612c43d6d2bf92cdb4ec33a488691cf5fa[m
+Author: Valmor Castro <valmor.castro@objectedge.com>
+Date:   Fri Sep 15 16:31:59 2017 -0300
+
+    OET-37: RVP Display
+
+[33mcommit d00a3ce12acfa9e3f2f3020a88148100bfbd2007[m
+Author: victoradmc <victor.admc@gmail.com>
+Date:   Thu Sep 14 09:27:59 2017 -0300
+
+    Update README.md
+
+[33mcommit aa3c5860da6dab9ab176a2867123e958c0aa9949[m
+Author: victoradmc <victor.admc@gmail.com>
+Date:   Thu Sep 14 09:27:22 2017 -0300
+
+    Update README.md
+
+[33mcommit 90a5b25d1aaee0beb88100dcc5ef37e395bca0d6[m
+Author: victoradmc <victor.admc@gmail.com>
+Date:   Thu Sep 14 09:26:51 2017 -0300
+
+    Update ReadMe
+    
+    Updated with correct info about the oeHeroBannerVictorCastro
+
+[33mcommit c2859b9a4fcdc7942abefb5ddeb7423783046e9b[m
+Author: victor castro <victor.admc@gmail.com>
+Date:   Wed Sep 13 16:50:23 2017 -0300
+
+    Fixed the bug in validation bannerItens - the momentJS functions cannot be used since this widget is not setted as es6, and it was necessary change the validation functions to simple comparison operators. For mor info, check the filtered variable in oeHeroBannerVictorCastro.js
+
+[33mcommit cd3379cc4bb295378cf645b201ec13076961d784[m
+Author: victor castro <victor.admc@gmail.com>
+Date:   Wed Sep 13 16:09:57 2017 -0300
+
+    first version of Victor's Hero Banner, using moment js validation
+
+[33mcommit 78cbd3c45672aeb76611cd417cbf8062ba7372e9[m
+Author: Valmor Castro <valmor.castro@objectedge.com>
+Date:   Wed Sep 13 13:52:05 2017 -0300
+
+    OET-37: Recent Viewed Products
+
+[33mcommit 2bf356fb7910c74b7e1d2ff3c3d08f0dcfb8d8b7[m
+Author: Valmor Castro <valmor.castro@objectedge.com>
+Date:   Mon Sep 11 16:37:54 2017 -0300
+
+    OET-37 Treinamento Valmor OCC - Hero Banner
+
+[33mcommit 7737f4316b60dbc666d318f7adbe3132eabfbaff[m
+Author: aramyzOE <aramyz.guimaraes@objectedge.com>
+Date:   Fri Sep 1 18:40:00 2017 -0300
+
+    Recently Viewed Products widgets training done
+
+[33mcommit 9e5b855c32431ffdfdcdb588ccae9a2775dda55b[m
+Author: aramyzOE <aramyz.guimaraes@objectedge.com>
+Date:   Tue Aug 29 16:04:16 2017 -0300
+
+    Aramyz Hero Banner training widget finished
+
+[33mcommit 888c35ea631edc15e8fe1bf9c869b4bd45e87c4a[m
+Author: aramyzOE <aramyz.guimaraes@objectedge.com>
+Date:   Mon Aug 28 15:25:15 2017 -0300
+
+    hero banner test
+
+[33mcommit 70577d4a717f8c93b6fdf25744f88518079f65df[m
+Author: aramyzOE <aramyz.guimaraes@objectedge.com>
+Date:   Tue Aug 22 13:41:21 2017 -0300
+
+    added occ-tools project json
+
+[33mcommit 63dfb1e19d1ff4eb02ad19d514029e2600da37cf[m
+Author: Juliana Moreira <juliana.moreira@objectedge.com>
+Date:   Thu Mar 2 19:21:13 2017 -0300
+
+    OET-16 : Fixing identation
+
+[33mcommit 69d8ac4f044a214b14711ccd23620565f8d0224a[m
+Author: Juliana Moreira <juliana.moreira@objectedge.com>
+Date:   Thu Mar 2 19:18:37 2017 -0300
+
+    OET-16 : Finishing hero banner
+
+[33mcommit a5541757c5d512490900ea025896957df19ea7e1[m
+Author: Juliana Moreira <juliana.moreira@objectedge.com>
+Date:   Mon Feb 27 15:27:03 2017 -0300
+
+    OET-16 : First carousel test, listing with hardcode items
+
+[33mcommit ef9d614fb699d8a8468c896a4cd5b7fd96c93f0a[m
+Author: sagar.shinkar <sagar.shinkar@objectedge.com>
+Date:   Thu Feb 2 16:28:55 2017 +0530
+
+    widgets
+
+[33mcommit 8720b0c49e8e10dc5569134470438fa42acc7d4f[m
+Author: sagar.shinkar <sagar.shinkar@objectedge.com>
+Date:   Tue Jan 24 16:46:04 2017 +0530
+
+    TestWidget added.
+
+[33mcommit e8b79859ddf28dc5909751a0a076bb7473140ec1[m
+Author: Italo Franco <italo.franco@objectedge.com>
+Date:   Thu Jan 19 11:21:29 2017 -0200
+
+    Italo- Revert oeItaloRecentlyViewedProductsManager code
+
+[33mcommit 6e65422a4616810e728b31289578aca1ab49de85[m
+Author: Italo Franco <italo.franco@objectedge.com>
+Date:   Thu Jan 19 11:14:36 2017 -0200
+
+    Italo- Implement functional version of RVP Display and Manager
+
+[33mcommit dc3fea978a3c84dc8a111db36c8cd24364f9b819[m
+Author: yurimachadooe <yuri.machado@objectedge.com>
+Date:   Thu Jan 12 14:09:55 2017 -0200
+
+    OEBannerHeroYuri Alterações
+
+[33mcommit 71d7c322b5ec836db1d33d1609169c63d896665d[m
+Author: yurimachadooe <yuri.machado@objectedge.com>
+Date:   Wed Jan 4 15:38:14 2017 -0200
+
+    OEBannerHeroYuri occ training
+
+[33mcommit 59b3a50181f52821a20d17f4910e6252b5b44be6[m
+Author: Italo Franco <italo.franco@objectedge.com>
+Date:   Tue Jan 3 11:06:48 2017 -0200
+
+    Implement RecentlyView Manager/Display
+
+[33mcommit 7e586c9c01f38ce994d245306dff5b61093e4ee6[m
+Author: callegas <callegas.f@gmail.com>
+Date:   Fri Dec 30 14:42:29 2016 -0200
+
+    remove repeated instance
+
+[33mcommit ad6e27d735af8f59741ec46ba22e179c42b583c6[m
+Author: callegas <callegas.f@gmail.com>
+Date:   Fri Dec 30 13:28:43 2016 -0200
+
+    Apply recommended modifications in OE Hero Banner Callegas
+
+[33mcommit 95945a0a2a99031d1d2ac57186d3e9a1b9fbbb56[m
+Author: callegas <callegas.f@gmail.com>
+Date:   Fri Dec 30 10:47:33 2016 -0200
+
+    Create OE Hero Banner Callegas
+
+[33mcommit 086ad812a51035932ae455043fd5e99d9ab12ae6[m
+Author: Italo Franco <italo.franco@objectedge.com>
+Date:   Tue Dec 27 10:16:42 2016 -0200
+
+    Change comparators to strict comparators
+
+[33mcommit 93c38e23b4d0e3a9e9dac7ed1946de09f079cefa[m
+Author: Italo Franco <italo.franco@objectedge.com>
+Date:   Tue Dec 27 10:08:36 2016 -0200
+
+    Italo - Change string comparison and '{}' on statements
+
+[33mcommit c38593f42c32289c519b50cfd2521d6d4a7622a2[m
+Author: Rafael Zorzo <rafael@rafaelzorzo.com.br>
+Date:   Fri Dec 23 17:53:20 2016 -0200
+
+    (NO JIRA TASK) Doing some tests with helpers.
+
+[33mcommit 4e9166f27758296aeb4a73c784ccfb22726c6509[m
+Author: Italo Franco <italo.franco@objectedge.com>
+Date:   Fri Dec 23 14:32:16 2016 -0200
+
+    Italo - Creating trainning widget
+
+[33mcommit a24d5ffb5f7bccaa5de5f8144c53f4b0f35b2b40[m
+Author: Mauricio Goncalves Neto <mauricio.neto@objectedge.com>
+Date:   Thu Dec 22 15:43:44 2016 -0200
+
+    Add Vagrantfile, sonar and .gitignore files
+
+[33mcommit e8981aacf064a86f3fba46a47b150d6f4c742d61[m
+Author: Douglas Hipolito <douglas.hipolito@objectedge.com>
+Date:   Wed Dec 21 10:42:02 2016 -0200
+
+    Adding boilerplate
+
+[33mcommit 74f4c222ac0dd7958ac4aaf975de08125abc73ab[m
+Author: Mauricio Goncalves Neto <mauricio.neto@objectedge.com>
+Date:   Wed Dec 21 09:38:48 2016 -0200
+
+    Initial commit

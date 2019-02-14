@@ -3,11 +3,11 @@
   "environments": [
     {
       "name": "dev",
-      "url": "https://ccadmin-z1ma.oracleoutsourcing.com"
+      "url": "https://ccadmin-z93a.oracleoutsourcing.com"
     },
     {
       "name": "dev-store",
-      "url": "https://ccstore-z1ma.oracleoutsourcing.com"
+      "url": "https://ccstore-z93a.oracleoutsourcing.com"
     }
   ],
   "theme": {

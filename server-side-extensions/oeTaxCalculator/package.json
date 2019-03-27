@@ -1,0 +1,42 @@
+{
+  "author": "ObjectEdge",
+  "config": {
+    "port": "3000"
+  },
+  "dependencies": {},
+  "description": "oeTaxCalculator",
+  "devDependencies": {
+    "body-parser": "latest",
+    "express": "latest",
+    "fs-extra": "latest",
+    "moment": "latest",
+    "nconf": "latest",
+    "winston": "latest"
+  },
+  "license": "SEE LICENSE IN LICENSE.TXT",
+  "main": "/app/index.js",
+  "name": "oeTaxCalculator",
+  "publicUrls": [
+    "/ccstorex/custom/v1/tax-zorzo"
+  ],
+  "authenticatedUrls": [],
+  "scripts": {
+    "lint": "jshint ./app || rem",
+    "oldtest": "mocha --timeout 10000",
+    "start": "node index.js",
+    "test": "gulp test"
+  },
+  "translations": [
+    {
+      "description": "oeTaxCalculator",
+      "language": "en",
+      "name": "oeTaxCalculator"
+    },
+    {
+      "description": "oeTaxCalculator",
+      "language": "pt_BR",
+      "name": "oeTaxCalculator"
+    }
+  ],
+  "version": "0.1.0"
+}

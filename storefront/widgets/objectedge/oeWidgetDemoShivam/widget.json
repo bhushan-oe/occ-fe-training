@@ -1,0 +1,13 @@
+{
+  "name": "oeWidgetDemoShivam",
+  "widgetType": "oeWidgetDemoShivam",
+  "i18nresources": "oeWidgetDemoShivam",
+  "javascript": "oeWidgetDemoShivam",
+  "availableToAllPages": true,
+  "global": false,
+  "globalEnabled": false,
+  "version": 1,
+  "jsEditable": true,
+  "imports": [],
+  "config": {}
+}

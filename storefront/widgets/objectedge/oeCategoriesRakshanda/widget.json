@@ -1,0 +1,13 @@
+{
+  "name": "oeCategoriesRakshanda",
+  "widgetType": "oeCategoriesRakshanda",
+  "i18nresources": "oeCategoriesRakshanda",
+  "javascript": "oeCategoriesRakshanda",
+  "availableToAllPages": true,
+  "global": false,
+  "globalEnabled": false,
+  "version": 1,
+  "jsEditable": true,
+  "imports": [],
+  "config": {}
+}

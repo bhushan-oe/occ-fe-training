@@ -49,4 +49,5 @@ export class Sample extends BaseWidget {
   beforeAppear() {
     console.log('[BEFORE APPEAR] Sample');
   }
+  
 }

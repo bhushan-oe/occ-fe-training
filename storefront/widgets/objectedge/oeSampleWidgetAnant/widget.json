@@ -1,0 +1,13 @@
+{
+  "name": "oeSampleWidgetAnant",
+  "widgetType": "oeSampleWidgetAnant",
+  "i18nresources": "oeSampleWidgetAnant",
+  "javascript": "oeSampleWidgetAnant",
+  "availableToAllPages": true,
+  "global": false,
+  "globalEnabled": false,
+  "version": 1,
+  "jsEditable": true,
+  "imports": [],
+  "config": {}
+}

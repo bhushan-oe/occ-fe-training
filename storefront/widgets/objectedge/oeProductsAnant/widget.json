@@ -1,0 +1,13 @@
+{
+  "name": "oeProductsAnant",
+  "widgetType": "oeProductsAnant",
+  "i18nresources": "oeProductsAnant",
+  "javascript": "oeProductsAnant",
+  "availableToAllPages": true,
+  "global": false,
+  "globalEnabled": false,
+  "version": 1,
+  "jsEditable": true,
+  "imports": [],
+  "config": {}
+}

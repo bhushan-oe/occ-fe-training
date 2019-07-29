@@ -1,0 +1,13 @@
+{
+  "name": "oeCategoryMotoAnant",
+  "widgetType": "oeCategoryMotoAnant",
+  "i18nresources": "oeCategoryMotoAnant",
+  "javascript": "oeCategoryMotoAnant",
+  "availableToAllPages": true,
+  "global": false,
+  "globalEnabled": false,
+  "version": 1,
+  "jsEditable": true,
+  "imports": [],
+  "config": {}
+}

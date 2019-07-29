@@ -1,0 +1,65 @@
+<!-- oeES6Widget -->
+<div id="oeES6Widget">
+    <div class="container wid">
+        <div class="row">
+            <div class="flex">
+                <h2>Shop By Category</h2>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-2 col-sm-4 col-xs-12 flex">
+                <div class="boxes">
+                    <div class="imgBox">
+                        <img src="https://shop-test1.motorolasolutions.com/file/v2528149168084665045/general/generic-radio-64.png" alt="">
+                    </div>
+                    <div>DEVICES</div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-12 flex">
+                <div class="boxes">
+                    <div class="imgBox">
+                        <img src="https://shop-test1.motorolasolutions.com/file/v4065941183601351310/general/emergency-call-handling-64.png"
+                        alt="">
+                    </div>
+                    <div>ACCESSORIES</div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-12 flex">
+                <div class="boxes">
+                    <div class="imgBox">
+                        <img src="https://shop-test1.motorolasolutions.com/file/v838508825664053943/general/managed-services-64.png" alt="">
+                    </div>
+                    <div>SOFTWARE</div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-12 flex">
+                <div class="boxes">
+                    <div class="imgBox"></div>
+                        <img style="max-width: 60px; height: 60px;" src="https://shop-test1.motorolasolutions.com/file/v7943755065375778214/general/bunny1.png" alt="">
+                    <div>TEST1</div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-12 flex">
+                <div class="boxes">
+                    <div class="imgBox">
+                        <img src="https://shop-test1.motorolasolutions.com/file/v130361423085606587/general/bunny4.png" alt="">
+                    </div>
+                    <div>TEST2</div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+    
+            <div class="col-md-5"></div>
+            <div class="col-md-2 col-sm-4 col-xs-12 flex">
+                <div class="boxes">
+                    <div class="imgBox">
+                        <img src="https://shop-test1.motorolasolutions.com/file/v4002270323123081827/general/mice1.png" alt="">
+                    </div>
+                    <div>TEST3</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

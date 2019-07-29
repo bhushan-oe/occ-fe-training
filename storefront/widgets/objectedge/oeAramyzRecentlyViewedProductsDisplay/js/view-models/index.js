@@ -1,1 +1,0 @@
-export { caroulsel } from './caroulsel';

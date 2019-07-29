@@ -1,1 +1,0 @@
-export { manager } from './manager';

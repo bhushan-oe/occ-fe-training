@@ -1,6 +1,0 @@
-{
-  "resources": {
-    "maxItemsLabel" : "Maximum Items",
-    "maxItemsHelpText" : "Representa o número máximo de items para guardar"
-	}
-}

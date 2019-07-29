@@ -1,9 +1,0 @@
-{
-  "resources": {
-    "title": "oeLucasTreinamento Settings",
-    "description":"configuração do widget oeLucasPellisoliTreinamento",
-    "text":"Meu primeiro Widget texto- locales",
-    "textWidgetConfigLocalHelpText":"(Requerido, maximo de letras: 50)",
-    "textWidgetConfigLocalLabel":"Texto Widget"
-  }
-}

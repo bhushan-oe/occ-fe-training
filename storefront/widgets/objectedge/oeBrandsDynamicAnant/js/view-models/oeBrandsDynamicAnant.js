@@ -11,10 +11,6 @@ import rest from 'ccRestClient';
  */
 import ko from 'knockout';
 
-/**
- * Models
- */
-import SampleModel from '../models/oeBrandsDynamicAnant';
 
 export class Sample extends BaseWidget {
 
@@ -33,16 +29,13 @@ export class Sample extends BaseWidget {
     for(let id of allCollection){
       rest.request(constants.ENDPOINT_COLLECTIONS_GET_COLLECTION, { },
         (data) => {
-          console.log(data);
           this.allBrands.push(data);
-          console.log(this.allBrands());
         },
         (error)=>{
           console.log("Error" + error);
         },
         id);
     }
-    console.log(this.allBrands());
     console.log('[ONLOAD] - Sample-Anant');
   }
 

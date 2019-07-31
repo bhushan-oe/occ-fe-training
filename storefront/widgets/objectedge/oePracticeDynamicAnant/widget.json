@@ -1,0 +1,13 @@
+{
+  "name": "oePracticeDynamicAnant",
+  "widgetType": "oePracticeDynamicAnant",
+  "i18nresources": "oePracticeDynamicAnant",
+  "javascript": "oePracticeDynamicAnant",
+  "availableToAllPages": true,
+  "global": false,
+  "globalEnabled": false,
+  "version": 1,
+  "jsEditable": true,
+  "imports": [],
+  "config": {}
+}

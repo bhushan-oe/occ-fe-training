@@ -1,0 +1,13 @@
+{
+    "widgetDescriptorName": "oePracticeDynamicAnant",
+    "properties": [{
+        "id": "anyBrand",
+        "type": "collectionType",
+        "name": "anyBrands",
+        "helpTextResourceId": "anyBrand",
+        "labelResourceId": "anyBrand",
+        "defaultValue": "",
+        "required": true
+        }
+    ]
+}

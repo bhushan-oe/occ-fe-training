@@ -72,33 +72,4 @@
             </div>
         </div>
     </div>
-
-    <div class="row brandContainer">
-        <h3 class="textBrand">OUR BRANDS</h3>
-
-        <div class="col-lg-3 col-sm-6 col-xs-12 brands">
-            <div class="bgBrand">
-                <img src="file/general/greenballlogo.svg" class="image imageBrand">
-
-            </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 col-xs-12 brands">
-            <div class="bgBrand">
-                <img src="file/general/centennial.png" class="image imageBrand">
-
-            </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 col-xs-12 brands">
-            <div class="bgBrand">
-                <img src="file/general/gbc-logo.png" class="image imageBrand">
-
-            </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 col-xs-12 brands">
-            <div class="bgBrand">
-                <img src="file/general/kanati.png" class="image imageBrand">
-
-            </div>
-        </div>
-    </div>
 </div>

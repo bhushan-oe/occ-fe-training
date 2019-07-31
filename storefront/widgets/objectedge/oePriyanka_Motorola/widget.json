@@ -1,0 +1,13 @@
+{
+  "name": "oePriyanka_Motorola",
+  "widgetType": "oePriyanka_Motorola",
+  "i18nresources": "oePriyanka_Motorola",
+  "javascript": "oePriyanka_Motorola",
+  "availableToAllPages": true,
+  "global": false,
+  "globalEnabled": false,
+  "version": 1,
+  "jsEditable": true,
+  "imports": [],
+  "config": {}
+}

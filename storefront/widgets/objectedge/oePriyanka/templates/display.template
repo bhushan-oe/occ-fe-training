@@ -1,0 +1,75 @@
+<!-- oeES6Widget -->
+<div id="oeES6Widget">
+    <h3>OCC Training Demo Widget by Priyanka</h3>
+    <h3>GREENBALL PRODUCTS</h3>
+    <div class="row">
+        <div class="col-lg-3 col-sm-6 col-xs-12 layout">
+            <div class="bg">
+                <img src="file/general/trailer-tires.jpg" class="image">
+                <div class="bgText">
+                    <h4 class="text">TRAILER</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-xs-12 layout">
+            <div class="bg">
+                <img src="file/general/light-truck-tires.jpg" class="image">
+                <div class="bgText">
+                    <h4 class="text">LIGHT TRUCK</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-xs-12 layout">
+            <div class="bg">
+                <img src="file/general/mobile-home-tires.jpg" class="image">
+                <div class="bgText">
+                    <h4 class="text">MOBILE HOME</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-xs-12 layout">
+            <div class="bg">
+                <img src="file/general/lawn-garden-tires.jpg" class="image">
+                <div class="bgText">
+                    <h4 class="text">LAWN & GARDEN</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-3 col-sm-6 col-xs-12 layout">
+            <div class="bg">
+                <img src="file/general/farm-industrial-tires.jpg" class="image">
+
+                <div class="bgText">
+                    <h4 class="text">FARM & INDUSTRIAL</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-xs-12 layout">
+            <div class="bg">
+                <img src="file/general/golf-cart-tires.jpg" class="image">
+                <div class="bgText">
+                    <h4 class="text">GOLF CART</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-xs-12 layout">
+            <div class="bg">
+                <img src="file/general/atv-utv-tires.jpg" class="image">
+                <div class="bgText">
+                    <h4 class="text">ATV & UTV</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-xs-12 layout">
+            <div class="bg">
+                <img src="file/general/wheels-accessories.jpg" class="image">
+                <div class="bgText">
+                    <h4 class="text">WHEELS & ACCESSORIES</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

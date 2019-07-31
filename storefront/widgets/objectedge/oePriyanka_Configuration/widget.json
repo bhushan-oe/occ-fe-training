@@ -1,0 +1,13 @@
+{
+  "name": "oePriyanka_Configuration",
+  "widgetType": "oePriyanka_Configuration",
+  "i18nresources": "oePriyanka_Configuration",
+  "javascript": "oePriyanka_Configuration",
+  "availableToAllPages": true,
+  "global": false,
+  "globalEnabled": false,
+  "version": 1,
+  "jsEditable": true,
+  "imports": [],
+  "config": {}
+}

@@ -1,0 +1,42 @@
+/* ---------------------------------------------------------------------- */
+/*  OE Generic Widget Styles
+/* ---------------------------------------------------------------------- */
+#oePriyanka_motorola {
+.flex-container {
+    width:70%;
+    margin:auto;
+  }
+  
+  .flex-container > div {
+    padding: 34px;
+    font-size: 20px;
+    height:132px;
+    cursor: pointer;
+   
+    .category{
+        &:hover {
+            box-shadow: 0 30px 40px 0 rgba(35, 35, 35, 0.2);
+        }
+    }
+    
+  }
+  .category img{
+    width:100%;
+  }
+  .text{
+    font-size: 10px;
+    text-align: center;
+  }
+    .textCategory{
+        color:rgb(0,0,0);
+        padding:5px;
+        text-align: center;
+    }
+    @media only screen and (max-width: 480px){
+        .category{
+            width: 64px;
+            height: 64px;
+            margin: auto;
+        }
+    }
+}

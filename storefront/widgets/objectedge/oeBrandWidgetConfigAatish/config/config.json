@@ -1,0 +1,12 @@
+{
+    "widgetDescriptorName": "oeBrandWidgetConfigAatish",
+    "properties": [{
+        "id": "selectedBrandCollection",
+        "type": "collectionType",
+        "name": "SelectCollectionsForBrand",
+        "required": false,
+        "helpTextResourceId": "brandResourceId",
+        "labelResourceId": "brandResourceLabel"
+    }
+    ]
+}

@@ -1,0 +1,52 @@
+/* ---------------------------------------------------------------------- */
+/*  OE Generic Widget Styles
+/* ---------------------------------------------------------------------- */
+#oeES6Widget {
+    color: #ffffff;
+    padding: 5px;
+    .centerDiv{
+        background-color: #1F1F1F;
+        .heading{
+            margin: 0 0 0 15px;
+        }
+        .outerContainer{
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .innerContainer{
+            width: 80%;
+            @media (max-width: 768px){
+                width: 90%;
+            }
+        }
+        .logoDiv{
+            margin: 0 0 25px;
+            position: relative;
+            .innerlogoDiv{
+                border-radius: 5px;
+                background-color: #ffffff;
+                height: 125px;
+                width: 175px;
+                position: relative;
+                margin: auto;
+                img{
+                    padding: 15px;
+                    position: absolute;
+                    width: 100%;
+                    object-fit: contain;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%)
+                }
+                @media (max-width: 768px){
+                    height: 100px;
+                    width: 135px;
+                }
+            }
+        }
+        .logoDiv:hover{
+            transform: scale(1.1);
+        }
+    }
+}

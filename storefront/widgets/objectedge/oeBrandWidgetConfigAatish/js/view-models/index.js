@@ -1,0 +1,1 @@
+export { oeBrandWidgetConfigAatish } from './oeBrandWidgetConfigAatish';

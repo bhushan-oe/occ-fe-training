@@ -1,0 +1,32 @@
+<!-- oeES6Widget -->
+<div id="oeES6Widget" class="col-lg-12">
+   <div class="centerDiv row">
+       <div class="heading">
+           <h2>Our Brand</h2>
+       </div>
+       <div class="outerContainer col-lg-12">
+            <div class="innerContainer row">
+                <a class="logoDiv col-lg-3 col-sm-6 col-xs-6" href="#">
+                    <div class="innerlogoDiv">
+                        <img src="https://customerportal.greenball.com/file/v1297969192611955763/collections/GB_Logo.PNG" alt="GreenBall">
+                    </div>
+                </a>
+                <a class="logoDiv col-lg-3 col-sm-6 col-xs-6" href="#">
+                    <div class="innerlogoDiv">
+                        <img src="https://customerportal.greenball.com/file/v586762788947894388/collections/centennial.png" alt="Centennial">
+                    </div>
+                </a>
+                <a class="logoDiv col-lg-3 col-sm-6 col-xs-6" href="#">
+                    <div class="innerlogoDiv">
+                        <img src="https://customerportal.greenball.com/file/v3261785599943435750/collections/gbc.png" alt="gbc">
+                    </div>
+                </a>
+                <a class="logoDiv col-lg-3 col-sm-6 col-xs-6" href="#">
+                    <div class="innerlogoDiv">
+                        <img src="https://customerportal.greenball.com/file/v8538037109558035631/collections/kanati.png" alt="Kanati">
+                    </div>
+                </a>
+            </div>
+        </div>
+   </div>
+</div>

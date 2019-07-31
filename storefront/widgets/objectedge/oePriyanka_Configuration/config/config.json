@@ -1,0 +1,11 @@
+{
+    "widgetDescriptorName": "oePriyanka_Configuration",
+    "properties": [{
+        "id": "greenBallBrands",
+        "type": "collectionType",
+        "name": "oepriyanka_greenballbrands",
+        "helpTextResourceId": "OEPriyankaHelperText",
+        "labelResourceId": "OEPriyankaLabelId",
+        "maxLength": 5
+    }]
+}

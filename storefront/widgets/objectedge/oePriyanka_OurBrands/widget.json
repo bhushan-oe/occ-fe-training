@@ -1,0 +1,13 @@
+{
+    "name": "oePriyanka_OurBrands",
+    "widgetType": "oePriyanka_OurBrands",
+    "i18nresources": "oePriyanka_OurBrands",
+    "javascript": "oePriyanka_OurBrands",
+    "availableToAllPages": true,
+    "global": false,
+    "globalEnabled": false,
+    "version": 1,
+    "jsEditable": true,
+    "imports": [],
+    "config": {}
+}

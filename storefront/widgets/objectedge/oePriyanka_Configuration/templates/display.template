@@ -1,5 +1,14 @@
 <!-- oeES6Widget -->
 <div id="oePriyanka_configuration">
 
-    <p>Widget Configuration</p>
+   <div class="row brandContainer">
+        <h3 class="textBrand">OUR BRANDS</h3>
+            <!-- ko foreach: $data.brands -->
+            <div class="col-lg-3 col-sm-6 col-xs-12 brand">
+                <a class="bgBrand"  target="_blank" data-bind="attr:{href: $data.link,title: $data.name}">
+                    <img data-bind="attr:{src: 'file' + $data.image}" class="imageBrand">
+                </a>
+            </div>
+            <!-- /ko -->
+    </div>
 </div>

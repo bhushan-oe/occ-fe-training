@@ -1,0 +1,14 @@
+{
+    "widgetDescriptorName": "oeWidgetConfigShivam",
+    "properties": [{
+        "id": "gbBrands",
+        "type": "collectionType",
+        "name": "ourBrands",
+        "helpTextResourceId": "Select ourBrands",
+        "labelResourceId": "gb_ourBrands",
+        "defaultValue": "",
+        "required": false
+      }
+
+    ]
+}

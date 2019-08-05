@@ -1,0 +1,1 @@
+export { oeWidgetConfigShivam } from './oeWidgetConfigShivam';

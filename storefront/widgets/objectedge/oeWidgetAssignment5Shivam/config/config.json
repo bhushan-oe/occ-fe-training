@@ -1,0 +1,14 @@
+{
+    "widgetDescriptorName": "oeWidgetAssignment5Shivam",
+    "properties": [{
+        "id": "oeGbBrands",
+        "type": "collectionType",
+        "name": "ourBrands",
+        "helpTextResourceId": "Select ourBrands",
+        "labelResourceId": "gb_ourBrands",
+        "defaultValue": "",
+        "required": false
+      }
+
+    ]
+}

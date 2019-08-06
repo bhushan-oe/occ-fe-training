@@ -1,0 +1,14 @@
+<!-- ko if: initialized() && $data.hasOwnProperty('oeNewMotoCategoryCart') -->
+<div id="oeNewMotoCategoryCart">
+  <div class="block" >
+      <a href="" data-bind="attr: {title: $elementInstance.config.image.titleText}">
+          <div class="categoryContainer">
+              <div class="imgContainer">
+                  <img data-bind="attr: {src: $elementInstance.config.image.src}" alt="">
+              </div>
+              <span data-bind="text: $elementInstance.config.image.titleText"> </span>
+          </div>
+      </a>
+  </div>
+</div>
+<!-- /ko -->

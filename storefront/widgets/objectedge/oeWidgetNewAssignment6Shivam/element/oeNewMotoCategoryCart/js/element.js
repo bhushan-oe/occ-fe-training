@@ -11,10 +11,10 @@ define(
     "use strict";
 
     return {
-      elementName: 'oeMotoCategoryCart',
+      elementName: 'oeNewMotoCategoryCart',
 
       onLoad: function (widget) {
-        
+
       }
     };
   });

@@ -1,0 +1,112 @@
+
+<!-- ko setContextVariable: {name: 'elementConfig', value: {
+  "200153": {
+    "id": "200153",
+    "image": {
+      "isProductImage": false,
+      "src": "/file/v929842866045061360/general/instant-communication.jpg",
+      "titleText": "Raksha",
+      "titleTextId": "200232",
+      "zoomEnabled": false
+    },
+    "text": {"text": "categories"}
+  },
+  "200154": {
+    "id": "200154",
+    "image": {
+      "isProductImage": false,
+      "src": "/file/v1725206595732950699/general/scalable-service.jpg",
+      "titleText": "test1",
+      "titleTextId": "200234",
+      "zoomEnabled": false
+    },
+    "text": {"text": "categories"}
+  },
+  "200155": {
+    "id": "200155",
+    "image": {
+      "isProductImage": false,
+      "src": "/file/v838508825664053943/general/managed-services-64.png",
+      "titleText": "test2",
+      "titleTextId": "200236",
+      "zoomEnabled": false
+    },
+    "text": {"text": "categories"}
+  },
+  "200156": {
+    "id": "200156",
+    "image": {
+      "isProductImage": false,
+      "src": "/file/v4065941183601351310/general/emergency-call-handling-64.png",
+      "titleText": "test3",
+      "titleTextId": "200238",
+      "zoomEnabled": false
+    },
+    "text": {"text": "categories"}
+  },
+  "200157": {
+    "id": "200157",
+    "image": {
+      "isProductImage": false,
+      "src": "/file/v6714418219977168388/general/generic-radio-64@3x.png",
+      "titleText": "test4",
+      "titleTextId": "200240",
+      "zoomEnabled": false
+    },
+    "text": {"text": "categories"}
+  },
+  "200158": {
+    "id": "200158",
+    "image": {
+      "isProductImage": false,
+      "src": "/file/v929842866045061360/general/instant-communication.jpg",
+      "titleText": "test3",
+      "titleTextId": "200242",
+      "zoomEnabled": false
+    },
+    "text": {"text": "categories"}
+  }
+}} --><!-- /ko -->
+
+<div class="templateRegion" id="oeCategotyElementRakshandaTemplateRegion" data-oc-id="oeCategotyElementRakshandaTemplateRegion">
+  <!-- oc layout: panels -->
+  <div class="col-12 heading">Sort By Category</div>
+  <div class="row flexDiv">
+    <div class="oc-panel col-md-12 widthFlexWrap" data-oc-id="panel-0-0">
+
+      <!-- oc section: categories -->
+<span data-bind="element: 'categories',id: '200153'"></span>
+
+      <!-- /oc -->
+
+      <!-- oc section: categories -->
+<span data-bind="element: 'categories',id: '200154'"></span>
+
+      <!-- /oc -->
+
+      <!-- oc section: categories -->
+<span data-bind="element: 'categories',id: '200155'"></span>
+
+      <!-- /oc -->
+
+      <!-- oc section: categories -->
+<span data-bind="element: 'categories',id: '200156'"></span>
+
+      <!-- /oc -->
+
+      <!-- oc section: categories -->
+<span data-bind="element: 'categories',id: '200157'"></span>
+
+      <!-- /oc -->
+
+      <!-- oc section: categories -->
+<span data-bind="element: 'categories',id: '200158'"></span>
+
+      <!-- /oc -->
+
+    </div>
+
+
+  </div>
+  <!-- /oc -->
+</div>

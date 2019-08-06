@@ -1,0 +1,12 @@
+<!-- ko if: initialized() && $data.hasOwnProperty('categories') -->
+<div id="categories">
+                <a href="">
+                        <div class="singleCategory">
+                                <div class="imageWrapper">
+                                        <img data-bind="attr:{src: $elementInstance.config.image.src}">
+                                </div>
+                                <div class= "categoryName" data-bind="text: $elementInstance.config.image.titleText"> </div>
+                        </div>
+                </a>      
+        </div>       
+<!-- /ko -->

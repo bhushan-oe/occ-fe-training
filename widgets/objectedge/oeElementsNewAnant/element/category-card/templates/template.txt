@@ -1,0 +1,5 @@
+<!-- ko if: initialized() && $data.hasOwnProperty('category-card') -->
+<div id="category-card">
+  I'm a generic element.
+</div>
+<!-- /ko -->

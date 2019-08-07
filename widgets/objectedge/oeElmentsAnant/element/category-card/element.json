@@ -1,0 +1,29 @@
+{
+  "availableToAllWidgets": false,
+  "configOptions": [
+    "wrapperTag",
+    "fontPicker",
+    "preview"
+  ],
+  "global": false,
+  "inline": false,
+  "previewText": "category-card",
+  "supportedWidgetType": [
+    "oeElmentsAnant"
+  ],
+  "tag": "category-card",
+  "translations": [
+    {
+      "language": "en",
+      "title": "category-card",
+      "description": "This is a generic element"
+    },
+    {
+      "language": "pt_BR",
+      "title": "category-card",
+      "description": "Elemento genérico"
+    }
+  ],
+  "type": "fragment",
+  "version": 1
+}

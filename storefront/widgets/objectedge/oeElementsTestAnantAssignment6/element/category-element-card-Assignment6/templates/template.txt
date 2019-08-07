@@ -1,0 +1,10 @@
+<!-- ko if: initialized() && $data.hasOwnProperty('category-element-card-Assignment6') -->
+<div id="category-element-card-Assignment6">
+  <div class="boxes">
+    <div class="imgBox">
+      <img data-bind="attr:{src: $elementInstance.config.image.src}">
+    </div>
+    <div class="colour" data-bind="text: $elementInstance.config.image.titleText"></div>
+  </div>
+</div>
+<!-- /ko -->

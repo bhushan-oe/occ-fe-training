@@ -3,8 +3,8 @@
  */
 import { exportToViewModel } from 'occ-components/widget-core/decorators';
 import { BaseWidget } from 'occ-components/widget-core';
-import constants from 'ccConstants';
-import rest from 'ccRestClient';
+import constantsPracticeDynamicAnant from 'ccConstants';
+import restPracticeDynamicAnant from 'ccRestClient';
 /**
  * Libraries, Helpers
  */
@@ -32,7 +32,7 @@ export class Sample extends BaseWidget {
     
     for (let id of collection) {
       
-      rest.request(constants.ENDPOINT_COLLECTIONS_GET_COLLECTION, { },
+      restPracticeDynamicAnant.request(constantsPracticeDynamicAnant.ENDPOINT_COLLECTIONS_GET_COLLECTION, { },
         (data) => {
           this.allBrands.push(data);
           

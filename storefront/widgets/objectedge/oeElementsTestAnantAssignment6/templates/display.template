@@ -1,0 +1,138 @@
+<!-- ko setContextVariable: {name: 'elementConfig', value: {
+  "200218": {
+    "font": {"styles": {
+      "display": "block",
+      "font-size": "1rem"
+    }},
+    "id": "200218",
+    "image": {
+      "isProductImage": false,
+      "src": "/file/v6714418219977168388/general/generic-radio-64@3x.png",
+      "titleText": "DEVICES",
+      "titleTextId": "200347",
+      "zoomEnabled": false
+    },
+    "text": {"text": "category-element-card-Assignment6"}
+  },
+  "200219": {
+    "font": {"styles": {
+      "display": "block",
+      "font-size": "1rem"
+    }},
+    "id": "200219",
+    "image": {
+      "isProductImage": false,
+      "src": "/file/v4065941183601351310/general/emergency-call-handling-64.png",
+      "titleText": "ACCESSORIES",
+      "titleTextId": "200349",
+      "zoomEnabled": false
+    },
+    "text": {"text": "category-element-card-Assignment6"}
+  },
+  "200220": {
+    "font": {"styles": {
+      "display": "block",
+      "font-size": "1rem"
+    }},
+    "id": "200220",
+    "image": {
+      "isProductImage": false,
+      "src": "/file/v838508825664053943/general/managed-services-64.png",
+      "titleText": "SOFTWARE",
+      "titleTextId": "200351",
+      "zoomEnabled": false
+    },
+    "text": {"text": "category-element-card-Assignment6"}
+  },
+  "200221": {
+    "font": {"styles": {
+      "display": "block",
+      "font-size": "1rem"
+    }},
+    "id": "200221",
+    "image": {
+      "isProductImage": false,
+      "src": "/file/v929842866045061360/general/instant-communication.jpg",
+      "titleText": "TEST1",
+      "titleTextId": "200353",
+      "zoomEnabled": false
+    },
+    "text": {"text": "category-element-card-Assignment6"}
+  },
+  "200222": {
+    "font": {"styles": {
+      "display": "block",
+      "font-size": "1rem"
+    }},
+    "id": "200222",
+    "image": {
+      "isProductImage": false,
+      "src": "/file/v1725206595732950699/general/scalable-service.jpg",
+      "titleText": "TEST2",
+      "titleTextId": "200355",
+      "zoomEnabled": false
+    },
+    "text": {"text": "category-element-card-Assignment6"}
+  },
+  "200228": {
+    "font": {"styles": {
+      "display": "block",
+      "font-size": "1rem"
+    }},
+    "id": "200228",
+    "image": {
+      "isProductImage": false,
+      "src": "/file/v4065941183601351310/general/emergency-call-handling-64.png",
+      "titleText": "Anant",
+      "titleTextId": "200367",
+      "zoomEnabled": false
+    },
+    "text": {"text": "category-element-card-Assignment6"}
+  }
+}} -->
+<!-- /ko -->
+
+<!-- Last uploaded: Wed Aug 07 2019 11:48:10 GMT+0530 (IST) -->
+<!-- Latest commit: 3a16cf0ebe8d5e58ef1da08ffb47f39493dacdd9 -->
+<!-- CONTAINS UNSTAGED CHANGES -->
+<!-- oeES6Widget -->
+<div id="oeElementsTestAnantAssignment6">
+    <div class="templateRegion" id="oeElementsTestAnantAssignment6TemplateRegion"
+        data-oc-id="oeElementsTestAnantAssignment6TemplateRegion">
+        <!-- oc layout: panels -->
+        <div class="row">
+
+            <div class="oc-panel col-md-12" data-oc-id="panel-0-0">
+
+                <!-- oc section: category-element-card-Assignment6 -->
+                <h1 data-bind="element: 'category-element-card-Assignment6',id: '200218'"></h1>
+                <!-- /oc -->
+
+                <!-- oc section: category-element-card-Assignment6 -->
+                <h1 data-bind="element: 'category-element-card-Assignment6',id: '200219'"></h1>
+                <!-- /oc -->
+
+                <!-- oc section: category-element-card-Assignment6 -->
+                <h1 data-bind="element: 'category-element-card-Assignment6',id: '200220'"></h1>
+                <!-- /oc -->
+
+                <!-- oc section: category-element-card-Assignment6 -->
+                <h1 data-bind="element: 'category-element-card-Assignment6',id: '200221'"></h1>
+                <!-- /oc -->
+
+                <!-- oc section: category-element-card-Assignment6 -->
+                <h1 data-bind="element: 'category-element-card-Assignment6',id: '200222'"></h1>
+                <!-- /oc -->
+
+                <!-- oc section: category-element-card-Assignment6 -->
+                <h1 data-bind="element: 'category-element-card-Assignment6',id: '200228'"></h1>
+
+                <!-- /oc -->
+
+            </div>
+
+
+        </div>
+        <!-- /oc -->
+    </div>
+</div>

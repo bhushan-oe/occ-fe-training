@@ -1,0 +1,11 @@
+<div class="templateRegion" id="oeElementsNewAnantTemplateRegion" data-oc-id="oeElementsNewAnantTemplateRegion">
+  <!-- oc layout: panels -->
+  <div class="row">
+    <div class="oc-panel col-md-12" data-oc-id="panel-1">
+      <!-- oc section: category-card -->
+      <span data-bind="element: 'category-card'"></span>
+      <!-- /oc -->
+    </div>
+  </div>
+  <!-- /oc -->
+</div>

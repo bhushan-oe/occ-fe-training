@@ -1,0 +1,26 @@
+{
+  "availableToAllWidgets": false,
+  "configOptions": [
+    "wrapperTag",
+    "fontPicker",
+    "preview",
+    "image",
+    "textBox"
+  ],
+  "global": false,
+  "inline": false,
+  "previewText": "category-element-card-Assignment6",
+  "supportedWidgetType": [
+    "oeElementsTestAnantAssignment6"
+  ],
+  "tag": "category-element-card-Assignment6",
+  "translations": [
+    {
+      "language": "en",
+      "title": "category-element-card-Assignment6",
+      "description": "This is a generic element"
+    }
+  ],
+  "type": "fragment",
+  "version": 1
+}

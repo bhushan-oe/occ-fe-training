@@ -3,13 +3,11 @@ import { BaseWidget } from 'occ-components/widget-core';
 
 import ko from 'knockout';
 
-import oeWidgetConfigAatishModel from '../models/oeWidgetConfigAatish';
+import oeCategoryElementAatishModel from '../models/oeCategoryElementAatish';
 
-export class oeWidgetConfigAatish extends BaseWidget {
-
+export class oeCategoryElementAatish extends BaseWidget {
   constructor() {
     super();
-    const self = this.$data;
   }
 
   beforeAppear() {

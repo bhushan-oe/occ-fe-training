@@ -1,0 +1,13 @@
+<!-- oeES6Widget -->
+<div id="oeImageCarouselAatish">
+<div class="item">
+  <img class="widgetImage" data-bind="attr : {src : widgetImage.src}">
+  <div class="contextContainer">
+    <h1 class="widgetTitle" data-bind="text : widgetTitle"></h1>
+    <p class="widgetDescription" data-bind="text : widgetDescription"></p>
+    <div data-bind="if : widgetButtonName">
+      <button class="WidgetButton" data-bind="text : widgetButtonName, attr : { target : widgetButtonUrl}"></button>
+    </div>
+  </div>
+</div>
+</div>

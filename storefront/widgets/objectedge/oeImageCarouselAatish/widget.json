@@ -1,0 +1,13 @@
+{
+  "name": "oeImageCarouselAatish",
+  "widgetType": "oeImageCarouselAatish",
+  "i18nresources": "oeImageCarouselAatish",
+  "javascript": "oeImageCarouselAatish",
+  "availableToAllPages": true,
+  "global": false,
+  "globalEnabled": false,
+  "version": 1,
+  "jsEditable": true,
+  "imports": [],
+  "config": {}
+}

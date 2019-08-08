@@ -1,0 +1,13 @@
+{
+  "name": "oeDynamicBrandAatish",
+  "widgetType": "oeDynamicBrandAatish",
+  "i18nresources": "oeDynamicBrandAatish",
+  "javascript": "oeDynamicBrandAatish",
+  "availableToAllPages": true,
+  "global": false,
+  "globalEnabled": false,
+  "version": 1,
+  "jsEditable": true,
+  "imports": [],
+  "config": {}
+}

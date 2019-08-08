@@ -1,0 +1,13 @@
+{
+  "name": "oeHeaderAatish",
+  "widgetType": "oeHeaderAatish",
+  "i18nresources": "oeHeaderAatish",
+  "javascript": "oeHeaderAatish",
+  "availableToAllPages": true,
+  "global": false,
+  "globalEnabled": false,
+  "version": 1,
+  "jsEditable": true,
+  "imports": [],
+  "config": {}
+}

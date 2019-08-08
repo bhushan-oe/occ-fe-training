@@ -1,0 +1,19 @@
+<!-- oeBrandWidgetConfigAatish -->
+<div id="oeBrandWidgetConfigAatish" class="col-lg-12">
+   <div class="centerDiv row">
+       <div class="heading">
+           <h2>Our Brand</h2>
+       </div>
+       <div class="outerContainer col-lg-12">
+            <div class="innerContainer row">
+            <!--ko foreach: allBrands-->
+                <a class="logoDiv col-lg-3 col-sm-6 col-xs-6" href="#">
+                    <div class="innerlogoDiv" data-bind="attr : {title : $data.displayName}">
+                        <img data-bind="attr : {src : $data.categoryImages[0].url}" alt="GreenBall">
+                    </div>
+                </a>
+            <!--/ko -->
+            </div>
+        </div>
+   </div>
+</div>

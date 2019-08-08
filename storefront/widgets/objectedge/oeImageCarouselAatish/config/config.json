@@ -1,0 +1,45 @@
+{
+    "widgetDescriptorName": "OE ES6 Widget",
+    "properties": [
+        {
+            "id": "widgetImage",
+            "type": "mediaType",
+            "name": "Select Image",
+            "required": false,
+            "helpTextResourceId": "notificationsSelectImageHelpText",
+            "labelResourceId": "notificationsSelectImageTextLabel"
+        },
+        {
+            "id": "widgetTitle",
+            "type": "stringType",
+            "name": "Image Title",
+            "required": false,
+            "helpTextResourceId": "notificationsImageTitleHelpText",
+            "labelResourceId": "notificationsImageTitleHelpText"
+        },
+        {
+            "id": "widgetDescription",
+            "type": "stringType",
+            "name": "Image Description",
+            "required": false,
+            "helpTextResourceId": "notificationsImageDescriptionHelpText",
+            "labelResourceId": "notificationsImageDescriptionHelpText"
+        },
+        {
+            "id": "widgetButtonName",
+            "type": "stringType",
+            "name": "Button Name",
+            "required": false,
+            "helpTextResourceId": "notificationsButtonNameHelpText",
+            "labelResourceId": "notificationsButtonNameHelpText"
+        },
+        {
+            "id": "widgetButtonUrl",
+            "type": "stringType",
+            "name": "Button Url",
+            "required": false,
+            "helpTextResourceId": "notificationsButtonUrlHelpText",
+            "labelResourceId": "notificationsButtonUrlHelpText"
+        }
+    ]
+}

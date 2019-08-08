@@ -1,0 +1,36 @@
+/* ---------------------------------------------------------------------- */
+/*  OE Generic Widget Styles
+/* ---------------------------------------------------------------------- */
+#oeImageCarouselAatish {
+    @whiteColor : #ffffff;
+    .item{
+        color: @whiteColor;
+        .widgetImage{
+            position: relative;
+            width: 1680px;
+            height: 400px;
+        }
+        .contextContainer{
+            position: absolute;
+            top: 25%;
+            left: 25%;
+            .widgetTitle{
+                margin: 0;
+            }    
+            .widgetDescription{
+                font-size: 25px;
+            }      
+            .WidgetButton{
+                background-color: transparent;
+                border: 1px solid @whiteColor;
+                border-radius: 50px;
+                padding: 5px 15px;
+            }
+            .WidgetButton:hover{
+                background-color: @whiteColor;
+                color: #000000;
+            }
+        }
+
+    }
+}

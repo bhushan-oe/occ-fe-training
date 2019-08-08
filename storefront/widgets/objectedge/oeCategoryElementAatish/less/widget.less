@@ -1,0 +1,46 @@
+/* ---------------------------------------------------------------------- */
+/*  OE Generic Widget Styles
+/* ---------------------------------------------------------------------- */
+#oeCategoryElementAatishTemplateRegion{
+    .headerText{
+        text-align: center;
+    }
+    .row{
+        display: flex;
+        .oc-panel{
+            width: 60%;
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            #categoryCard{
+                .outerCards {
+                    position: relative;
+                    margin: 15px;
+                    text-align: center;
+                    color: #000000;
+                    .innerCards{
+                        height: 75px;
+                        width: 125px;
+                        img {
+                            object-fit: contain;
+                            height: 100%;
+                            width: 100%;
+                        }
+                    }
+                    .categoryName {
+                        margin: 5px 0 5px 0;
+                    }
+                }
+                .outerCards:hover{
+                    text-decoration: none;
+                }
+            }
+            #categoryCard:hover{
+                text-decoration: none;
+                box-shadow: 0 25px 35px #e0e0e0;
+            }
+        }
+    }
+}

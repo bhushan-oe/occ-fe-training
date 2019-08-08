@@ -1,0 +1,13 @@
+{
+    "widgetDescriptorName": "oeWidgetConfigAatish",
+    "properties": [
+        {
+            "id": "selectedCollection",
+            "type": "collectionType",
+            "name": "Select Collections",
+            "required": false,
+            "helpTextResourceId": "brandResourceId",
+            "labelResourceId": "brandResourceLabel"
+        }
+    ]
+}

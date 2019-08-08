@@ -1,0 +1,13 @@
+{
+  "name": "oeBrandWidgetConfigAatish",
+  "widgetType": "oeBrandWidgetConfigAatish",
+  "i18nresources": "oeBrandWidgetConfigAatish",
+  "javascript": "oeBrandWidgetConfigAatish",
+  "availableToAllPages": true,
+  "global": false,
+  "globalEnabled": false,
+  "version": 1,
+  "jsEditable": true,
+  "imports": [],
+  "config": {}
+}

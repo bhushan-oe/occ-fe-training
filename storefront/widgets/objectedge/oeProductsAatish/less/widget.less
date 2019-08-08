@@ -1,0 +1,52 @@
+/* ---------------------------------------------------------------------- */
+/*  OE Generic Widget Styles
+/* ---------------------------------------------------------------------- */
+#oeProductsAatish {
+    margin:  0 0 15px;
+    .headerText{
+        font-size: 30px;
+        letter-spacing: 1px;
+        margin: 15px 0 15px 0;
+    }
+    .row{
+        .outerDiv{
+            padding: 0;
+            height: 15vw;
+            @media (max-width: 768px) {
+                height: 125px;
+            }
+            overflow: hidden;
+            img{
+                height: 100%;
+                width: 100%;
+            }
+            .overlay {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 100%;
+                width: 100%;
+                opacity: .1;
+                transition: .5s ease;
+                background-color: #000000;
+            }
+            .text {
+                font-size: 20px;
+                color: #ffffff;
+                font-size: 20px;
+                position: absolute;
+                font-weight: bold;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+              } 
+        }
+        .outerDiv:hover img{
+            transform: scale(1.1);
+            transition: all .3s ease-in-out;
+        }
+    }
+}

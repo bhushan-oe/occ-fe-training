@@ -1,0 +1,44 @@
+/* ---------------------------------------------------------------------- */
+/*  OE Generic Widget Styles
+/* ---------------------------------------------------------------------- */
+#oeShopByCategoryAatish {
+    .mainContainer{
+        .headerText{
+            margin: 10px;
+            text-align: center;
+            width: 100%;
+            font-size: 30px;
+        }
+        .cardContainer{
+            width: 80%;
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            .outerCards{
+                position: relative;
+                margin: 15px;
+                text-align: center;
+                color: #000000;
+                .innerCards{
+                    height: 75px;
+                    width: 125px;
+                    img{
+                        object-fit: contain;
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+                .categoryName{
+                    margin: 15px 0 0;
+                }
+            }
+            .outerCards:hover{
+                text-decoration: none;
+                box-shadow: 0 25px 35px #2323231a;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,12 @@
+{
+  "resources": {
+    "Label": "",
+    "HelpText": "",
+    "carouselImagesLable":"Image",
+    "contentHeadingLable":"Content Heading",
+    "contentTextLable":"Content Text",
+    "bottonContentLable":"Button Lable",
+    "bottonNavigationUrlLable":"Button Navigation Url"
+
+  }
+}

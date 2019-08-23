@@ -1,0 +1,13 @@
+{
+  "name": "oeImageCarouselRakshanda",
+  "widgetType": "oeImageCarouselRakshanda",
+  "i18nresources": "oeImageCarouselRakshanda",
+  "javascript": "oeImageCarouselRakshanda",
+  "availableToAllPages": true,
+  "global": false,
+  "globalEnabled": false,
+  "version": 1,
+  "jsEditable": true,
+  "imports": [],
+  "config": {}
+}

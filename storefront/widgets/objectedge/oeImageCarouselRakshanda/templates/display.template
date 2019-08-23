@@ -1,0 +1,13 @@
+<!-- oeES6Widget -->
+<div id="oeImageCarouselRakshanda">
+    <div class="image-wrapper">
+        <img data-bind="attr:{src:carouselImages.src}" alt="Los Angeles">
+    </div>
+    <div class="carousel-caption">
+        <h1 data-bind="text:contentHeading"></h1>
+        <h3 data-bind="text:contentText"></h3>
+        <div class="buttonVisibility" data-bind="if: ($data.bottonContent && $data.bottonNavigationUrl)" >
+            <a data-bind="attr: { href:$data.bottonNavigationUrl}"><button class="btn btnDisplay" data-bind="text:bottonContent"></button></a>
+        </div>
+    </div>        
+</div>

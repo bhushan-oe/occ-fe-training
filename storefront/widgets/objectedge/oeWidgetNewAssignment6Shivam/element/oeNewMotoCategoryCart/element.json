@@ -1,0 +1,23 @@
+{
+  "availableToAllWidgets": false,
+  "configOptions": [
+    "image",
+    "textBox"
+  ],
+  "global": false,
+  "inline": false,
+  "previewText": "oeNewMotoCategoryCart",
+  "supportedWidgetType": [
+    "oeWidgetNewAssignment6Shivam"
+  ],
+  "tag": "oeNewMotoCategoryCart",
+  "translations": [
+    {
+      "language": "en",
+      "title": "oeNewMotoCategoryCart",
+      "description": "This is a generic element"
+    }
+  ],
+  "type": "fragment",
+  "version": 1
+}

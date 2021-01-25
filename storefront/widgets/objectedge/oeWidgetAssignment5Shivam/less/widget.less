@@ -1,0 +1,52 @@
+/* ---------------------------------------------------------------------- */
+/*  OE Generic Widget Styles
+/* ---------------------------------------------------------------------- */
+@whiteBackground: #ffffff;
+@textColor: #ffffff;
+@listContainerBackground:#1b1b1b;
+#oeWidgetAssignment5Shivam {
+    .listContainer{
+        background-color: @listContainerBackground;
+        padding: 40px;
+        color: @textColor;
+        display: flex;
+        justify-content: center;
+        .brandsContainer{
+            width: 70%;
+            .mainFont{
+                font-size: 20px;
+                a{
+                    color: @textColor;
+                }
+            }
+            .paddingBox{
+                padding: 15px;
+                @media (max-width: 480px){padding: 5px;}
+                .imageContainer{
+                    height: 150px;
+                    padding: 15px;
+                    border-radius: 5px;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    background-color: @whiteBackground;
+                    @media (max-width: 480px) { 
+                        height: 60px;
+                        padding: 5px; 
+                    }
+                    img{
+                        width: 100%;
+                    }
+                } 
+                .imageContainer:hover{
+                    transform: scale(1.1);
+                    transition: all .45s ease-in-out;
+                    cursor: pointer;
+                } 
+                
+            }
+            
+        }
+            
+    }
+}

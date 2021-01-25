@@ -1,0 +1,13 @@
+{
+  "name": "oeTrainingGbProductShivam",
+  "widgetType": "oeTrainingGbProductShivam",
+  "i18nresources": "oeTrainingGbProductShivam",
+  "javascript": "oeTrainingGbProductShivam",
+  "availableToAllPages": true,
+  "global": false,
+  "globalEnabled": false,
+  "version": 1,
+  "jsEditable": true,
+  "imports": [],
+  "config": {}
+}

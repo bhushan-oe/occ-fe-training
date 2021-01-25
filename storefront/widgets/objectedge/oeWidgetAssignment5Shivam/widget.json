@@ -1,0 +1,13 @@
+{
+  "name": "oeWidgetAssignment5Shivam",
+  "widgetType": "oeWidgetAssignment5Shivam",
+  "i18nresources": "oeWidgetAssignment5Shivam",
+  "javascript": "oeWidgetAssignment5Shivam",
+  "availableToAllPages": true,
+  "global": false,
+  "globalEnabled": false,
+  "version": 1,
+  "jsEditable": true,
+  "imports": [],
+  "config": {}
+}

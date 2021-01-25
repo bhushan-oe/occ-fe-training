@@ -1,0 +1,76 @@
+<!-- oeTrainingMotoCategoryShivam -->
+<div id="oeTrainingMotoCategoryShivam">
+        <div class="row-no-margin outer">
+            <div class="row mainContainer">
+                <div class="col-lg-12 col-sm-12 col-xs-12 mainText">
+                    <span>Shop By Category</span>
+                </div>
+                <div class="col-lg-1 col-xs-12"> </div>
+                <div class="col-lg-2 col-sm-4 col-xs-12 block" >
+                    <a href="" title="DEVICES">
+                        <div class="categoryContainer">
+                            <div class="imgContainer">
+                                <img src="https://shop-test1.motorolasolutions.com/file/v2528149168084665045/general/generic-radio-64.png" alt="">
+                            </div>
+                            <span>DEVICES</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-sm-4 col-xs-12 block" >
+                    <a href="" title="ACCESSORIES">
+                        <div class="categoryContainer">
+                            <div class="imgContainer">
+                                <img src="https://shop-test1.motorolasolutions.com/file/v4065941183601351310/general/emergency-call-handling-64.png" alt="">
+                            </div>
+                            <span>ACCESSORIES</span>
+                        </div>                    
+                    </a>
+                </div>
+                <div class="col-lg-2 col-sm-4 col-xs-12 block" >
+                   <a href="" title="SOFTWARE">
+                        <div class="categoryContainer">
+                            <div class="imgContainer">
+                                <img src="https://shop-test1.motorolasolutions.com/file/v838508825664053943/general/managed-services-64.png" alt="">
+                            </div>
+                            <span>SOFTWARE</span>
+                        </div>
+                   </a>
+                </div>
+                <div class="col-lg-2 col-sm-4 col-xs-12 block" >
+                   <a href="" title="TEST1">
+                        <div class="categoryContainer">
+                            <div class="imgContainer">
+                                <img src="https://shop-test1.motorolasolutions.com/file/v7943755065375778214/general/bunny1.png" alt="">
+                            </div>
+                            <span>TEST1</span>
+                         </div>
+                   </a>
+                </div>
+                <div class="col-lg-2 col-sm-4 col-xs-12 block" >
+                  <a href="" title="TEST2">  
+                    <div class="categoryContainer">
+                        <div class="imgContainer">
+                            <img src="https://shop-test1.motorolasolutions.com/file/v130361423085606587/general/bunny4.png" alt="">
+                        </div>
+                        <span>TEST2</span>
+                    </div>
+                </a>
+                </div> 
+                <div class="col-lg-1"> </div>
+                <div class="col-lg-5"> </div>
+                <div class="col-lg-2 col-sm-4 col-xs-12 block" >
+                   <a href="" title="TEST3">
+                        <div class="categoryContainer">
+                            <div class="imgContainer">
+                                <img src="https://shop-test1.motorolasolutions.com/file/v4002270323123081827/general/mice1.png" alt="">
+                            </div>
+                            <span>TEST3</span>    
+                        </div>     
+                   </a>   
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    

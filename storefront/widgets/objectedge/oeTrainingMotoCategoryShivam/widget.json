@@ -1,0 +1,13 @@
+{
+  "name": "oeTrainingMotoCategoryShivam",
+  "widgetType": "oeTrainingMotoCategoryShivam",
+  "i18nresources": "oeTrainingMotoCategoryShivam",
+  "javascript": "oeTrainingMotoCategoryShivam",
+  "availableToAllPages": true,
+  "global": false,
+  "globalEnabled": false,
+  "version": 1,
+  "jsEditable": true,
+  "imports": [],
+  "config": {}
+}

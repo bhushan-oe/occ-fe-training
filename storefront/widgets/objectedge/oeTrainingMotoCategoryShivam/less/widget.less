@@ -1,0 +1,54 @@
+/* ---------------------------------------------------------------------- */
+/*  OE Generic Widget Styles
+/* ---------------------------------------------------------------------- */
+@categoryTextColor: #474747;
+#oeTrainingMotoCategoryShivam {
+   .outer{
+       width: 100%;
+        .mainContainer{
+            width: 70%; 
+            margin: auto;
+            .mainText{
+                font-size: 25px;
+                color: @categoryTextColor;
+                text-align: center;
+                padding: 25px 5px;
+            }
+            .block{
+                position: relative;
+                height: 145px;
+                padding: 15px;
+                a{
+                    color: @categoryTextColor;
+                    .categoryContainer{
+                        position: relative;
+                        height: 100%;
+                        .imgContainer{
+                            height: 70px;
+                            width: 70px;
+                            position: absolute;
+                            top: 30%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            img{
+                                height: 100%;
+                                width: 100%;
+                            }
+                        }
+                        span{
+                            position: absolute;
+                            bottom: 0;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                        }
+                    }
+                    .categoryContainer:hover{
+                        box-shadow: 0 30px 40px #e0dcdc;
+                    }
+    
+                }
+            }
+                
+        }
+   }
+}

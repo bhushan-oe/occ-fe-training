@@ -1,0 +1,49 @@
+/* ---------------------------------------------------------------------- */
+/*  OE Generic Widget Styles
+/* ---------------------------------------------------------------------- */
+@textcolor: #ffffff;
+@opacityColor: #000000;
+#oeTrainingGbProductShivamWidget {
+    .mainFont{
+        font-size: 25px;
+        color: #333333;
+        padding: 10px 0;
+        margin: 0;
+    }
+    .productImgContainer{
+        position: relative;
+        height: 300px;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        @media (max-width: 767px) { height: 180px; }
+        @media (max-width: 480px) { height: 150px; }
+        img{
+            height: 100%;
+            width:100%;
+        }
+        span{
+            position: absolute;
+            z-index: 2;
+            color: @textcolor;
+            font-size: 20px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }      
+    }
+    .productImgContainer:hover img{
+        transform: scale(1.1);
+        transition: all .45s ease-in-out;
+    }
+    .overlay{
+        position: absolute;
+        z-index:1 ;
+        top: 0;
+        left: 0;
+        background-color: @opacityColor;
+        opacity: 0.1;
+        height: 100%;
+        width: 100%;
+    }
+}

@@ -1,0 +1,19 @@
+<!-- oeES6Widget -->
+<div id="oeWidgetAssignment5Shivam">
+  
+    <div class="col-lg-12 listContainer">
+        <div class="brandsContainer">
+            <div class="mainFont"><a href=""><b>OUR</b> BRANDS</a></div>
+            <!-- ko foreach: oeOurBrands()[0] -->
+            <div class="col-lg-3 col-sm-6 col-xs-6 paddingBox">
+                <a href="" data-bind="attr:{title:$data.displayName}">
+                    <div class="imageContainer">
+                        <img  data-bind="attr:{src:$data.categoryImages[0].url}" alt="">
+                    </div>
+                </a>
+            </div>
+            <!-- /ko-->
+        </div>                                 
+    </div>
+
+</div>

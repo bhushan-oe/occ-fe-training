@@ -1,0 +1,134 @@
+<!-- ko setContextVariable: {name: 'elementConfig', value: {
+  "200124": {
+    "id": "200124",
+    "image": {
+      "altText": "DEVICES",
+      "altTextId": "200178",
+      "isProductImage": false,
+      "link": "/DEVICES",
+      "src": "/file/v6714418219977168388/general/generic-radio-64@3x.png",
+      "titleText": "DEVICES",
+      "titleTextId": "200176",
+      "zoomEnabled": false
+    },
+    "text": {"text": "oeNewMotoCategoryCart"}
+  },
+  "200125": {
+    "id": "200125",
+    "text": {"text": "oeNewMotoCategoryCart"}
+  },
+  "200126": {
+    "id": "200126",
+    "text": {"text": "oeNewMotoCategoryCart"}
+  },
+  "200128": {
+    "id": "200128",
+    "image": {
+      "altText": "ACCESSORIES",
+      "altTextId": "200179",
+      "isProductImage": false,
+      "link": "/ACCESSORIES",
+      "src": "/file/v4065941183601351310/general/emergency-call-handling-64.png",
+      "titleText": "ACCESSORIES",
+      "titleTextId": "200180",
+      "zoomEnabled": false
+    },
+    "text": {"text": "oeNewMotoCategoryCart"}
+  },
+  "200129": {
+    "id": "200129",
+    "image": {
+      "altText": "SOFTWARE",
+      "altTextId": "200182",
+      "isProductImage": false,
+      "link": "/SOFTWARE",
+      "src": "/file/v838508825664053943/general/managed-services-64.png",
+      "titleText": "SOFTWARE",
+      "titleTextId": "200183",
+      "zoomEnabled": false
+    },
+    "text": {"text": "oeNewMotoCategoryCart"}
+  },
+  "200130": {
+    "id": "200130",
+    "image": {
+      "altText": "TEST1",
+      "altTextId": "200185",
+      "isProductImage": false,
+      "link": "/TEST1",
+      "src": "/file/v929842866045061360/general/instant-communication.jpg",
+      "titleText": "TEST1",
+      "titleTextId": "200186",
+      "zoomEnabled": false
+    },
+    "text": {"text": "oeNewMotoCategoryCart"}
+  },
+  "200131": {
+    "id": "200131",
+    "image": {
+      "altText": "TEST2",
+      "altTextId": "200188",
+      "isProductImage": false,
+      "link": "/TEST2",
+      "src": "/file/v1725206595732950699/general/scalable-service.jpg",
+      "titleText": "TEST2",
+      "titleTextId": "200189",
+      "zoomEnabled": false
+    },
+    "text": {"text": "oeNewMotoCategoryCart"}
+  },
+  "200132": {
+    "id": "200132",
+    "image": {
+      "altText": "TEST3",
+      "altTextId": "200191",
+      "isProductImage": false,
+      "link": "/TEST3",
+      "src": "/file/v4065941183601351310/general/emergency-call-handling-64.png",
+      "titleText": "TEST3",
+      "titleTextId": "200192",
+      "zoomEnabled": false
+    },
+    "text": {"text": "oeNewMotoCategoryCart"}
+  }
+}} --><!-- /ko -->
+<div id="oeWidgetNewAssignment6Shivam">
+  <div class="row-no-margin outer">
+    <div class="row ">
+        <div class="col-lg-12 col-sm-12 col-xs-12 mainText">
+            <span>Shop By Category</span>
+            <div class="templateRegion" id="oeWidgetNewAssignment6ShivamTemplateRegion" data-oc-id="oeWidgetNewAssignment6ShivamTemplateRegion">
+                <!-- oc layout: panels -->
+                <div class="row  elementRow">
+                    <div class="oc-panel col-md-12 mainContainer" data-oc-id="panel-0-0">
+                            <!-- oc section: oeNewMotoCategoryCart -->
+                        <span data-bind="element: 'oeNewMotoCategoryCart',id: '200124'"></span>
+                            <!-- /oc -->
+        
+                            <!-- oc section: oeNewMotoCategoryCart -->
+                        <span data-bind="element: 'oeNewMotoCategoryCart',id: '200128'"></span>
+                            <!-- /oc -->
+        
+                            <!-- oc section: oeNewMotoCategoryCart -->
+                        <span data-bind="element: 'oeNewMotoCategoryCart',id: '200129'"></span>
+                            <!-- /oc -->
+        
+                            <!-- oc section: oeNewMotoCategoryCart -->
+                        <span data-bind="element: 'oeNewMotoCategoryCart',id: '200130'"></span>
+                            <!-- /oc -->
+        
+                            <!-- oc section: oeNewMotoCategoryCart -->
+                        <span data-bind="element: 'oeNewMotoCategoryCart',id: '200131'"></span>
+                            <!-- /oc -->
+        
+                            <!-- oc section: oeNewMotoCategoryCart -->
+                        <span data-bind="element: 'oeNewMotoCategoryCart',id: '200132'"></span>
+                            <!-- /oc -->
+                    </div>
+                </div>
+                <!-- /oc -->
+            </div>
+        </div>
+    </div>
+  </div>
+</div>

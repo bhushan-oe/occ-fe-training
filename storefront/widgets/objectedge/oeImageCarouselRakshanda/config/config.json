@@ -1,0 +1,45 @@
+{
+    "widgetDescriptorName": "OE ES6 Widget",
+    "properties": [
+        {
+            "id": "carouselImages",
+            "type": "mediaType",
+            "name": "carousel Images",
+            "helpTextResourceId": "carouselImages",
+            "labelResourceId": "carouselImagesLable",
+            "required": true
+          },
+          {
+            "id": "contentHeading",
+            "type": "stringType",
+            "name": "content Heading",
+            "helpTextResourceId": "contentHeading",
+            "labelResourceId": "contentHeadingLable",
+            "defaultValue": "Heading",
+            "required": true
+          },
+          {
+            "id": "contentText",
+            "type": "stringType",
+            "name": "content Text",
+            "helpTextResourceId": "contentText",
+            "labelResourceId": "contentTextLable",
+            "defaultValue": "content",
+            "required": true
+          },
+          {
+            "id": "bottonContent",
+            "type": "stringType",
+            "name": "botton Content",
+            "helpTextResourceId": "bottonContent",
+            "labelResourceId": "bottonContentLable"
+          },
+          {
+            "id": "bottonNavigationUrl",
+            "type": "stringType",
+            "name": "botton Navigation Url",
+            "helpTextResourceId": "bottonNavigationUrl",
+            "labelResourceId": "bottonNavigationUrlLable"
+          }
+    ]
+}

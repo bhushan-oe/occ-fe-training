@@ -1,0 +1,60 @@
+/* ---------------------------------------------------------------------- */
+/*  OE Generic Widget Styles
+/* ---------------------------------------------------------------------- */
+@color_white : #ffffff;
+#oeBrandsDynamicRakshanda {
+    background: #222 url(/file/general/dark-static.jpg) no-repeat center;
+    font-size: 24px;
+    background-size: cover;
+    padding: 15px;
+    @media (max-width: 580px) { font-size: 15px; }
+    a{
+        color: @color_white; 
+    };
+    a:hover{
+        color: @color_white;
+    }
+    .mainDiv{
+        display: flex;
+        justify-content: center;   
+        .subDiv{
+            width: 70%;
+            .imageDivWithPadding{
+                padding: 15px;
+                @media (max-width: 580px) { padding: 10px; }
+                .backgroundColorDiv{
+                    border-radius: 5px;
+                    cursor: pointer;
+                    position: relative;
+                    background-color: @color_white;
+                    height: 150px;
+                    @media (max-width: 580px) { height:100px; }
+                    .imageDiv
+                    {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%,-50%);
+                        height: 100px;
+                        width: 150px;
+                        @media (max-width: 580px) { width:80px; }
+                        img
+                        {
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%,-50%);
+                            max-width:100%;
+                            height:auto;
+                        }   
+                    } 
+                }      
+            }
+            .imageDivWithPadding:hover{
+                transform: scale(1.05);
+                transition: all .2s ease-in-out;
+            }
+        } 
+    }  
+
+}

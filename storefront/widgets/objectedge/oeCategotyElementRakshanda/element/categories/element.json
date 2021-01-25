@@ -1,0 +1,28 @@
+{
+  "availableToAllWidgets": false,
+  "configOptions": [
+    "image",
+    "textBox"
+  ],
+  "global": false,
+  "inline": false,
+  "previewText": "categories",
+  "supportedWidgetType": [
+    "oeCategotyElementRakshanda"
+  ],
+  "tag": "categories",
+  "translations": [
+    {
+      "language": "en",
+      "title": "categories",
+      "description": "This is a generic element"
+    },
+    {
+      "language": "pt_BR",
+      "title": "categories",
+      "description": "Elemento genérico"
+    }
+  ],
+  "type": "fragment",
+  "version": 1
+}

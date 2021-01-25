@@ -1,0 +1,13 @@
+{
+  "name": "oeBrandsDynamicRakshanda",
+  "widgetType": "oeBrandsDynamicRakshanda",
+  "i18nresources": "oeBrandsDynamicRakshanda",
+  "javascript": "oeBrandsDynamicRakshanda",
+  "availableToAllPages": true,
+  "global": false,
+  "globalEnabled": false,
+  "version": 1,
+  "jsEditable": true,
+  "imports": [],
+  "config": {}
+}

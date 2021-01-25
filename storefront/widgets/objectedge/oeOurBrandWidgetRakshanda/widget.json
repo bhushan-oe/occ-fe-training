@@ -1,0 +1,13 @@
+{
+  "name": "oeOurBrandWidgetRakshanda",
+  "widgetType": "oeOurBrandWidgetRakshanda",
+  "i18nresources": "oeOurBrandWidgetRakshanda",
+  "javascript": "oeOurBrandWidgetRakshanda",
+  "availableToAllPages": true,
+  "global": false,
+  "globalEnabled": false,
+  "version": 1,
+  "jsEditable": true,
+  "imports": [],
+  "config": {}
+}

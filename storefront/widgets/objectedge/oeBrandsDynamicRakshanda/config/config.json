@@ -1,0 +1,12 @@
+{
+    "widgetDescriptorName": "oeBrandsDynamicRakshanda",
+    "properties": [
+        {
+        "id": "collectionIds",
+        "type": "collectionType",
+        "name": "collectionPickerValue",
+        "helpTextResourceId": "collectionIds",
+        "labelResourceId": "collectionIds"
+        }
+    ]
+}

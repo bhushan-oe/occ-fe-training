@@ -1,0 +1,19 @@
+<!-- oeES6Widget -->
+<div id="oeBrandsRakshanda">
+    <div class="mainDiv">
+        <div class="row subDiv">
+            <div><a href=""><b>OUR</b> BRANDS</a></div>
+            <!-- ko foreach:brandImages-->
+            <a href="" target="_blank">
+            <div class="col-lg-3 col-sm-6 col-xs-6 imageDivWithPadding">
+                <div class="backgroundColorDiv" data-bind="attr:{title :$data.description}">
+                    <div class="imageDiv" >
+                        <img data-bind="attr:{src:$data.categoryImages[0].url , alt :$data.description}">
+                    </div>
+                </div>
+            </div>
+            </a>
+            <!-- /ko -->
+        </div>
+    </div>
+</div>

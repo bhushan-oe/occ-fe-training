@@ -1,0 +1,48 @@
+/* ---------------------------------------------------------------------- */
+/*  OE Generic Widget Styles                                              */
+/* ---------------------------------------------------------------------- */
+#oeCategoriesRakshanda {
+    display: flex;
+    justify-content: center;
+    .wrapperDiv{
+        width: 80%;
+        .categoryHeading{
+            font-size: 30px;
+            letter-spacing: 0.5px;
+            text-align: center;
+            margin: 20px;
+            @media (max-width: 580px) { font-size: 25px;}
+        }
+        .categoriesDiv{
+            .singleCategory{
+                position: relative;
+                height: 150px;
+                padding: 0;
+                .imageWrapper{
+                    position: absolute;
+                    top:10%;
+                    left:50%;
+                    transform: translate(-50%,0);
+                    width: 65px;
+                    height: 65px;
+                    img{
+                        height: 100%;
+                        width:100%;
+                    }
+                }
+                .categoryName{
+                    position: absolute;
+                    width: 100%;
+                    bottom: 10%;
+                    font-size: 17px;
+                    color: #5a5858;
+                    text-align: center;
+                    text-transform:uppercase;
+                }
+            }
+            .singleCategory:hover{
+                box-shadow: 0px 30px 40px #e0dcdc;
+            }
+        }   
+    }
+}
